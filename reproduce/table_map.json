@@ -1,0 +1,5852 @@
+{
+ "tab:ml-model-selection": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    1,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    1,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    1,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    2,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    2,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    2,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "OLS"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    3,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    3,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    3,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Ridge"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    4,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    4,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Lasso"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    5,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    5,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    5,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "BayesianRidge"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    6,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    6,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    6,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ElasticNet"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    7,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    7,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    7,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "MLP"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    8,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    8,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    8,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "DecisionTree"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    9,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    9,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    9,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    9,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    9,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    9,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "ExtraTrees"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    10,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    10,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    10,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    10,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    10,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    10,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "RandomForest"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    11,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    11,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    11,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    11,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    11,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    11,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "Bagging"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    12,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    12,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    12,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    12,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    12,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    12,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "AdaBoost"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    13,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    13,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    13,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    13,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    13,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    13,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "KNN"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    14,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    14,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    14,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    14,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    14,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    14,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    15,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    15,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    15,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    15,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    15,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    15,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    16,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    16,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    16,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    16,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    16,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    16,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    17,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    17,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    17,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    17,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    17,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    17,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "HistGB"
+   },
+   "column": "mean_rank_all_metrics"
+  },
+  {
+   "paper": [
+    18,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    18,
+    3
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "sMAPE"
+  },
+  {
+   "paper": [
+    18,
+    4
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    18,
+    5
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    18,
+    6
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    18,
+    7
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "GBT"
+   },
+   "column": "mean_rank_all_metrics"
+  }
+ ],
+ "tab:overall-performance": [
+  {
+   "paper": [
+    2,
+    1
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    2,
+    5
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    2,
+    6
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    2,
+    7
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    2,
+    8
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    2,
+    9
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "terms": [
+    {
+     "where": {
+      "partition": "dev_out",
+      "architecture": "WBM"
+     },
+     "column": "MAPE",
+     "weight": 1
+    },
+    {
+     "where": {
+      "partition": "dev_in",
+      "architecture": "WBM"
+     },
+     "column": "MAPE",
+     "weight": -1
+    }
+   ]
+  },
+  {
+   "paper": [
+    3,
+    1
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    3,
+    5
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    3,
+    6
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    3,
+    7
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    3,
+    8
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    3,
+    9
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "terms": [
+    {
+     "where": {
+      "partition": "dev_out",
+      "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+     },
+     "column": "MAPE",
+     "weight": 1
+    },
+    {
+     "where": {
+      "partition": "dev_in",
+      "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+     },
+     "column": "MAPE",
+     "weight": -1
+    }
+   ]
+  },
+  {
+   "paper": [
+    4,
+    1
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    4,
+    6
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    4,
+    7
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    4,
+    8
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM (Huber residual)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    4,
+    9
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "terms": [
+    {
+     "where": {
+      "partition": "dev_out",
+      "architecture": "S-GBM (Huber residual)"
+     },
+     "column": "MAPE",
+     "weight": 1
+    },
+    {
+     "where": {
+      "partition": "dev_in",
+      "architecture": "S-GBM (Huber residual)"
+     },
+     "column": "MAPE",
+     "weight": -1
+    }
+   ]
+  },
+  {
+   "paper": [
+    5,
+    1
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    5,
+    5
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "MAE"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    5,
+    6
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "RMSE"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    5,
+    7
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "MAPE"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    5,
+    8
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+   },
+   "column": "R2"
+  },
+  {
+   "paper": [
+    5,
+    9
+   ],
+   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "terms": [
+    {
+     "where": {
+      "partition": "dev_out",
+      "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+     },
+     "column": "MAPE",
+     "weight": 1
+    },
+    {
+     "where": {
+      "partition": "dev_in",
+      "architecture": "C-GBM (Huber residual, lambda*=0.7)"
+     },
+     "column": "MAPE",
+     "weight": -1
+    }
+   ]
+  }
+ ],
+ "tab:friedman-nemenyi-tests": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    1,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    1,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    1,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    1,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    1,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    1,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    1,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE"
+   },
+   "column": "p_value"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    2,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    2,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    2,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    2,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    2,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    2,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    2,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "MAE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE"
+   },
+   "column": "p_value"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    3,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    3,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    3,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    3,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    3,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    3,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    3,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2"
+   },
+   "column": "p_value"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    4,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    4,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    4,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    4,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    4,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    4,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "A_rolling_origin_cv",
+    "metric": "R2",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    5,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    5,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    5,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    5,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    5,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    5,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    5,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE"
+   },
+   "column": "p_value"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    6,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    6,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    6,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    6,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    6,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    6,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    6,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "MAE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    7,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    7,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    7,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    7,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    7,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    7,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    7,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    8,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    8,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    8,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    8,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    8,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    8,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    8,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_in",
+    "metric": "R2",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    9,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    9,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    9,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    9,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    9,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    9,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    9,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    9,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    9,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAPE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    10,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    10,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    10,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    10,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    10,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    10,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    10,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    10,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    10,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "MAE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    11,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    11,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    11,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    11,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    11,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    11,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    11,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    11,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    11,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "RMSE",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    12,
+    2
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2"
+   },
+   "column": "friedman_chi2"
+  },
+  {
+   "paper": [
+    12,
+    4
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "architecture": "WBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    12,
+    5
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "architecture": "BBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    12,
+    6
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "architecture": "S-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    12,
+    7
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "architecture": "C-GBM"
+   },
+   "column": "average_rank"
+  },
+  {
+   "paper": [
+    12,
+    8
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2"
+   },
+   "column": "critical_difference"
+  },
+  {
+   "paper": [
+    12,
+    9
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "comparison": "C-GBM vs WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    12,
+    10
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "comparison": "C-GBM vs BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    12,
+    11
+   ],
+   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "where": {
+    "analysis": "B_frozen_dev_out",
+    "metric": "R2",
+    "comparison": "C-GBM vs S-GBM"
+   },
+   "column": "p_holm"
+  }
+ ],
+ "tab:block-bootstrap-mape": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "WBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "WBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "WBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "BBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "BBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "BBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "S-GBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "S-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "S-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_in",
+    "reference": "S-GBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "WBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "WBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "WBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "WBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "BBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "BBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "BBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "BBM"
+   },
+   "column": "p_holm"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "S-GBM"
+   },
+   "column": "effect_size_pp"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "S-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "S-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "where": {
+    "partition": "dev_out",
+    "reference": "S-GBM"
+   },
+   "column": "p_holm"
+  }
+ ],
+ "tab:fuelcast-performance": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Poseidon",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "lambda_star"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    8,
+    5
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Triton",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "lambda_star"
+  },
+  {
+   "paper": [
+    9,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    9,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    9,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "WBM-lite (cube law)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    10,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    10,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    10,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "BBM (Huber on target)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    11,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    11,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    11,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "S-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    12,
+    2
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_in_pct"
+  },
+  {
+   "paper": [
+    12,
+    3
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "MAPE_out_pct"
+  },
+  {
+   "paper": [
+    12,
+    4
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "delta_MAPE_pp"
+  },
+  {
+   "paper": [
+    12,
+    5
+   ],
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "where": {
+    "Vessel": "Ceto",
+    "Architecture": "C-GBM (Huber residual)"
+   },
+   "column": "lambda_star"
+  }
+ ],
+ "tab:decision-results": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "match_rate_measured_optimum"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "mean_regret_pct"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "ci95_lo"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "ci95_hi",
+   "index": 1
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "where": {
+    "fit_protocol": "mid-band fit (published)",
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "match_rate_measured_optimum"
+  }
+ ],
+ "tab:uncertainty-results": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "WBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "WBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "BBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "BBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "S-GBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "S-GBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "architecture": "C-GBM"
+   },
+   "column": "mean_interval_width_kw"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "empirical_coverage"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "coverage_error"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "architecture": "C-GBM"
+   },
+   "column": "mean_interval_width_kw"
+  }
+ ],
+ "tab:multigas-results": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    1,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    1,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    2,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    2,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    3,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    3,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    4,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    5,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    5,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    6,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    6,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    7,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    7,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    8,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    8,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    9,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    9,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    9,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    9,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    9,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM"
+   },
+   "column": "co2e_t"
+  },
+  {
+   "paper": [
+    10,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM"
+   },
+   "column": "fuel_t"
+  },
+  {
+   "paper": [
+    10,
+    3
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM"
+   },
+   "column": "co2_t"
+  },
+  {
+   "paper": [
+    10,
+    4
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM"
+   },
+   "column": "ch4_kg"
+  },
+  {
+   "paper": [
+    10,
+    5
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM"
+   },
+   "column": "n2o_kg"
+  },
+  {
+   "paper": [
+    10,
+    6
+   ],
+   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM"
+   },
+   "column": "co2e_t"
+  }
+ ],
+ "tab:cii-results": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "Measured-power reference",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "WBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "BBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "S-GBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_in",
+    "series": "C-GBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "Measured-power reference",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "WBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "BBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    9,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "S-GBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  },
+  {
+   "paper": [
+    10,
+    2
+   ],
+   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "where": {
+    "partition": "dev_out",
+    "series": "C-GBM",
+    "ship_type": "bulk carrier"
+   },
+   "column": "attained_cii"
+  }
+ ],
+ "tab:mlp-sensitivity": [
+  {
+   "paper": [
+    1,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(32,)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(32,)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    1,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(32,)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    1,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(32,)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    2,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    2,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    2,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    3,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(5,)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    3,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(5,)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    3,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(5,)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    3,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(5,)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    4,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 64, 32, 32, 16)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    4,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 64, 32, 32, 16)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    4,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 64, 32, 32, 16)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    4,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 64, 32, 32, 16)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    5,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(3,)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    5,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(3,)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    5,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(3,)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    5,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(3,)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    6,
+    2
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32, 16)"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    6,
+    3
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32, 16)"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    6,
+    4
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32, 16)"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    6,
+    5
+   ],
+   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "where": {
+    "hidden": "(64, 32, 16)"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    7,
+    2
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    7,
+    3
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    7,
+    4
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    7,
+    5
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "Huber"
+   },
+   "column": "dev_out_MAPE"
+  },
+  {
+   "paper": [
+    8,
+    2
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "validation_MAPE"
+  },
+  {
+   "paper": [
+    8,
+    3
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "internal_test_MAPE"
+  },
+  {
+   "paper": [
+    8,
+    4
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "dev_in_MAPE"
+  },
+  {
+   "paper": [
+    8,
+    5
+   ],
+   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "dev_out_MAPE"
+  }
+ ],
+ "tab:benchmarks": [
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "terms": [
+    {
+     "where": {
+      "partition": "train"
+     },
+     "column": "n"
+    },
+    {
+     "where": {
+      "partition": "validation"
+     },
+     "column": "n"
+    },
+    {
+     "where": {
+      "partition": "internal_test"
+     },
+     "column": "n"
+    }
+   ]
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "index": 1,
+   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "where": {
+    "partition": "dev_in"
+   },
+   "column": "n"
+  },
+  {
+   "paper": [
+    1,
+    3
+   ],
+   "index": 2,
+   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "where": {
+    "partition": "dev_out"
+   },
+   "column": "n"
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "index": 0,
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "terms": [
+    {
+     "where": {
+      "vessel_short": "Poseidon"
+     },
+     "column": "n_train"
+    },
+    {
+     "where": {
+      "vessel_short": "Poseidon"
+     },
+     "column": "n_dev_in"
+    },
+    {
+     "where": {
+      "vessel_short": "Poseidon"
+     },
+     "column": "n_dev_out"
+    }
+   ]
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "index": 1,
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "terms": [
+    {
+     "where": {
+      "vessel_short": "Triton"
+     },
+     "column": "n_train"
+    },
+    {
+     "where": {
+      "vessel_short": "Triton"
+     },
+     "column": "n_dev_in"
+    },
+    {
+     "where": {
+      "vessel_short": "Triton"
+     },
+     "column": "n_dev_out"
+    }
+   ]
+  },
+  {
+   "paper": [
+    2,
+    3
+   ],
+   "index": 2,
+   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "terms": [
+    {
+     "where": {
+      "vessel_short": "Ceto"
+     },
+     "column": "n_train"
+    },
+    {
+     "where": {
+      "vessel_short": "Ceto"
+     },
+     "column": "n_dev_in"
+    },
+    {
+     "where": {
+      "vessel_short": "Ceto"
+     },
+     "column": "n_dev_out"
+    }
+   ]
+  }
+ ],
+ "tab:hyperparameters": [
+  {
+   "paper": [
+    18,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "XGBoost"
+   },
+   "column": "best_iteration",
+   "index": 2
+  },
+  {
+   "paper": [
+    19,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "LightGBM"
+   },
+   "column": "best_iteration",
+   "index": 2
+  },
+  {
+   "paper": [
+    20,
+    2
+   ],
+   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "where": {
+    "model": "CatBoost"
+   },
+   "column": "best_iteration",
+   "index": 2
+  }
+ ],
+ "tab:wbm-params": [
+  {
+   "paper": [
+    16,
+    2
+   ],
+   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T00_provenance.csv",
+   "where": {},
+   "column": "physics_k"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "note": "Ordered stages of a full rerun, limited to those writing a mapped table or a paper figure and their prerequisites. Each runs as 'python -m experiments.revision.<module>' with VFM_RESULTS_ROOT set. Order follows the 2026-11-19 full rerun, in which every listed stage completed.",
+  "stages": [
+    {"module": "rf32_full_data_602020", "writes": ["24_full_data_602020"], "paper": ["tab:ml-model-selection", "tab:hyperparameters"]},
+    {"module": "rf33_bbm_selection_full_data", "writes": ["25_bbm_selection_full_data"], "paper": ["tab:overall-performance"]},
+    {"module": "rf36_final_core", "writes": ["FINAL_MANUSCRIPT_RESULTS"], "paper": ["tab:benchmarks", "tab:wbm-params"]},
+    {"module": "rf41_revised_figures_3_4", "writes": ["28_revised_figures_3_4"], "paper": ["fig:architecture-performance", "fig:pred-actual"]},
+    {"module": "rf42_fuelcast_huber_final", "writes": ["29_fuelcast_huber_final"], "paper": [], "prerequisite_of": "rf43_fuelcast_wind_and_wbm reads folder 29 as its pre-fix comparison"},
+    {"module": "rf43_fuelcast_wind_and_wbm", "writes": ["30_fuelcast_wind_and_wbm"], "paper": ["tab:fuelcast-performance", "tab:benchmarks"], "known_exit": 2, "known_exit_reason": "its own check P3 flags the Part B hull geometry at the grid bound for Poseidon and Triton; the saved run gives the same verdict"},
+    {"module": "rf49_final_decision_uncertainty", "writes": ["34_final_decision_uncertainty"], "paper": ["tab:decision-results", "tab:uncertainty-results"]},
+    {"module": "rf50_final_multigas_cii", "writes": ["35_final_multigas_cii"], "paper": ["tab:multigas-results", "tab:cii-results"]},
+    {"module": "rf52_fig2_lambda_relabelled", "writes": ["36_fig2_lambda_relabelled"], "paper": ["fig:shrinkage-sensitivity"]},
+    {"module": "rf54_architecture_friedman_nemenyi", "writes": ["38_architecture_friedman_nemenyi"], "paper": ["tab:friedman-nemenyi-tests", "fig:nemenyi-pvalue-heatmaps"]},
+    {"module": "rf55_block_bootstrap_huber", "writes": ["39_block_bootstrap_huber"], "paper": ["tab:block-bootstrap-mape"]},
+    {"module": "rf59_table6_selection_check", "writes": ["41_table6_selection_check"], "paper": ["tab:mlp-sensitivity"]},
+    {"module": "rf61_mlp_architecture_sensitivity", "writes": ["43_mlp_architecture_sensitivity"], "paper": ["tab:mlp-sensitivity"]}
+  ]
+}

@@ -1,0 +1,1448 @@
+{
+ "tab:bbm-backends": [
+  [
+   "\\rowcolor{gray!10} \\textbf{Family}",
+   "\\textbf{ML Model}",
+   "\\textbf{Learning principle}"
+  ],
+  [
+   "\\multirow{6}{*}{Linear}",
+   "Ridge",
+   "$L_2$-penalised least squares"
+  ],
+  [
+   "",
+   "Lasso",
+   "$L_1$-penalised least squares with sparse coefficients"
+  ],
+  [
+   "",
+   "ElasticNet",
+   "Combined $L_1$/$L_2$-penalised least squares"
+  ],
+  [
+   "",
+   "BayesianRidge",
+   "Bayesian linear regression with evidence-optimised regularisation"
+  ],
+  [
+   "",
+   "Huber",
+   "Robust regression with linear loss beyond a residual threshold"
+  ],
+  [
+   "",
+   "OLS",
+   "Unregularised least-squares regression"
+  ],
+  [
+   "Instance-based",
+   "KNN",
+   "Distance-weighted regression using the $k$ nearest training samples"
+  ],
+  [
+   "Neural",
+   "MLP",
+   "Feed-forward multilayer perceptron"
+  ],
+  [
+   "\\multirow{5}{*}{\\shortstack[l]{Tree"
+  ],
+  [
+   "ensembles}}",
+   "DecisionTree",
+   "Single recursively partitioned regression tree"
+  ],
+  [
+   "",
+   "RandomForest",
+   "Bootstrap-aggregated trees with feature subsampling"
+  ],
+  [
+   "",
+   "ExtraTrees",
+   "Ensemble of highly randomised regression trees"
+  ],
+  [
+   "",
+   "AdaBoost",
+   "Sequential boosting of shallow regression trees \\citep{freund1997adaboost}"
+  ],
+  [
+   "",
+   "Bagging",
+   "Bootstrap-aggregated ensemble of regression trees"
+  ],
+  [
+   "\\multirow{5}{*}{\\shortstack[l]{Gradient"
+  ],
+  [
+   "boosting}}",
+   "GBT",
+   "Classical sequential gradient boosting \\citep{friedman2001gbm}"
+  ],
+  [
+   "",
+   "HistGB",
+   "Histogram-based gradient boosting"
+  ],
+  [
+   "",
+   "XGBoost",
+   "Regularised gradient-boosted trees \\citep{chen2016xgboost}"
+  ],
+  [
+   "",
+   "LightGBM",
+   "Histogram-based gradient boosting with leaf-wise tree growth \\citep{ke2017lightgbm}"
+  ],
+  [
+   "",
+   "CatBoost",
+   "Ordered gradient boosting \\citep{prokhorenkova2018catboost}"
+  ]
+ ],
+ "tab:cii-assumptions": [
+  [
+   "\\textbf{Quantity}",
+   "\\textbf{Assumption}"
+  ],
+  [
+   "Deadweight $DWT$",
+   "90,814 t, derived as the assumed-hull displacement scaled by a deadweight coefficient of 0.82"
+  ],
+  [
+   "Distance $d$",
+   "Speed-through-water integral over the retained records (no distance or position channel in the benchmark)"
+  ],
+  [
+   "Integration basis",
+   "Nominal one hour per retained record; the attained value is invariant to this choice"
+  ],
+  [
+   "Ship type",
+   "Unknown; both bulk-carrier and container-ship reference lines reported as sensitivity cases"
+  ],
+  [
+   "Reference line",
+   "$\\mathrm{CII}_{\\mathrm{ref}} = a\\,DWT^{-c}$ with $(a,c) = (4745, 0.622)$ for bulk carriers and $(1984, 0.489)$ for container ships"
+  ],
+  [
+   "Reduction factor",
+   "11\\% (2026 schedule)"
+  ],
+  [
+   "Rating boundaries",
+   "$(0.86, 0.94, 1.06, 1.18)$ for bulk carriers; $(0.83, 0.94, 1.07, 1.19)$ for container ships"
+  ]
+ ],
+ "tab:emission-factors": [
+  [
+   "\\textbf{Gas}",
+   "\\textbf{Emission factor}",
+   "\\textbf{Unit}",
+   "\\textbf{GWP$_{100}$}"
+  ],
+  [
+   "CO$_2$",
+   "3.206",
+   "t/t fuel",
+   "1"
+  ],
+  [
+   "CH$_4$",
+   "0.010",
+   "kg/t fuel",
+   "29.8"
+  ],
+  [
+   "N$_2$O",
+   "0.160",
+   "kg/t fuel",
+   "273"
+  ]
+ ],
+ "tab:benchmarks": [
+  [
+   "\\textbf{Benchmark}",
+   "\\textbf{Measured target}",
+   "\\textbf{Vessel(s)}",
+   "\\textbf{Records}",
+   "\\textbf{Held-out evaluation}",
+   "\\textbf{Role in this study}"
+  ],
+  [
+   "Shifts~\\citep{malinin2022shifts}",
+   "Main-engine shaft power",
+   "Single anonymised merchant cargo vessel",
+   "530,706 development; 18,368 $+$ 18,368 held out",
+   "In-domain and shifted sets (released as \\texttt{dev\\_in} and \\texttt{dev\\_out})",
+   "Primary evaluation of predictive performance and robustness under operational and environmental distribution shift"
+  ],
+  [
+   "FuelCast~\\citep{viga2025fuelcast}",
+   "Coriolis-metered fuel consumption",
+   "Poseidon, Triton, and Ceto",
+   "60,317; 18,247; 6,905 analysed per vessel",
+   "Vessel-specific in-domain and distribution-shifted holdouts",
+   "Independent multi-vessel evaluation using directly measured fuel consumption"
+  ]
+ ],
+ "tab:features": [
+  [
+   "\\textbf{Category}",
+   "\\textbf{Symbol}",
+   "\\textbf{Feature}",
+   "\\textbf{Derivation from the benchmark channels}"
+  ],
+  [
+   "Navigation",
+   "$V$",
+   "Speed through water (kn)",
+   "Logged speed through water"
+  ],
+  [
+   "\\multirow{2}{*}{Loading}",
+   "$T$",
+   "Mean draught (m)",
+   "Mean of the aft and fore draughts"
+  ],
+  [
+   "",
+   "$\\tau$",
+   "Trim (m)",
+   "Aft draught minus fore draught"
+  ],
+  [
+   "\\multirow{3}{*}{Metocean}",
+   "$W$, $\\theta_w$",
+   "Apparent-wind speed and direction",
+   "Norm and angle of the apparent-wind vector"
+  ],
+  [
+   "",
+   "$U_c$, $\\theta_c$",
+   "Relative-current speed and direction",
+   "Norm and angle of the relative-current vector"
+  ],
+  [
+   "",
+   "$H_s$",
+   "Significant wave height (m)",
+   "Combined wind-wave and swell height"
+  ],
+  [
+   "Hull condition",
+   "$m$",
+   "Time since dry-docking (months)",
+   "Recorded time since the last dry-docking"
+  ],
+  [
+   "\\textbf{Target}",
+   "$P$",
+   "\\textbf{Main-engine shaft power (kW)}",
+   "\\textbf{Measured shaft power}"
+  ],
+  [
+   "\\multicolumn{4}{@{}p{14.8cm}@{}}{\\footnotesize The maximum continuous rating, the rated fuel consumption, the propulsive efficiency and the wave period are considered as fixed parameters of the physics model (Table~\\ref{tab:wbm-params}), constant across records.}"
+  ]
+ ],
+ "tab:ml-model-selection": [
+  [
+   "\\textbf{Family}",
+   "\\textbf{Residual learner}",
+   "\\textbf{MAPE (\\%)}",
+   "\\textbf{sMAPE (\\%)}",
+   "\\textbf{MAE (kW)}",
+   "\\textbf{RMSE (kW)}",
+   "\\textbf{$R^2$}",
+   "\\textbf{Mean rank}"
+  ],
+  [
+   "\\multirow{6}{*}{Linear}",
+   "\\textbf{Huber}",
+   "\\textbf{8.001}",
+   "\\textbf{7.296}",
+   "\\textbf{1251.3}",
+   "\\textbf{1649.3}",
+   "\\textbf{0.9444}",
+   "\\textbf{1.00}"
+  ],
+  [
+   "",
+   "OLS",
+   "8.885",
+   "7.814",
+   "1278.9",
+   "1659.6",
+   "0.9437",
+   "2.14"
+  ],
+  [
+   "",
+   "Ridge",
+   "8.885",
+   "7.814",
+   "1278.9",
+   "1659.6",
+   "0.9437",
+   "3.14"
+  ],
+  [
+   "",
+   "Lasso",
+   "8.885",
+   "7.814",
+   "1278.9",
+   "1659.6",
+   "0.9437",
+   "4.14"
+  ],
+  [
+   "",
+   "BayesianRidge",
+   "8.885",
+   "7.815",
+   "1278.9",
+   "1659.7",
+   "0.9437",
+   "5.14"
+  ],
+  [
+   "",
+   "ElasticNet",
+   "8.886",
+   "7.815",
+   "1279.3",
+   "1660.3",
+   "0.9437",
+   "6.14"
+  ],
+  [
+   "Neural",
+   "MLP",
+   "12.391",
+   "11.506",
+   "2084.3",
+   "2990.2",
+   "0.8174",
+   "13.43"
+  ],
+  [
+   "\\multirow{5}{*}{Trees}",
+   "DecisionTree",
+   "12.906",
+   "11.543",
+   "2209.8",
+   "2644.0",
+   "0.8572",
+   "12.86"
+  ],
+  [
+   "",
+   "ExtraTrees",
+   "12.940",
+   "11.093",
+   "1938.2",
+   "2197.1",
+   "0.9014",
+   "9.14"
+  ],
+  [
+   "",
+   "RandomForest",
+   "14.153",
+   "12.200",
+   "2193.3",
+   "2556.7",
+   "0.8665",
+   "11.86"
+  ],
+  [
+   "",
+   "Bagging",
+   "14.257",
+   "12.255",
+   "2203.9",
+   "2567.9",
+   "0.8653",
+   "12.86"
+  ],
+  [
+   "",
+   "AdaBoost",
+   "16.331",
+   "12.965",
+   "2358.7",
+   "2746.8",
+   "0.8459",
+   "15.00"
+  ],
+  [
+   "Kernel",
+   "KNN",
+   "17.054",
+   "13.699",
+   "2530.0",
+   "3126.0",
+   "0.8004",
+   "17.14"
+  ],
+  [
+   "\\multirow{5}{*}{Boosting}",
+   "CatBoost",
+   "8.804",
+   "8.274",
+   "1612.9",
+   "1956.8",
+   "0.9218",
+   "6.29"
+  ],
+  [
+   "",
+   "XGBoost",
+   "10.066",
+   "9.312",
+   "1868.2",
+   "2217.1",
+   "0.8996",
+   "8.43"
+  ],
+  [
+   "",
+   "LightGBM",
+   "10.398",
+   "9.644",
+   "1991.0",
+   "2397.4",
+   "0.8826",
+   "9.71"
+  ],
+  [
+   "",
+   "HistGB",
+   "18.402",
+   "14.496",
+   "2430.2",
+   "2705.7",
+   "0.8505",
+   "15.43"
+  ],
+  [
+   "",
+   "GBT",
+   "19.505",
+   "15.566",
+   "2657.6",
+   "2874.4",
+   "0.8313",
+   "17.14"
+  ]
+ ],
+ "tab:overall-performance": [
+  [
+   "",
+   "\\multicolumn{4}{c}{In-domain set}",
+   "\\multicolumn{4}{c}{Shifted set}",
+   ""
+  ],
+  [
+   "\\textbf{Architecture}",
+   "\\textbf{MAE}",
+   "\\textbf{RMSE}",
+   "\\textbf{MAPE}",
+   "\\textbf{$R^2$}",
+   "\\textbf{MAE}",
+   "\\textbf{RMSE}",
+   "\\textbf{MAPE}",
+   "\\textbf{$R^2$}",
+   "\\textbf{$\\Delta$MAPE}"
+  ],
+  [
+   "WBM",
+   "1534.1",
+   "2110.0",
+   "8.848",
+   "0.9392",
+   "1358.3",
+   "1931.5",
+   "9.214",
+   "0.9110",
+   "\\textbf{0.366}"
+  ],
+  [
+   "BBM",
+   "1724.4",
+   "2485.5",
+   "18.820",
+   "0.9156",
+   "2216.2",
+   "2862.9",
+   "21.930",
+   "0.8045",
+   "3.110"
+  ],
+  [
+   "S-GBM",
+   "\\textbf{1277.5}",
+   "\\textbf{1762.7}",
+   "8.788",
+   "\\textbf{0.9575}",
+   "1169.9",
+   "\\textbf{1608.1}",
+   "9.545",
+   "\\textbf{0.9383}",
+   "0.757"
+  ],
+  [
+   "C-GBM ($\\lambda^\\ast=0.70$)",
+   "1290.3",
+   "1808.1",
+   "\\textbf{8.238}",
+   "0.9553",
+   "\\textbf{1149.9}",
+   "1630.8",
+   "\\textbf{8.732}",
+   "0.9366",
+   "0.495"
+  ]
+ ],
+ "tab:friedman-nemenyi-tests": [
+  [
+   "\\rowcolor{gray!10} \\textbf{Analysis}",
+   "\\textbf{Metric}",
+   "\\textbf{$\\chi^2_F$}",
+   "\\textbf{$p_F$}",
+   "\\textbf{WBM}",
+   "\\textbf{BBM}",
+   "\\textbf{S-GBM}",
+   "\\textbf{C-GBM}",
+   "\\textbf{CD}",
+   "\\textbf{vs WBM}",
+   "\\textbf{vs BBM}",
+   "\\textbf{vs S-GBM}"
+  ],
+  [
+   "\\multirow{4}{*}{Cross-validation}",
+   "MAPE",
+   "16.65",
+   "\\textbf{$<$0.001}",
+   "2.00",
+   "3.88",
+   "2.75",
+   "\\textbf{1.38}",
+   "1.66",
+   "0.461",
+   "\\textbf{0.023}",
+   "\\textbf{0.023}"
+  ],
+  [
+   "",
+   "MAE",
+   "6.45",
+   "0.092",
+   "2.62",
+   "3.25",
+   "2.50",
+   "\\textbf{1.62}",
+   "1.66",
+   "0.117",
+   "0.117",
+   "0.312"
+  ],
+  [
+   "",
+   "RMSE",
+   "10.35",
+   "\\textbf{0.016}",
+   "3.00",
+   "3.38",
+   "2.12",
+   "\\textbf{1.50}",
+   "1.66",
+   "\\textbf{0.023}",
+   "\\textbf{0.031}",
+   "0.742"
+  ],
+  [
+   "",
+   "$R^2$",
+   "10.35",
+   "\\textbf{0.016}",
+   "3.00",
+   "3.38",
+   "2.12",
+   "\\textbf{1.50}",
+   "1.66",
+   "\\textbf{0.023}",
+   "\\textbf{0.031}",
+   "0.641"
+  ],
+  [
+   "\\multirow{4}{*}{In-domain set}",
+   "MAPE",
+   "23.76",
+   "\\textbf{$<$0.001}",
+   "2.40",
+   "4.00",
+   "2.40",
+   "\\textbf{1.20}",
+   "1.48",
+   "0.160",
+   "\\textbf{0.006}",
+   "\\textbf{0.006}"
+  ],
+  [
+   "",
+   "MAE",
+   "15.00",
+   "\\textbf{0.002}",
+   "2.90",
+   "3.60",
+   "\\textbf{1.70}",
+   "1.80",
+   "1.48",
+   "\\textbf{0.020}",
+   "\\textbf{0.006}",
+   "0.557$^{\\dagger}$"
+  ],
+  [
+   "",
+   "RMSE",
+   "24.84",
+   "\\textbf{$<$0.001}",
+   "3.00",
+   "3.90",
+   "\\textbf{1.30}",
+   "1.80",
+   "1.48",
+   "\\textbf{0.006}",
+   "\\textbf{0.006}",
+   "\\textbf{0.049}$^{\\dagger}$"
+  ],
+  [
+   "",
+   "$R^2$",
+   "24.84",
+   "\\textbf{$<$0.001}",
+   "3.00",
+   "3.90",
+   "\\textbf{1.30}",
+   "1.80",
+   "1.48",
+   "\\textbf{0.006}",
+   "\\textbf{0.006}",
+   "\\textbf{0.049}$^{\\dagger}$"
+  ],
+  [
+   "\\multirow{4}{*}{Shifted set}",
+   "MAPE",
+   "16.68",
+   "\\textbf{$<$0.001}",
+   "2.50",
+   "3.80",
+   "2.20",
+   "\\textbf{1.50}",
+   "1.48",
+   "0.322",
+   "\\textbf{0.006}",
+   "0.129"
+  ],
+  [
+   "",
+   "MAE",
+   "18.84",
+   "\\textbf{$<$0.001}",
+   "2.80",
+   "3.80",
+   "1.90",
+   "\\textbf{1.50}",
+   "1.48",
+   "0.055",
+   "\\textbf{0.006}",
+   "0.160"
+  ],
+  [
+   "",
+   "RMSE",
+   "19.80",
+   "\\textbf{$<$0.001}",
+   "2.90",
+   "3.80",
+   "1.70",
+   "\\textbf{1.60}",
+   "1.48",
+   "\\textbf{0.020}",
+   "\\textbf{0.006}",
+   "1.000$^{\\dagger}$"
+  ],
+  [
+   "",
+   "$R^2$",
+   "19.80",
+   "\\textbf{$<$0.001}",
+   "2.90",
+   "3.80",
+   "1.70",
+   "\\textbf{1.60}",
+   "1.48",
+   "\\textbf{0.027}",
+   "\\textbf{0.006}",
+   "0.770$^{\\dagger}$"
+  ],
+  [
+   "\\multicolumn{12}{@{}p{16.5cm}@{}}{\\footnotesize Columns WBM to C-GBM give average Friedman ranks (1 = best, lowest in bold); CD is the Nemenyi critical difference at the 5\\% significance level; the last three columns give Holm-corrected Wilcoxon $p$-values of C-GBM against each architecture, in bold when below 0.05. $^{\\dagger}$ marks a difference in favour of the other architecture.}"
+  ]
+ ],
+ "tab:block-bootstrap-mape": [
+  [
+   "\\rowcolor{gray!10} \\textbf{Set}",
+   "\\textbf{Comparison}",
+   "\\textbf{$\\Delta$ (pp)}",
+   "\\textbf{95\\% CI}",
+   "\\textbf{$p_{\\mathrm{Holm}}$}"
+  ],
+  [
+   "\\multirow{3}{*}{In-domain}",
+   "C-GBM $-$ WBM",
+   "-0.610",
+   "[-0.926, -0.297]",
+   "\\textbf{0.002}"
+  ],
+  [
+   "",
+   "C-GBM $-$ BBM",
+   "-10.582",
+   "[-13.108, -8.321]",
+   "\\textbf{0.002}"
+  ],
+  [
+   "",
+   "C-GBM $-$ S-GBM",
+   "-0.551",
+   "[-0.699, -0.390]",
+   "\\textbf{0.002}"
+  ],
+  [
+   "\\multirow{3}{*}{Shifted}",
+   "C-GBM $-$ WBM",
+   "-0.481",
+   "[-1.020, +0.068]",
+   "0.087"
+  ],
+  [
+   "",
+   "C-GBM $-$ BBM",
+   "-13.198",
+   "[-16.452, -10.289]",
+   "\\textbf{0.002}"
+  ],
+  [
+   "",
+   "C-GBM $-$ S-GBM",
+   "-0.812",
+   "[-1.107, -0.515]",
+   "\\textbf{0.002}"
+  ]
+ ],
+ "tab:fuelcast-performance": [
+  [
+   "\\textbf{Vessel}",
+   "\\textbf{Architecture}",
+   "\\textbf{MAPE$_{\\rm in}$}",
+   "\\textbf{MAPE$_{\\rm out}$}",
+   "\\textbf{$\\Delta$MAPE}",
+   "\\textbf{$\\lambda^\\ast$}"
+  ],
+  [
+   "\\multirow{4}{*}{Poseidon}",
+   "WBM",
+   "19.586",
+   "12.815",
+   "-6.771",
+   "--"
+  ],
+  [
+   "",
+   "BBM",
+   "10.042",
+   "7.651",
+   "-2.391",
+   "--"
+  ],
+  [
+   "",
+   "S-GBM",
+   "6.557",
+   "7.576",
+   "+1.019",
+   "--"
+  ],
+  [
+   "",
+   "C-GBM",
+   "\\textbf{5.937}",
+   "\\textbf{6.076}",
+   "+0.139",
+   "0.75"
+  ],
+  [
+   "\\multirow{4}{*}{Triton}",
+   "WBM",
+   "13.977",
+   "17.574",
+   "+3.597",
+   "--"
+  ],
+  [
+   "",
+   "BBM",
+   "10.292",
+   "14.843",
+   "+4.551",
+   "--"
+  ],
+  [
+   "",
+   "S-GBM",
+   "10.765",
+   "14.539",
+   "+3.774",
+   "--"
+  ],
+  [
+   "",
+   "C-GBM",
+   "\\textbf{9.605}",
+   "\\textbf{12.758}",
+   "+3.153",
+   "0.80"
+  ],
+  [
+   "\\multirow{4}{*}{Ceto}",
+   "WBM",
+   "31.089",
+   "21.899",
+   "-9.190",
+   "--"
+  ],
+  [
+   "",
+   "BBM",
+   "39.828",
+   "43.171",
+   "+3.343",
+   "--"
+  ],
+  [
+   "",
+   "S-GBM",
+   "34.261",
+   "20.605",
+   "-13.656",
+   "--"
+  ],
+  [
+   "",
+   "C-GBM",
+   "\\textbf{17.507}",
+   "\\textbf{19.441}",
+   "+1.934",
+   "0.44"
+  ]
+ ],
+ "tab:decision-results": [
+  [
+   "\\textbf{Partition}",
+   "\\textbf{Model}",
+   "\\textbf{Regret (\\%)}",
+   "\\textbf{95\\% CI}",
+   "\\textbf{Match}"
+  ],
+  [
+   "\\multirow{4}{*}{In-domain}",
+   "WBM",
+   "\\textbf{2.757}",
+   "[0.90, 15.85]",
+   "0.556"
+  ],
+  [
+   "",
+   "BBM",
+   "32.509",
+   "[26.12, 48.48]",
+   "0.333"
+  ],
+  [
+   "",
+   "S-GBM",
+   "5.282",
+   "[0.96, 16.08]",
+   "0.556"
+  ],
+  [
+   "",
+   "C-GBM",
+   "5.282",
+   "[0.90, 16.01]",
+   "0.556"
+  ],
+  [
+   "\\multirow{4}{*}{Shifted}",
+   "WBM",
+   "15.749",
+   "[6.14, 27.67]",
+   "0.556"
+  ],
+  [
+   "",
+   "BBM",
+   "52.302",
+   "[37.10, 58.41]",
+   "0.222"
+  ],
+  [
+   "",
+   "S-GBM",
+   "9.508",
+   "[5.24, 29.58]",
+   "0.556"
+  ],
+  [
+   "",
+   "C-GBM",
+   "\\textbf{8.194}",
+   "[5.58, 28.07]",
+   "\\textbf{0.667}"
+  ]
+ ],
+ "tab:uncertainty-results": [
+  [
+   "\\textbf{Model}",
+   "\\textbf{Partition}",
+   "\\textbf{Coverage}",
+   "\\textbf{Error}",
+   "\\textbf{Width (kW)}"
+  ],
+  [
+   "WBM",
+   "In-domain",
+   "0.919",
+   "+0.019",
+   "7201"
+  ],
+  [
+   "",
+   "Shifted",
+   "0.930",
+   "+0.030",
+   "7202"
+  ],
+  [
+   "BBM",
+   "In-domain",
+   "0.866",
+   "-0.034",
+   "5729"
+  ],
+  [
+   "",
+   "Shifted",
+   "0.772",
+   "-0.128",
+   "5768"
+  ],
+  [
+   "S-GBM",
+   "In-domain",
+   "0.885",
+   "-0.015",
+   "5160"
+  ],
+  [
+   "",
+   "Shifted",
+   "0.909",
+   "+0.009",
+   "5162"
+  ],
+  [
+   "C-GBM",
+   "In-domain",
+   "\\textbf{0.900}",
+   "\\textbf{$<$0.001}",
+   "5643"
+  ],
+  [
+   "",
+   "Shifted",
+   "0.923",
+   "+0.023",
+   "5647"
+  ]
+ ],
+ "tab:multigas-results": [
+  [
+   "\\textbf{Partition}",
+   "\\textbf{Series}",
+   "\\textbf{Fuel (t)}",
+   "\\textbf{CO$_2$ (t)}",
+   "\\textbf{CH$_4$ (kg)}",
+   "\\textbf{N$_2$O (kg)}",
+   "\\textbf{CO$_2$e (t)}"
+  ],
+  [
+   "\\multirow{5}{*}{In-domain}",
+   "Reference",
+   "64620.7",
+   "207173.8",
+   "646.2",
+   "10339.3",
+   "210015.7"
+  ],
+  [
+   "",
+   "WBM",
+   "65549.5",
+   "210151.8",
+   "655.5",
+   "10487.9",
+   "213034.5"
+  ],
+  [
+   "",
+   "BBM",
+   "64472.0",
+   "206697.4",
+   "644.7",
+   "10315.5",
+   "209532.7"
+  ],
+  [
+   "",
+   "S-GBM",
+   "65554.0",
+   "210166.3",
+   "655.5",
+   "10488.6",
+   "213049.2"
+  ],
+  [
+   "",
+   "C-GBM",
+   "65554.6",
+   "210168.0",
+   "655.5",
+   "10488.7",
+   "213051.0"
+  ],
+  [
+   "\\multirow{5}{*}{Shifted}",
+   "Reference",
+   "54220.0",
+   "173829.2",
+   "542.2",
+   "8675.2",
+   "176213.7"
+  ],
+  [
+   "",
+   "WBM",
+   "53072.5",
+   "170150.4",
+   "530.7",
+   "8491.6",
+   "172484.4"
+  ],
+  [
+   "",
+   "BBM",
+   "57218.0",
+   "183441.0",
+   "572.2",
+   "9154.9",
+   "185957.3"
+  ],
+  [
+   "",
+   "S-GBM",
+   "54673.3",
+   "175282.5",
+   "546.7",
+   "8747.7",
+   "177686.9"
+  ],
+  [
+   "",
+   "C-GBM",
+   "54197.5",
+   "173757.1",
+   "542.0",
+   "8671.6",
+   "176140.6"
+  ]
+ ],
+ "tab:cii-results": [
+  [
+   "\\textbf{Partition}",
+   "\\textbf{Series}",
+   "\\textbf{Intensity}",
+   "\\textbf{Bulk carrier}",
+   "\\textbf{Container ship}"
+  ],
+  [
+   "\\multirow{5}{*}{In-domain}",
+   "Reference",
+   "7.1866",
+   "E",
+   "D"
+  ],
+  [
+   "",
+   "WBM",
+   "7.2899",
+   "E",
+   "D"
+  ],
+  [
+   "",
+   "BBM",
+   "7.1701",
+   "E",
+   "D"
+  ],
+  [
+   "",
+   "S-GBM",
+   "7.2904",
+   "E",
+   "D"
+  ],
+  [
+   "",
+   "C-GBM",
+   "7.2905",
+   "E",
+   "D"
+  ],
+  [
+   "\\multirow{5}{*}{Shifted}",
+   "Reference",
+   "6.7500",
+   "E",
+   "C"
+  ],
+  [
+   "",
+   "WBM",
+   "6.6072",
+   "E",
+   "C"
+  ],
+  [
+   "",
+   "BBM",
+   "7.1233",
+   "E",
+   "\\textbf{D}"
+  ],
+  [
+   "",
+   "S-GBM",
+   "6.8065",
+   "E",
+   "C"
+  ],
+  [
+   "",
+   "C-GBM",
+   "6.7472",
+   "E",
+   "C"
+  ]
+ ],
+ "tab:hyperparameters": [
+  [
+   "\\textbf{Family}",
+   "\\textbf{Learner}",
+   "\\textbf{Configuration}"
+  ],
+  [
+   "\\multirow{6}{*}{Linear}",
+   "Ridge",
+   "$L_2$ penalty $\\lambda=0.01$"
+  ],
+  [
+   "",
+   "Lasso",
+   "$\\alpha=10^{-3}$; maximum 5,000 iterations"
+  ],
+  [
+   "",
+   "ElasticNet",
+   "$\\alpha=10^{-3}$; $L_1$ ratio $=0.5$; maximum 5,000 iterations"
+  ],
+  [
+   "",
+   "BayesianRidge",
+   "Maximum 300 iterations; prior hyperparameters $10^{-6}$"
+  ],
+  [
+   "",
+   "Huber",
+   "$\\epsilon=1.35$; maximum 500 iterations"
+  ],
+  [
+   "",
+   "OLS",
+   "Unregularised least squares"
+  ],
+  [
+   "Instance-based",
+   "KNN",
+   "$k=5$ neighbours; distance-weighted prediction"
+  ],
+  [
+   "Neural",
+   "MLP",
+   "Hidden layers $(64,32)$; learning rate $10^{-3}$; 300 epochs; batch size 64; $L_2=10^{-4}$"
+  ],
+  [
+   "\\multirow{5}{*}{\\shortstack[l]{Tree"
+  ],
+  [
+   "ensembles}}",
+   "DecisionTree",
+   "Maximum depth 10"
+  ],
+  [
+   "",
+   "RandomForest",
+   "200 trees; unrestricted depth"
+  ],
+  [
+   "",
+   "ExtraTrees",
+   "300 trees; maximum depth 15"
+  ],
+  [
+   "",
+   "AdaBoost",
+   "200 estimators; learning rate 0.1; depth-3 base estimator"
+  ],
+  [
+   "",
+   "Bagging",
+   "100 base estimators; unrestricted tree depth"
+  ],
+  [
+   "\\multirow{5}{*}{\\shortstack[l]{Gradient"
+  ],
+  [
+   "boosting}}",
+   "GBT",
+   "200 estimators; maximum depth 3; learning rate 0.1"
+  ],
+  [
+   "",
+   "HistGB",
+   "Maximum 400 iterations; no early stopping; remaining parameters at implementation defaults"
+  ],
+  [
+   "",
+   "XGBoost",
+   "Up to 2,000 rounds with early stopping (patience 50; 31 selected); maximum depth 6; learning rate 0.05"
+  ],
+  [
+   "",
+   "LightGBM",
+   "Up to 2,000 rounds with early stopping (patience 50; 6 selected); learning rate 0.05; 31 leaves; depth unrestricted"
+  ],
+  [
+   "",
+   "CatBoost",
+   "Up to 2,000 iterations with early stopping (patience 50; 52 selected); depth 4; learning rate 0.05"
+  ]
+ ],
+ "tab:mlp-sensitivity": [
+  [
+   "\\textbf{Residual learner}",
+   "\\textbf{Hidden layers}",
+   "\\textbf{Validation}",
+   "\\textbf{Internal test}",
+   "\\textbf{In-domain}",
+   "\\textbf{Shifted}"
+  ],
+  [
+   "MLP, 1 hidden layer",
+   "(32)",
+   "9.661",
+   "17.291",
+   "9.285",
+   "23.075"
+  ],
+  [
+   "MLP, 2 hidden layers (Table~\\ref{tab:ml-model-selection})",
+   "(64, 32)",
+   "12.391",
+   "20.582",
+   "10.145",
+   "29.482"
+  ],
+  [
+   "MLP, 1 hidden layer",
+   "(5)",
+   "12.835",
+   "25.133",
+   "12.183",
+   "27.004"
+  ],
+  [
+   "MLP, 5 hidden layers",
+   "(64, 64, 32, 32, 16)",
+   "15.674",
+   "25.910",
+   "11.175",
+   "41.067"
+  ],
+  [
+   "MLP, 1 hidden layer",
+   "(3)",
+   "16.246",
+   "21.769",
+   "12.976",
+   "23.936"
+  ],
+  [
+   "MLP, 3 hidden layers",
+   "(64, 32, 16)",
+   "28.590",
+   "23.193",
+   "14.377",
+   "26.500"
+  ],
+  [
+   "Huber",
+   "--",
+   "8.001",
+   "10.724",
+   "8.788",
+   "9.545"
+  ],
+  [
+   "CatBoost",
+   "--",
+   "8.804",
+   "9.779",
+   "7.849",
+   "9.055"
+  ]
+ ],
+ "tab:wbm-params": [
+  [
+   "\\textbf{Symbol}",
+   "\\textbf{Quantity}",
+   "\\textbf{Value}",
+   "\\textbf{Status}"
+  ],
+  [
+   "$L$",
+   "Length between perpendiculars",
+   "300 m",
+   "Representative"
+  ],
+  [
+   "$B$",
+   "Beam",
+   "40 m",
+   "Representative"
+  ],
+  [
+   "$T$",
+   "Draught (also design draught)",
+   "14.5 m",
+   "Representative"
+  ],
+  [
+   "$S$",
+   "Wetted surface area",
+   "15,200 m$^2$",
+   "Representative"
+  ],
+  [
+   "$C_B$",
+   "Block coefficient",
+   "0.62",
+   "Representative"
+  ],
+  [
+   "$A_{\\mathrm{front}}$",
+   "Frontal windage area",
+   "1,200 m$^2$",
+   "Representative"
+  ],
+  [
+   "$A_{\\mathrm{lat}}$",
+   "Lateral windage area",
+   "8,000 m$^2$",
+   "Representative"
+  ],
+  [
+   "$\\mathrm{MCR}$",
+   "Maximum continuous rating",
+   "45,000 kW",
+   "Representative"
+  ],
+  [
+   "$\\mathrm{SFOC}_{\\mathrm{MCR}}$",
+   "Rated fuel consumption",
+   "170 g/kWh",
+   "Representative"
+  ],
+  [
+   "$\\eta_0$",
+   "Base propulsive efficiency",
+   "0.70",
+   "Representative"
+  ],
+  [
+   "$\\eta_{\\mathrm{wave}}$",
+   "Wave efficiency penalty coefficient",
+   "0.03",
+   "Representative"
+  ],
+  [
+   "$T_p$",
+   "Wave period (not in benchmark)",
+   "8.0 s",
+   "Default"
+  ],
+  [
+   "$\\theta_{\\mathrm{wave}}$",
+   "Wave encounter angle (not in benchmark)",
+   "0$^{\\circ}$",
+   "Default"
+  ],
+  [
+   "$T_{\\mathrm{sea}}$",
+   "Sea-surface temperature (not in benchmark)",
+   "12$^{\\circ}$C",
+   "Default"
+  ],
+  [
+   "$h$",
+   "Water depth (not in benchmark)",
+   "2,000 m",
+   "Default"
+  ],
+  [
+   "$k$",
+   "Calibration scale factor",
+   "0.393586",
+   "Fitted"
+  ],
+  [
+   "\\multicolumn{4}{@{}p{14.8cm}@{}}{\\footnotesize Derived internally: seawater density and viscosity from $T_{\\mathrm{sea}}$; hull-fouling penalty from months since dry-docking through a three-zone Schultz roughness schedule; added wave resistance from STAWAVE-1. Records are retained for speed through water above 4 kn and measured shaft power above 100 kW.}"
+  ]
+ ]
+}

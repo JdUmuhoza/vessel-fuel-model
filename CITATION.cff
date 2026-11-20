@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: vessel-fuel-model
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: Umuhoza
+    given-names: Jean d'Amour
+    orcid: https://orcid.org/0009-0008-7067-8817
+# Replace OWNER with the GitHub account that hosts the repository before the first release.
+repository-code: https://github.com/OWNER/vessel-fuel-model
+abstract: >-
+  Physics-based and grey-box vessel fuel-consumption models (calibrated white-box,
+  black-box, serial and constrained grey-box), with propagation of predicted fuel to
+  CO2, CH4, N2O and CO2e. Includes the code that reproduces the tables of the
+  accompanying paper on the Shifts and FuelCast benchmarks.
+keywords:
+  - maritime
+  - vessel
+  - fuel-consumption
+  - grey-box model
+  - distribution shift
+  - greenhouse-gas emissions
+license: MIT
+version: 0.3.0
+# Add the paper and the OSF DOI once they exist:
+# doi: 10.17605/OSF.IO/XXXXX

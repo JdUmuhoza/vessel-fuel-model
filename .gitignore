@@ -1,0 +1,15 @@
+# Python and build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+.pytest_cache/
+catboost_info/
+
+# Downloaded benchmark data and generated results are never committed
+data/
+results/
+results_shipped/
+outputs/
