@@ -9,7 +9,8 @@ dist/
 catboost_info/
 
 # Downloaded benchmark data and generated results are never committed
-data/
-results/
-results_shipped/
-outputs/
+# (anchored to the repository root so templates/data/ stays tracked)
+/data/
+/results/
+/results_shipped/
+/outputs/

@@ -1,0 +1,2 @@
+vessel_id,L,B,T,S,CB,MCR,sfoc_at_mcr,Cp,Cm,Cwp,A_front,A_lateral,Cd_air,eta_0,eta_wave_loss,design_draft
+VESSEL_A,229.0,32.3,14.5,23577.84,0.83,10170,180,0.68,0.98,0.82,468.35,3320.5,1.0,0.72,0.03,14.5

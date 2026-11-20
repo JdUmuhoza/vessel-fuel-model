@@ -1,0 +1,2 @@
+segment_id,vessel_id,distance_km,speed_tw_kn,route_id,season,timestamp,lat,lon
+SEG_000001,VESSEL_A,1.250,12.300,north_route,summer,2025-08-08T08:42:00Z,48.25546,-70.01657

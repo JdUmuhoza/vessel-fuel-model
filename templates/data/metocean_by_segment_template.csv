@@ -1,0 +1,2 @@
+segment_id,wind_kn,wind_angle_deg,Hs,Tp,current_kn,current_angle_deg,sst_c,depth_m,wave_angle_deg
+SEG_000001,12.5,220.0,1.2,7.8,0.8,180.0,14.0,225.0
