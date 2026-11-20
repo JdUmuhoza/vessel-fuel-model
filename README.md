@@ -65,9 +65,15 @@ python scripts/download_benchmarks.py      # fetches both and verifies every fil
 
 The 13 experiment stages that write the paper's tables are listed in
 `reproduce/stages.json`, and `reproduce/table_map.json` links every checked table cell to
-the result file that produced it. `python -m reproduce.compare --results results` compares
-the results with the values printed in the paper; `reproduce/MISMATCHES.md` lists the cells
-that differ and why.
+the result file that produced it.
+
+```bash
+python -m reproduce.reproduce --quick          # compare shipped results with the paper (minutes)
+python -m reproduce.reproduce --full --yes     # rerun every stage from the downloaded data, then compare
+```
+
+`--full` copies the existing `results/` to `results_shipped/` before it overwrites anything.
+`reproduce/MISMATCHES.md` lists the table cells that differ from the paper and why.
 
 A frozen reproduction package with the result files, an exact environment and a quick check
 that runs in minutes is archived on OSF (DOI to be added on registration).
