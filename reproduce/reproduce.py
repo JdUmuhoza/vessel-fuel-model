@@ -3,7 +3,10 @@
 ``--quick`` compares every mapped table cell (``table_map.json``) of the shipped result files
 with the value printed in the paper (``paper_values.json``) at the paper's precision.
 
-``--full --yes`` first copies ``results/`` to ``results_shipped/``, then runs every stage of
+``--full --yes`` first copies ``results/`` to ``results_shipped/``, then deletes the files the
+stages read back to skip work already done (every ``_cache/`` folder and ``_rows.csv`` under
+``results/``, and the physics cache ``data/external/shifts_vessel/cache``), so that every
+learner is refitted and every physics prediction recomputed, then runs every stage of
 ``stages.json`` in order (each as ``python -m experiments.revision.<module>`` with
 ``VFM_RESULTS_ROOT`` pointing at ``results/revision_final``), then runs the quick check on
 the new results. The benchmark data must be present (``python scripts/download_benchmarks.py``).
@@ -33,6 +36,36 @@ from .compare import compare
 HERE = pathlib.Path(__file__).resolve().parent
 REPO = HERE.parent
 STAGE_TIMEOUT_S = 4 * 3600
+PHYSICS_CACHE = REPO / "data" / "external" / "shifts_vessel" / "cache"
+CACHE_NAMES = ("_cache", "_rows.csv")
+
+
+def clear_caches(results: pathlib.Path, physics_cache: pathlib.Path) -> list[pathlib.Path]:
+    """Delete the read-back caches so a full rerun recomputes every learner and prediction.
+
+    Stages rf32, rf33, rf59 and rf61 skip any learner already listed in their cache file,
+    and the physics model is read back from ``.npz`` files when present. Without this step
+    a full rerun over the shipped ``results/`` would replay the shipped numbers.
+
+    Parameters
+    ----------
+    results : pathlib.Path
+        Results folder; every ``_cache`` folder and ``_rows.csv`` file below it is removed.
+    physics_cache : pathlib.Path
+        Folder of the cached physics predictions; removed with its contents.
+
+    Returns
+    -------
+    list of pathlib.Path
+        The paths that were removed.
+    """
+    removed = sorted(p for p in results.rglob("*") if p.name in CACHE_NAMES)
+    for p in removed:
+        shutil.rmtree(p) if p.is_dir() else p.unlink()
+    if physics_cache.exists():
+        shutil.rmtree(physics_cache)
+        removed.append(physics_cache)
+    return removed
 
 
 def quick(results: pathlib.Path, paper: dict, table_map: dict) -> int:
@@ -86,7 +119,8 @@ def _run_stage(module: str, results: pathlib.Path) -> int:
 
 def full(results: pathlib.Path, stages: list[dict], paper: dict, table_map: dict, yes: bool,
          run_stage: Callable[[str, pathlib.Path], int] = _run_stage,
-         backup: pathlib.Path | None = None) -> int:
+         backup: pathlib.Path | None = None,
+         physics_cache: pathlib.Path = PHYSICS_CACHE) -> int:
     """Rerun every stage over ``results`` after backing up the shipped results, then check.
 
     Parameters
@@ -104,6 +138,8 @@ def full(results: pathlib.Path, stages: list[dict], paper: dict, table_map: dict
     backup : pathlib.Path, optional
         Where the shipped results are copied first (default ``results_shipped`` beside
         ``results``); refused if it already exists.
+    physics_cache : pathlib.Path
+        Physics prediction cache deleted before the first stage (see :func:`clear_caches`).
 
     Returns
     -------
@@ -120,6 +156,8 @@ def full(results: pathlib.Path, stages: list[dict], paper: dict, table_map: dict
         return 2
     if results.exists():
         shutil.copytree(results, backup)
+    removed = clear_caches(results, physics_cache)
+    print(f"Removed {len(removed)} cache path(s) so every stage recomputes its results.")
     for st in stages:
         rc = run_stage(st["module"], results)
         if rc != 0 and rc != st.get("known_exit"):

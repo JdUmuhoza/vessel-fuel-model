@@ -73,6 +73,10 @@ python -m reproduce.reproduce --full --yes     # rerun every stage from the down
 ```
 
 `--full` copies the existing `results/` to `results_shipped/` before it overwrites anything.
+It then deletes the cached learner fits (every `_cache/` folder and `_rows.csv` under
+`results/`) and the cached physics predictions, so that every learner is refitted rather than
+read back. This takes several hours: the SVR residual learner alone took 4,674 s to fit on
+the 286,580-row fitting block in the original run.
 `reproduce/MISMATCHES.md` lists the table cells that differ from the paper and why.
 
 A frozen reproduction package with the result files, an exact environment and a quick check

@@ -54,12 +54,16 @@ python scripts/download_benchmarks.py         # about 110 MB, checksums verified
 python -m reproduce.reproduce --full --yes    # reruns every stage, then the quick check
 ```
 
-`--full` first copies `results/` to `results_shipped/`, then rewrites `results/` from the
-downloaded data. One stage, `rf43_fuelcast_wind_and_wbm`, ends with exit code 2 by design:
+`--full` first copies `results/` to `results_shipped/`, then deletes the cached learner
+fits (every `_cache/` folder and `_rows.csv` under `results/`) and the cached physics
+predictions, so that every learner is refitted rather than read back, then rewrites
+`results/` from the downloaded data. This takes several hours: the SVR residual learner
+alone took 4,674 s to fit on the 286,580-row fitting block in the original run.
+One stage, `rf43_fuelcast_wind_and_wbm`, ends with exit code 2 by design:
 its own check reports that the hull geometry of the reduced FuelCast prior sits at the edge
 of its search grid for two vessels, the same verdict as in the original run.
 
 ## Archive
 
-`vessel-fuel-model-osf-v1.0.zip` (221 files, 5.6 MB), SHA-256
-`17c855a5be58c66efe8cc1c5a8e18e47752bde74f8efb8c7d9268484e932667f`.
+`vessel-fuel-model-osf-v1.0.zip` (217 files, 5.8 MB), SHA-256
+`c3362d1f586ee9731adb18b9ba7f4066b01c59ace04e51e8d8ae35d0df5a1df2`.

@@ -80,3 +80,39 @@ def test_full_accepts_a_declared_exit_code_and_stops_on_any_other(tmp_path):
 def test_cli_requires_one_mode():
     with pytest.raises(SystemExit):
         rp.main([])
+
+
+def test_full_clears_stage_and_physics_caches_before_the_first_stage(tmp_path):
+    results = _results(tmp_path / "results", 8.001)
+    rf = results / "revision_final"
+    (rf / "24" / "_cache").mkdir(parents=True)
+    (rf / "24" / "_cache" / "ml_selection.csv").write_text("x\n", encoding="utf-8")
+    (rf / "41").mkdir()
+    (rf / "41" / "_rows.csv").write_text("x\n", encoding="utf-8")
+    phys = tmp_path / "data" / "cache"
+    phys.mkdir(parents=True)
+    (phys / "rev_train_10.npz").write_bytes(b"0")
+    backup = tmp_path / "results_shipped"
+    seen = []
+
+    def run_stage(module, root):
+        seen.append(sorted(p.name for p in rf.rglob("*") if p.name in ("_cache", "_rows.csv"))
+                    + sorted(p.name for p in phys.glob("*")))
+        return 0
+
+    rc = rp.full(results, [{"module": "s1"}], PAPER, TMAP, yes=True, run_stage=run_stage,
+                 backup=backup, physics_cache=phys)
+    assert rc == 0 and seen == [[]]
+    assert (backup / "revision_final" / "24" / "_cache" / "ml_selection.csv").is_file()
+    assert (backup / "revision_final" / "41" / "_rows.csv").is_file()
+    assert (rf / "a" / "t.csv").is_file()
+
+
+def test_full_without_yes_leaves_the_caches_in_place(tmp_path):
+    results = _results(tmp_path / "results", 8.001)
+    cache = results / "revision_final" / "41" / "_rows.csv"
+    cache.parent.mkdir()
+    cache.write_text("x\n", encoding="utf-8")
+    rc = rp.full(results, [{"module": "s1"}], PAPER, TMAP, yes=False,
+                 run_stage=lambda m, root: 0, physics_cache=tmp_path / "none")
+    assert rc == 2 and cache.is_file()
