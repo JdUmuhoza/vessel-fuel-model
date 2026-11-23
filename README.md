@@ -124,4 +124,7 @@ Distribution Shift: Multi-Gas, Uncertainty, and Decision Assessment* (manuscript
 
 ## Licence
 
-Code: MIT (see `LICENSE`). The benchmark datasets keep their own licences, listed above.
+Code: PolyForm Noncommercial License 1.0.0 (see `LICENSE`): free for noncommercial use,
+including research and teaching; commercial use requires a separate licence from the
+author. Release `v1.0.0` and earlier commits remain available under the MIT licence they
+were published with. The benchmark datasets keep their own licences, listed above.

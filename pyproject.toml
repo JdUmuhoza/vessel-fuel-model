@@ -7,7 +7,7 @@ name = "vessel-fuel-model"
 version = "1.0.0"
 description = "Physics-based and grey-box vessel fuel-consumption models, with multi-gas emission propagation"
 authors = [{name = "Jean d'Amour Umuhoza", email = "jdumuhoza@etu.uqac.ca"}]
-license = {text = "MIT"}
+license = {text = "PolyForm-Noncommercial-1.0.0"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.24", "scipy>=1.10"]
