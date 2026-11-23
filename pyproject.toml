@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "vessel-fuel-model"
 version = "1.0.0"
 description = "Physics-based and grey-box vessel fuel-consumption models, with multi-gas emission propagation"
-authors = [{name = "Jean d'Amour Umuhoza", email = "jean.amour.umuhoza@uqac.ca"}]
+authors = [{name = "Jean d'Amour Umuhoza", email = "jdumuhoza@etu.uqac.ca"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.10"
