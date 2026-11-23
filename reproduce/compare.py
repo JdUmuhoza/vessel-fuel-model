@@ -7,7 +7,7 @@ printed value.
 
 Usage:
     python -m reproduce.compare [--results results] [--json]
-Exit codes: 0 every mapped cell matches, 1 a mismatch or an unreadable binding.
+Exit codes: 0 every mapped cell matches, 1 a differing cell or an unreadable binding.
 """
 
 from __future__ import annotations
@@ -31,7 +31,7 @@ class TableResult(NamedTuple):
 
     label: str
     n_checked: int
-    mismatches: list[tuple[str, float, float]]
+    differences: list[tuple[str, float, float]]
     errors: list[str]
 
 
@@ -161,13 +161,13 @@ def main(argv: list[str] | None = None) -> int:
     if a.json:
         print(json.dumps([r._asdict() for r in res], indent=2))
     for r in res:
-        ok = not r.mismatches and not r.errors
+        ok = not r.differences and not r.errors
         print(f"{'PASS' if ok else 'FAIL'}  {r.label:32s} {r.n_checked:4d} cells checked")
-        for cid, want, got in r.mismatches:
-            print(f"      mismatch {cid}: paper {want}  result {got}")
+        for cid, want, got in r.differences:
+            print(f"      differs {cid}: paper {want}  result {got}")
         for e in r.errors:
             print(f"      error {e}")
-    return 0 if all(not r.mismatches and not r.errors for r in res) else 1
+    return 0 if all(not r.differences and not r.errors for r in res) else 1
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ Usage:
     python -m reproduce.reproduce --full --yes [--results results]
 Exit codes: 0 every mapped cell matches; 1 a cell differs or a stage failed; 2 refused
 (missing result files, missing --yes, or an existing results_shipped/ that would be
-overwritten). ``MISMATCHES.md`` lists the cells known to differ and why.
+overwritten).
 """
 
 from __future__ import annotations
@@ -81,7 +81,7 @@ def quick(results: pathlib.Path, paper: dict, table_map: dict) -> int:
     Returns
     -------
     int
-        0 all cells match, 1 a mismatch or unreadable binding, 2 a mapped file is missing.
+        0 all cells match, 1 a differing cell or unreadable binding, 2 a mapped file is missing.
     """
     missing = sorted({b["csv"] for bs in table_map.values() for b in bs
                       if not (results / b["csv"]).is_file()})
@@ -92,15 +92,15 @@ def quick(results: pathlib.Path, paper: dict, table_map: dict) -> int:
         return 2
     res = compare(paper, table_map, results)
     for r in res:
-        ok = not r.mismatches and not r.errors
+        ok = not r.differences and not r.errors
         print(f"{'PASS' if ok else 'FAIL'}  {r.label:32s} {r.n_checked:4d} cells checked")
-        for cid, want, got in r.mismatches:
+        for cid, want, got in r.differences:
             print(f"      cell {cid}: paper {want}, result {got:.6g}")
         for e in r.errors:
             print(f"      error {e}")
-    failed = [r.label for r in res if r.mismatches or r.errors]
+    failed = [r.label for r in res if r.differences or r.errors]
     if failed:
-        print(f"\n{len(failed)} table(s) differ from the paper; see reproduce/MISMATCHES.md.")
+        print(f"\n{len(failed)} table(s) differ from the paper.")
         return 1
     print("\nEvery mapped table cell matches the paper.")
     return 0

@@ -3476,42 +3476,6 @@
   },
   {
    "paper": [
-    3,
-    2
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "S-GBM (Huber residual)"
-   },
-   "column": "MAPE_in_pct"
-  },
-  {
-   "paper": [
-    3,
-    3
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "S-GBM (Huber residual)"
-   },
-   "column": "MAPE_out_pct"
-  },
-  {
-   "paper": [
-    3,
-    4
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "S-GBM (Huber residual)"
-   },
-   "column": "delta_MAPE_pp"
-  },
-  {
-   "paper": [
     4,
     2
    ],
@@ -3521,42 +3485,6 @@
     "Architecture": "C-GBM (Huber residual)"
    },
    "column": "MAPE_in_pct"
-  },
-  {
-   "paper": [
-    4,
-    3
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "MAPE_out_pct"
-  },
-  {
-   "paper": [
-    4,
-    4
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "delta_MAPE_pp"
-  },
-  {
-   "paper": [
-    4,
-    5
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Poseidon",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "lambda_star"
   },
   {
    "paper": [
@@ -3665,54 +3593,6 @@
     "Architecture": "S-GBM (Huber residual)"
    },
    "column": "delta_MAPE_pp"
-  },
-  {
-   "paper": [
-    8,
-    2
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Triton",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "MAPE_in_pct"
-  },
-  {
-   "paper": [
-    8,
-    3
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Triton",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "MAPE_out_pct"
-  },
-  {
-   "paper": [
-    8,
-    4
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Triton",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "delta_MAPE_pp"
-  },
-  {
-   "paper": [
-    8,
-    5
-   ],
-   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
-   "where": {
-    "Vessel": "Triton",
-    "Architecture": "C-GBM (Huber residual)"
-   },
-   "column": "lambda_star"
   },
   {
    "paper": [

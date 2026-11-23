@@ -39,13 +39,13 @@ def _setup(tmp_path, value):
 def test_value_matches_at_printed_precision(tmp_path):
     paper, tmap = _setup(tmp_path, 8.001039)
     (res,) = compare(paper, tmap, tmp_path)
-    assert res.label == "tab:x" and res.n_checked == 2 and res.mismatches == [] and res.errors == []
+    assert res.label == "tab:x" and res.n_checked == 2 and res.differences == [] and res.errors == []
 
 
-def test_one_decimal_off_is_mismatch(tmp_path):
+def test_one_decimal_off_differs(tmp_path):
     paper, tmap = _setup(tmp_path, 8.011)
     (res,) = compare(paper, tmap, tmp_path)
-    assert res.mismatches == [("[0, 1]", 8.0, pytest.approx(8.011))]
+    assert res.differences == [("[0, 1]", 8.0, pytest.approx(8.011))]
 
 
 def test_missing_csv_is_reported_not_skipped(tmp_path):
@@ -70,7 +70,7 @@ def test_scale_applied_before_rounding(tmp_path):
     tmap = {"tab:x": [{"paper": [0, 1], "csv": "t.csv", "where": {"k": "a"}, "column": "v",
                        "scale": 100}]}
     (res,) = compare(paper, tmap, tmp_path)
-    assert res.mismatches == [] and res.errors == []
+    assert res.differences == [] and res.errors == []
 
 
 def test_paper_cell_without_number_is_an_error(tmp_path):
@@ -88,7 +88,7 @@ def test_index_selects_a_later_number_of_the_cell(tmp_path):
         {"paper": [0, 1], "index": 1, "csv": "t.csv", "where": {"model": "C"}, "column": "hi"},
     ]}
     (res,) = compare(paper, tmap, tmp_path)
-    assert res.n_checked == 2 and res.mismatches == [] and res.errors == []
+    assert res.n_checked == 2 and res.differences == [] and res.errors == []
 
 
 def test_index_beyond_the_numbers_of_the_cell_is_an_error(tmp_path):
@@ -107,7 +107,7 @@ def test_terms_form_a_weighted_sum_of_csv_values(tmp_path):
         {"where": {"p": "out"}, "column": "MAPE", "weight": 1},
         {"where": {"p": "in"}, "column": "MAPE", "weight": -1}]}]}
     (res,) = compare(paper, tmap, tmp_path)
-    assert res.n_checked == 1 and res.mismatches == [] and res.errors == []
+    assert res.n_checked == 1 and res.differences == [] and res.errors == []
 
 
 def test_a_term_with_no_matching_row_is_an_error_not_zero(tmp_path):

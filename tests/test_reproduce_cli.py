@@ -22,7 +22,7 @@ def test_quick_passes_on_fixture_results(tmp_path):
     assert rp.quick(_results(tmp_path / "results", 8.001), PAPER, TMAP) == 0
 
 
-def test_quick_exit_1_on_mismatch(tmp_path):
+def test_quick_exit_1_on_difference(tmp_path):
     assert rp.quick(_results(tmp_path / "results", 8.4), PAPER, TMAP) == 1
 
 
