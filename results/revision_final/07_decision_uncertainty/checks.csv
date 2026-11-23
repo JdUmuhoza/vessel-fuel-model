@@ -1,0 +1,10 @@
+check_id,item,verdict,detail
+F1,"Section 5.3 MAPE, R2 and deltaMAPE reproduced",PASS,12/12 rows within tolerance
+F2,lambda is exactly 0.70 and never re-selected,PASS,"imported constant; no grid search, no dev/test/decision/uncertainty input"
+F3,no obsolete learner or constraint used,PASS,"Huber only (BBM and residual); no CatBoost, ExtraTrees, ridge anchor or bounded residual anywhere in this script"
+L1,conformal radius calibrated on the validation block only,PASS,"n_calibration = 106,141"
+L2,conformal radius frozen before dev evaluation,PASS,"radius computed once per architecture, then applied unchanged"
+L3,finite-sample quantile change is immaterial,PASS,max radius difference 0.2400 kW vs the plain (1-alpha) quantile
+D1,decision outcomes evaluated against measured power only,PASS,regret uses cost_per_nm of the median MEASURED power per speed cell; predictions only choose the speed
+D2,"published economics and binning imported, not reimplemented",PASS,"SFOC 170.0 g/kWh, fuel 600.0 USD/t, charter 15000.0 USD/day, MIN_CELL 5, MIN_CELLS_PER_BIN 4 from regret_core"
+D3,decision-group count recorded as an evidence limit,PASS,[9] groups per partition -> underpowered; treat as qualitative

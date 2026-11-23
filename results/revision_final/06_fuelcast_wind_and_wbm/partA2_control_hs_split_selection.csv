@@ -1,0 +1,4 @@
+vessel,vessel_short,role,prior,residual_learner,bbm_learner,lambda_star,cube_coefficient,n_features,features,wind_in_features,n_train,n_fit,n_validation_tail,n_dev_in,n_dev_out,shift_variable,learner_subsampled
+CPS_Poseidon,Poseidon,benchmark,WBM-lite (cube law),Huber,Huber on target,1.0,0.7169478382933928,11,speed;wind10_kn;wind10_ang;hs;tp;swell_hs;cur_kn;cur_ang;depth;temp;press,True,42221,35887,6334,9762,8334,hs,False
+CPS_Triton,Triton,benchmark,WBM-lite (cube law),Huber,Huber on target,1.0,0.26421982096931235,13,speed;draft;trim;wind10_kn;wind10_ang;hs;tp;swell_hs;cur_kn;cur_ang;depth;temp;press,True,12772,10856,1916,4854,621,hs,False
+OSS_Ceto,Ceto,negative_control,WBM-lite (cube law),Huber,Huber on target,0.44,1.0887409807197217,13,speed;draft;trim;wind10_kn;wind10_ang;hs;tp;swell_hs;cur_kn;cur_ang;depth;temp;press,True,4833,4108,725,1443,629,hs,False

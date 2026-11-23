@@ -1,0 +1,4 @@
+gas,emission_factor,unit,equation,load_dependent,gwp100,source
+CO2,3.206,t per t fuel,E_CO2 = fuel_t * 3.206,False,1.0,"Fourth IMO GHG Study, MDO/gas oil"
+CH4,0.01,kg per t fuel,"E_CH4 = fuel_t * 0.010 * (1 + g*max(0, 0.5-l)/0.5), g = 0.0",False,29.8,Fourth IMO GHG Study; AR6 GWP100
+N2O,0.16,kg per t fuel,E_N2O = fuel_t * 0.160,False,273.0,Fourth IMO GHG Study; AR6 GWP100

@@ -1,0 +1,21 @@
+item,partition,series,old_value,recomputed,difference,verdict
+cumulative fuel (t),dev_in,Measured-power reference,64620.7,64620.65460928196,-0.04539071803446859,PASS
+cumulative fuel (t),dev_in,WBM,64030.7,65549.52691157022,1518.8269115702278,FAIL
+cumulative fuel (t),dev_in,BBM,64680.0,64472.03962526824,-207.96037473175966,FAIL
+cumulative fuel (t),dev_in,S-GBM,64754.4,65554.04589655454,799.6458965545389,FAIL
+cumulative fuel (t),dev_in,C-GBM,64209.9,65554.58735913636,1344.687359136362,FAIL
+cumulative fuel (t),dev_out,Measured-power reference,54220.0,54219.975007187706,-0.02499281229393091,PASS
+cumulative fuel (t),dev_out,WBM,51875.5,53072.48013508969,1196.9801350896887,FAIL
+cumulative fuel (t),dev_out,BBM,54471.1,57218.03021823729,2746.930218237292,FAIL
+cumulative fuel (t),dev_out,S-GBM,54119.6,54673.257254595985,553.6572545959862,FAIL
+cumulative fuel (t),dev_out,C-GBM,52440.0,54197.475003165935,1757.475003165935,FAIL
+co2_share_pct,both,all,98.647,98.64682160925398,-0.00017839074602932214,PASS
+n2o_share_pct,both,all,1.344,1.34400909790774,9.097907739841204e-06,PASS
+ch4_share_pct,both,all,0.009,0.009169292838289983,0.000169292838289984,PASS
+co2e_per_fuel_t_per_t,both,all,3.25,3.249978,-2.199999999996649e-05,PASS
+cgbm_fuel_error_dev_in_pct,dev_in,C-GBM,-0.64,1.4452542387589074,2.0852542387589073,FAIL
+cgbm_fuel_error_dev_out_pct,dev_out,C-GBM,-3.28,-0.041497628906668235,3.2385023710933316,FAIL
+all ratings bulk carrier,dev_in,all,E,E,,PASS
+all ratings container ship,dev_in,all,D,D,,PASS
+all ratings bulk carrier,dev_out,all,E,E,,PASS
+all ratings container ship,dev_out,all,C,C/D,,FAIL

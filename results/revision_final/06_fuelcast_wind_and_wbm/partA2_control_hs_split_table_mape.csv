@@ -1,0 +1,13 @@
+Vessel,Prior,Architecture,Parameter,MAPE_in_pct,MAPE_out_pct,delta_MAPE_pp,lambda_star
+Poseidon,WBM-lite (cube law),WBM-lite (cube law),-,20.735565171948444,14.079411179547277,-6.656153992401167,
+Poseidon,WBM-lite (cube law),BBM (Huber on target),-,11.557317757371347,6.7988587243342655,-4.758459033037082,
+Poseidon,WBM-lite (cube law),S-GBM (Huber residual),lambda=1,5.723344750534912,6.8870086895107,1.1636639389757875,
+Poseidon,WBM-lite (cube law),C-GBM (Huber residual),lambda*=1,5.723344750534912,6.8870086895107,1.1636639389757875,1.0
+Triton,WBM-lite (cube law),WBM-lite (cube law),-,13.816848197719187,17.7292042230734,3.912356025354212,
+Triton,WBM-lite (cube law),BBM (Huber on target),-,10.799196688886834,9.492861073409165,-1.3063356154776695,
+Triton,WBM-lite (cube law),S-GBM (Huber residual),lambda=1,11.121339082492778,10.607273386480072,-0.5140656960127057,
+Triton,WBM-lite (cube law),C-GBM (Huber residual),lambda*=1,11.121339082492778,10.607273386480072,-0.5140656960127057,1.0
+Ceto,WBM-lite (cube law),WBM-lite (cube law),-,33.444499094490794,18.174212149248394,-15.2702869452424,
+Ceto,WBM-lite (cube law),BBM (Huber on target),-,38.97615623188971,44.51513323512549,5.538977003235779,
+Ceto,WBM-lite (cube law),S-GBM (Huber residual),lambda=1,36.636058844288996,17.65279031188813,-18.983268532400867,
+Ceto,WBM-lite (cube law),C-GBM (Huber residual),lambda*=0.44,18.632778205803096,16.505385132872807,-2.127393072930289,0.44

@@ -1,0 +1,2 @@
+script,dataset,n_train_csv,protocol,physics_k,bbm,residual_learner,lambda_star,lambda_selected_on,seed,bootstrap_block_h,bootstrap_B,conformal_alpha,git_commit
+s03_core_results.py,"Shifts marine, real_data",530706,"chronological 60/20/20, no thinning",0.39358639523538735,ExtraTrees (target = y),Huber (target = y - k*F_phys),0.7,"validation MAPE, 101-point grid",42,24,2000,0.1,e125867a8f7d3908d9daf52ea4c4b0864bd09a06

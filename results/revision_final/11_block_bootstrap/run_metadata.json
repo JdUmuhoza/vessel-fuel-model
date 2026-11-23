@@ -1,0 +1,8 @@
+{
+  "models": "folder-01 frozen: Huber residual, lambda*=0.70, Huber BBM on the target",
+  "method": "paired moving-block bootstrap (s03 block_idx), two-sided, Holm per partition",
+  "block_length_records": 24,
+  "n_resamples": 2000,
+  "seed": 42,
+  "wbm_sgbm_rows_identical_to_T15": true
+}

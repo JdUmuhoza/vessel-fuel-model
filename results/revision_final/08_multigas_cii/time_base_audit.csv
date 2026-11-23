@@ -1,0 +1,3 @@
+partition,n_observations,time_unit,calendar_span_min,calendar_span_days,gap_median_min,gap_mean_min,gap_max_min,records_are_uniformly_spaced,temporal_coverage_pct_if_1min_each,fuel_rate_t_per_h_median,engine_load_median,cumulative_tonnes_defensible
+dev_in,18368,minutes (time_id and timeSinceDryDock have identical consecutive differences),1724707.0,1197.7131944444445,26.0,93.90248815810965,38763.0,False,1.0649924885792195,3.916052923392979,0.5058444444444444,False
+dev_out,18368,minutes (time_id and timeSinceDryDock have identical consecutive differences),289369.0,200.95069444444445,1.0,15.75483203571623,28456.0,False,6.347604615560064,2.6138962457080543,0.3183666666666667,False

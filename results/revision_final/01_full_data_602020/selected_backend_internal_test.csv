@@ -1,0 +1,2 @@
+backend,backend_key,role,selected_on,evaluated_once_on,MAPE,sMAPE,MAE,nMAE,RMSE,NRMSE,R2
+Huber,huber,residual learner,validation block only,internal test,10.724089952906981,9.066905558568704,1524.2410174039449,0.07621270316080969,1975.4304362869786,0.09877236718900714,0.9433539920278722

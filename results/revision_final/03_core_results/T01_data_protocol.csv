@@ -1,0 +1,8 @@
+partition,n,time_id_min,time_id_max,role
+train,318423,0,1147027,parameter fitting (+ early stopping tail)
+validation,106141,1147028,1403834,model and lambda selection
+internal_test,106142,1403835,1724769,"frozen check, never used for selection"
+dev_in,18368,26,1724733,benchmark holdout
+dev_out,18368,1595615,1884984,benchmark holdout
+train:fitting,286580,0,1071727,first 90% of the training block
+train:early_stopping,31843,1071728,1147027,last 10% of the training block

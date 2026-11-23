@@ -1,0 +1,68 @@
+{
+  "purpose": "Section 5.6 multi-gas and CII verification",
+  "benchmark": "Shifts marine primary; FuelCast not used",
+  "k": 0.39358639523538735,
+  "lambda_star": 0.7,
+  "lambda_reselected": false,
+  "residual_learner": "Huber",
+  "bbm": "Huber on measured power",
+  "excluded": [
+    "CatBoost",
+    "ExtraTrees",
+    "ridge-to-physics",
+    "bounded residual",
+    "lambda=0.25"
+  ],
+  "fuel_type": "MDO",
+  "emission_factors": {
+    "co2_t_per_t": 3.206,
+    "ch4_kg_per_t": 0.01,
+    "n2o_kg_per_t": 0.16,
+    "ch4_lowload_gain": 0.0,
+    "unc_co2": 0.02,
+    "unc_ch4": 0.5,
+    "unc_n2o": 0.4
+  },
+  "gwp100": {
+    "CH4": 29.8,
+    "N2O": 273.0
+  },
+  "MCR_kw": 45000.0,
+  "sfoc_at_mcr_g_per_kwh": 170.0,
+  "time_base": {
+    "unit": "minutes",
+    "uniform": false,
+    "published_convention": "uniform 1 h per record",
+    "cumulative_tonnes_defensible": false,
+    "ratios_and_attained_cii_invariant": true
+  },
+  "cii": {
+    "dwt_t": 90813.7655871186,
+    "dwt_derivation": "L*B*T*CB*rho/1000 = 110,748.5 t displacement x deadweight coefficient 0.82",
+    "reference_line": "CII_ref = a * DWT^(-c), then x (1 - Z)",
+    "type_params": {
+      "bulk carrier": {
+        "a": 4745.0,
+        "c": 0.622,
+        "d1": 0.86,
+        "d2": 0.94,
+        "d3": 1.06,
+        "d4": 1.18
+      },
+      "container ship": {
+        "a": 1984.0,
+        "c": 0.489,
+        "d1": 0.83,
+        "d2": 0.94,
+        "d3": 1.07,
+        "d4": 1.19
+      }
+    },
+    "year": 2026,
+    "reduction_factor": 0.11,
+    "ship_class_known": false,
+    "distance": "sum(stw * dt) in nm"
+  },
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

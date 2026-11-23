@@ -1,0 +1,17 @@
+quantity,partition,architecture,old_manuscript,recomputed,difference,verdict
+mean decision regret (%),dev_in,WBM,2.757,2.7567629926000263,-0.00023700739997378761,PASS
+mean decision regret (%),dev_in,BBM,39.576,32.508974095055144,-7.067025904944856,DIFFERS
+mean decision regret (%),dev_in,S-GBM,6.317,5.281675900038375,-1.0353240999616249,DIFFERS
+mean decision regret (%),dev_in,C-GBM,2.916,5.281675900038375,2.3656759000383754,DIFFERS
+mean decision regret (%),dev_out,WBM,15.749,15.748581053885273,-0.00041894611472770293,PASS
+mean decision regret (%),dev_out,BBM,26.384,52.30208772487083,25.91808772487083,DIFFERS
+mean decision regret (%),dev_out,S-GBM,14.818,9.508327140725662,-5.309672859274338,DIFFERS
+mean decision regret (%),dev_out,C-GBM,14.047,8.193862166249204,-5.853137833750797,DIFFERS
+conformal coverage at nominal 0.90,dev_in,WBM,0.832,0.9188262195121951,0.08682621951219516,DIFFERS
+conformal coverage at nominal 0.90,dev_out,WBM,0.84,0.929551393728223,0.08955139372822307,DIFFERS
+conformal coverage at nominal 0.90,dev_in,BBM,0.937,0.8657992160278746,-0.07120078397212548,DIFFERS
+conformal coverage at nominal 0.90,dev_out,BBM,0.858,0.7721036585365854,-0.08589634146341463,DIFFERS
+conformal coverage at nominal 0.90,dev_in,S-GBM,0.943,0.8854529616724739,-0.05754703832752606,DIFFERS
+conformal coverage at nominal 0.90,dev_out,S-GBM,0.875,0.9085910278745645,0.03359102787456447,DIFFERS
+conformal coverage at nominal 0.90,dev_in,C-GBM,0.862,0.8996624564459931,0.03766245644599309,DIFFERS
+conformal coverage at nominal 0.90,dev_out,C-GBM,0.848,0.9234538327526133,0.0754538327526133,DIFFERS

@@ -1,0 +1,21 @@
+{
+  "purpose": "revised manuscript Figures 3 and 4, Section 5.3",
+  "source_configuration": "results/revision_final/01_full_data_602020/",
+  "protocol": "full-data chronological 60/20/20",
+  "physics_k_recomputed": 0.39358639523538735,
+  "physics_k_frozen": 0.393586,
+  "residual_learner": "Huber",
+  "lambda_star": 0.7,
+  "bbm_definition": "Huber fitted on measured power (folder-01 definition)",
+  "bbm_not_used": "ExtraTrees BBM of folder 02 (later alternative experiment)",
+  "partitions": {
+    "dev_in": 18368,
+    "dev_out": 18368
+  },
+  "refit_on_dev": false,
+  "lambda_reselected_on_dev": false,
+  "scope": "predictive diagnostics only; no physical-consistency, D_phys, speed-exponent or operating-regime quantity is computed",
+  "verification": "8/8 MAPE, 4/4 delta MAPE and k asserted against folder 01 and the Section 5.3 values before saving",
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

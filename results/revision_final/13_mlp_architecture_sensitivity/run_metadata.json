@@ -1,0 +1,32 @@
+{
+  "protocol": "s12 S-GBM scoring, MLP hidden layers varied, other settings default",
+  "architectures": {
+    "2 layers (64,32) [Table 6]": [
+      64,
+      32
+    ],
+    "1 layer (32)": [
+      32
+    ],
+    "1 layer (5 neurons)": [
+      5
+    ],
+    "1 layer (3 neurons)": [
+      3
+    ],
+    "3 layers (64,32,16)": [
+      64,
+      32,
+      16
+    ],
+    "5 layers (64,64,32,32,16)": [
+      64,
+      64,
+      32,
+      32,
+      16
+    ]
+  },
+  "seed": 42,
+  "control_gap_vs_table6": 0.0
+}

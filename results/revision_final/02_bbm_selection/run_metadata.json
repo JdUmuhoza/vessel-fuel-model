@@ -1,0 +1,21 @@
+{
+  "purpose": "standalone BBM selection, target = measured shaft power y",
+  "splits_identical_to_folder24": true,
+  "physics_k": 0.39358639523538735,
+  "lambda_star_carried": 0.7,
+  "residual_learner_unchanged": "Huber",
+  "selected_standalone_bbm": "ExtraTrees",
+  "different_from_residual_learner": true,
+  "excluded_models": [
+    "GaussianProcess",
+    "PNN (GRNN)",
+    "SVR (RBF)"
+  ],
+  "budget_seconds": 3600.0,
+  "subsampling_applied": false,
+  "dev_in_used_in_selection": false,
+  "dev_out_used_in_selection": false,
+  "primary_metric": "MAPE",
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

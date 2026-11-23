@@ -1,0 +1,12 @@
+check_id,item,verdict,detail
+E1,"lambda=0 reproduces the prior on every partition, prior and metric",PASS,168/168 identical
+E2,"lambda=1 reproduces S-GBM on every partition, prior and metric",PASS,168/168 identical
+F1,wind recovered into the feature set on all three vessels,PASS,Poseidon: 11 features; Triton: 13 features; Ceto: 13 features
+L1,no learner subsampled,PASS,"partA=[False, False, False], partB=[False, False]"
+L2,fitting portion and validation tail partition the training block,PASS,Poseidon: 35887+6334=42221; Triton: 10856+1916=12772; Ceto: 4108+725=4833
+L3,geometry and lambda both selected on the validation tail only,PASS,"270 geometry candidates scored, none on dev data"
+L4,Shifts lambda* not imposed anywhere,PASS,"partA lambda* = [1.0, 1.0, 0.44]; partB lambda* = [1.0, 0.99]"
+P1,fouling term disabled and disclosed (no dry-docking clock),PASS,months_since_cleaning = 0 for every record
+P2,Ceto excluded from the Holtrop-Mennen prior for lack of heading and speed through water,PASS,"HM vessels = ['Poseidon', 'Triton']"
+P3,selected geometry is interior to the grid (no unbracketed optimum),FAIL,"Poseidon: L at grid max, CB at grid min, beam ratio at grid max, T at grid min; Triton: L at grid max, CB at grid min, beam ratio at grid max -> boundary solution: the prior shape, not its size, is the limiting factor"
+S1,"wind recovery also re-enabled the intended wind-quantile shift, so folder 05 partitions differ from part A",PASS,Poseidon: dev_in 12976/dev_out 5120 on wind10_kn; Triton: dev_in 5043/dev_out 432 on wind10_kn; Ceto: dev_in 1558/dev_out 514 on wind10_kn | control A2 on hs matches folder 05: True

@@ -1,0 +1,30 @@
+{
+  "purpose": "Friedman + Nemenyi comparison of WBM, BBM, S-GBM and C-GBM",
+  "reference_protocol": "Fousseni, Otis & Ziane (2026) MLWA 23:100813, s3.8, s4.3-4.4",
+  "analysis_A": {
+    "n_blocks": 9,
+    "n_folds": 8,
+    "tail_fraction_for_lambda": 0.2,
+    "lambda_grid": "0.00-1.00 step 0.01",
+    "selection_metric": "MAPE",
+    "dev_in_dev_out_used": false
+  },
+  "analysis_B": {
+    "n_blocks_per_partition": 10,
+    "lambda_star": 0.7,
+    "models": "folder-01 frozen",
+    "reproduces_folder24": true
+  },
+  "learner": "huber",
+  "metrics": [
+    "MAPE",
+    "MAE",
+    "RMSE",
+    "R2"
+  ],
+  "alpha": 0.05,
+  "seed": 42,
+  "eta_wave_loss": 0.03,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06",
+  "runtime_s": 21.9
+}

@@ -1,0 +1,22 @@
+\begin{table}[!t]
+\centering
+\caption{Paired moving-block bootstrap of the MAPE difference between C-GBM and each architecture.}
+\label{tab:block-bootstrap-mape}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.06}
+\begin{tabular}{llrcr}
+\toprule
+\rowcolor{gray!10}
+\textbf{Set} & \textbf{Comparison} & \textbf{$\Delta$ (pp)} & \textbf{95\% CI} & \textbf{$p_{\mathrm{Holm}}$}\\
+\midrule
+\multirow{3}{*}{In-domain} & C-GBM $-$ WBM & -0.610 & [-0.926, -0.297] & \textbf{0.002}\\
+ & C-GBM $-$ BBM & -10.582 & [-13.108, -8.321] & \textbf{0.002}\\
+ & C-GBM $-$ S-GBM & -0.551 & [-0.699, -0.390] & \textbf{0.002}\\
+\midrule
+\multirow{3}{*}{Shifted} & C-GBM $-$ WBM & -0.481 & [-1.020, +0.068] & 0.087\\
+ & C-GBM $-$ BBM & -13.198 & [-16.452, -10.289] & \textbf{0.002}\\
+ & C-GBM $-$ S-GBM & -0.812 & [-1.107, -0.515] & \textbf{0.002}\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,9 @@
+Vessel,Prior,Architecture,Parameter,MAPE_in_pct,MAPE_out_pct,delta_MAPE_pp,lambda_star
+Poseidon,WBM (Holtrop-Mennen),WBM (Holtrop-Mennen),-,20.89813554824074,14.948627007273995,-5.949508540966747,
+Poseidon,WBM (Holtrop-Mennen),BBM (Huber on target),-,10.042326676901245,7.6513659368340425,-2.390960740067203,
+Poseidon,WBM (Holtrop-Mennen),S-GBM (Huber residual),lambda=1,7.258932928484095,8.75047287815737,1.4915399496732746,
+Poseidon,WBM (Holtrop-Mennen),C-GBM (Huber residual),lambda*=1,7.258932928484095,8.75047287815737,1.4915399496732746,1.0
+Triton,WBM (Holtrop-Mennen),WBM (Holtrop-Mennen),-,13.674574636702722,17.24393288341737,3.5693582467146463,
+Triton,WBM (Holtrop-Mennen),BBM (Huber on target),-,10.291932768673721,14.84294097690324,4.5510082082295185,
+Triton,WBM (Holtrop-Mennen),S-GBM (Huber residual),lambda=1,11.435992167433694,15.754560370013568,4.318568202579874,
+Triton,WBM (Holtrop-Mennen),C-GBM (Huber residual),lambda*=0.99,11.364553968781408,15.733757365895146,4.369203397113738,0.99

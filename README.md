@@ -64,22 +64,51 @@ python scripts/download_benchmarks.py      # fetches both and verifies every fil
 ```
 
 The 13 experiment stages that write the paper's tables are listed in
-`reproduce/stages.json`, and `reproduce/table_map.json` links every checked table cell to
-the result file that produced it.
+`reproduce/stages.json` and described in `experiments/revision/README.md`. The result files
+they wrote for the paper are in `results/revision_final/`, and `reproduce/table_map.json`
+links every checked table cell to the result file that produced it. The version used for the
+paper is release `v1.0.0`.
+
+### Environment
+
+Tested with Python 3.14.3 on Windows 11 (Intel Core Ultra 9 275HX, 24 logical CPUs, 15 GB
+RAM). `reproduce/requirements-lock.txt` pins the exact library versions that produced the
+results.
 
 ```bash
-python -m reproduce.reproduce --quick          # compare shipped results with the paper (minutes)
-python -m reproduce.reproduce --full --yes     # rerun every stage from the downloaded data, then compare
+python -m venv .venv
+.venv\Scripts\activate            # Linux/macOS: source .venv/bin/activate
+pip install -r reproduce/requirements-lock.txt
+pip install -e . --no-deps
 ```
 
-`--full` copies the existing `results/` to `results_shipped/` before it overwrites anything.
-It then deletes the cached learner fits (every `_cache/` folder and `_rows.csv` under
-`results/`) and the cached physics predictions, so that every learner is refitted rather than
-read back. This takes several hours: the SVR residual learner alone took 4,674 s to fit on
-the 286,580-row fitting block in the original run.
+### Quick check (seconds)
 
-A frozen reproduction package with the result files, an exact environment and a quick check
-that runs in minutes is archived on OSF: https://doi.org/10.17605/OSF.IO/M7FJ3.
+```bash
+python -m reproduce.reproduce --quick
+```
+
+It compares the 466 table cells of 13 tables mapped in `reproduce/table_map.json` with the
+result files in `results/`, at the precision printed in the paper, and prints PASS or FAIL per
+table; every table passes and the command exits with code 0. It needs no benchmark data.
+
+### Full rerun (optional)
+
+```bash
+python scripts/download_benchmarks.py         # about 110 MB, checksums verified
+python -m reproduce.reproduce --full --yes    # reruns every stage, then the quick check
+```
+
+`--full` first copies `results/` to `results_shipped/`, then deletes the cached learner fits
+(every `_cache/` folder and `_rows.csv` under `results/`) and the cached physics predictions,
+so that every learner is refitted rather than read back, then rewrites `results/` from the
+downloaded data. This takes several hours: the SVR residual learner alone took 4,674 s to fit
+on the 286,580-row fitting block in the original run. One stage, `s06_fuelcast_wind_and_wbm`,
+ends with exit code 2 by design: its own check reports that the hull geometry of the reduced
+FuelCast prior sits at the edge of its search grid for two vessels, the same verdict as in the
+original run.
+
+The OSF project https://doi.org/10.17605/OSF.IO/M7FJ3 links to this repository.
 
 ## Provenance
 

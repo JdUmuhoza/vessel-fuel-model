@@ -8,9 +8,9 @@ dist/
 .pytest_cache/
 catboost_info/
 
-# Downloaded benchmark data and generated results are never committed
-# (anchored to the repository root so templates/data/ stays tracked)
+# Downloaded benchmark data are never committed (anchored to the repository root so
+# templates/data/ stays tracked). results/ holds the paper's result files and is tracked;
+# results_shipped/ is the backup a full rerun makes.
 /data/
-/results/
 /results_shipped/
 /outputs/

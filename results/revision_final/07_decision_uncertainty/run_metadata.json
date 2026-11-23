@@ -1,0 +1,45 @@
+{
+  "purpose": "Section 5.5 decision-level performance and predictive uncertainty",
+  "benchmark": "Shifts marine (primary); FuelCast not used",
+  "source_configuration": "results/revision_final/01_full_data_602020",
+  "protocol": "chronological 60/20/20 on the full train.csv",
+  "k_full_training_block": 0.39358639523538735,
+  "residual_learner": "Huber",
+  "bbm": "Huber fitted on measured power",
+  "lambda_star": 0.7,
+  "lambda_reselected": false,
+  "lambda_touched_by_dev_or_test_or_decision_or_uncertainty": false,
+  "excluded": [
+    "CatBoost",
+    "ExtraTrees",
+    "ridge-to-physics",
+    "bounded residual"
+  ],
+  "conformal": {
+    "alpha": 0.1,
+    "calibration": "validation block only",
+    "n_calibration": 106141,
+    "quantile": "ceil((n+1)(1-alpha))/n, finite-sample corrected",
+    "radius_frozen_before_dev": true
+  },
+  "decision": {
+    "primary_protocol": "refit on the training interquartile speed band, as published (Section 4.3)",
+    "mid_band_kn": [
+      14.69785022735595,
+      19.1797008514404
+    ],
+    "sensitivity_protocol": "fully-trained Section 5.3 models, labelled as such; NOT counterfactual because those speeds were in training",
+    "bins": "draft tercile x wind tercile",
+    "cells": "1-kn speed cells, >=5 records, >=4 cells per bin",
+    "economics_source": "regret_core (published constants)",
+    "bootstrap": {
+      "B": 2000,
+      "unit": "rows within a speed cell",
+      "paired": true
+    }
+  },
+  "checks_passed": 9,
+  "checks_total": 9,
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

@@ -1,0 +1,5 @@
+architecture,calibration_partition,n_calibration,alpha,nominal_coverage,quantile_level_finite_sample,radius_kw_finite_sample,radius_kw_plain_quantile,radius_difference_kw,frozen_before_dev_evaluation,dev_data_used_in_calibration
+WBM,validation,106141,0.1,0.9,0.9000103635729831,3615.7651731845103,3615.5251441438704,0.24002904063991082,True,False
+BBM,validation,106141,0.1,0.9,0.9000103635729831,2986.8211873198115,2986.759356590075,0.06183072973635717,True,False
+S-GBM,validation,106141,0.1,0.9,0.9000103635729831,2581.1523846528207,2581.147353121167,0.00503153165391268,True,False
+C-GBM,validation,106141,0.1,0.9,0.9000103635729831,2823.3498969066904,2823.332638172935,0.017258733755625144,True,False

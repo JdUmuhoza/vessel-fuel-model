@@ -1,0 +1,4 @@
+vessel_short,split_variable,n_dev_in_folder29,n_dev_in_control,n_dev_out_folder29,n_dev_out_control,partitions_match,n_features_folder29,n_features_control,features_recovered,lambda_star_folder29,lambda_star_control,cgbm_MAPE_in_folder29,cgbm_MAPE_in_control,cgbm_MAPE_out_folder29,cgbm_MAPE_out_control
+Poseidon,hs (matched to folder 05),9762,9762,8334,8334,True,8,11,temp;wind10_ang;wind10_kn,1.0,1.0,6.570259745986898,5.723344750534912,7.052317354871442,6.8870086895107
+Triton,hs (matched to folder 05),4854,4854,621,621,True,10,13,temp;wind10_ang;wind10_kn,1.0,1.0,11.416865841800362,11.121339082492778,10.812377282823046,10.607273386480072
+Ceto,hs (matched to folder 05),1443,1443,629,629,True,10,13,temp;wind10_ang;wind10_kn,0.31,0.44,20.210266685028685,18.632778205803096,16.96155002095967,16.505385132872807

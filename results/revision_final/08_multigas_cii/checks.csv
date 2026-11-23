@@ -1,0 +1,13 @@
+check_id,item,verdict,detail
+F1,Section 5.3 MAPE reproduced,PASS,8/8
+F2,"lambda 0.70 frozen, k reproduced",PASS,"lambda=0.7, k=0.393586"
+F3,no obsolete learner or variant,PASS,"Huber only; no CatBoost, ExtraTrees, ridge or bounded residual; FuelCast not loaded"
+A1,records are uniformly spaced in time,FAIL,"dev_in: gap median 26 min, mean 93.9, max 38,763; dev_out: gap median 1 min, mean 15.8, max 28,456"
+A2,cumulative tonnes are a measured duration,FAIL,"totals depend entirely on an assumed interval; the published values correspond to a uniform 1 h per record, which matches neither the 1-minute time unit nor the observed gaps"
+A3,published totals identified and reproduced,PASS,"uniform 1 h per record reproduces 64,620.7 t and 54,220.0 t"
+B1,CH4 slip term is load independent for MDO,PASS,ch4_lowload_gain = 0.0 so the slip factor is constant; gases are strictly proportional to fuel
+B2,gas composition identical across all series,PASS,CO2e/fuel spread = 3.92e-16 t/t across 10 series
+C1,attained CII invariant to a uniform interval,PASS,20/20 identical between the 1 h and 1 min conventions
+C2,vessel class established by the benchmark,FAIL,"vessel anonymised; both reference lines retained as a sensitivity analysis only, not a regulatory classification"
+C3,architecture changes any CII rating,PASS,"dev_in/bulk carrier: ['E']; dev_in/container ship: ['D']; dev_out/bulk carrier: ['E']; dev_out/container ship: ['C', 'D']"
+R1,relative differences invariant to the interval,PASS,"a uniform interval multiplies every series identically, so it cancels in any ratio against the measured-power reference"

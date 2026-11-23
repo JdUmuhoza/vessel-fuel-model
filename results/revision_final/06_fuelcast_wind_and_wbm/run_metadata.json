@@ -1,0 +1,63 @@
+{
+  "purpose": "Section 5.4 after the FuelCast loader fix, plus a fuller Holtrop-Mennen prior where the data supports one",
+  "loader_bug_fixed": {
+    "wrong": [
+      "Weather_WindSpeed10m",
+      "Weather_WindDirection10m",
+      "Weather_Temperature2m"
+    ],
+    "correct": [
+      "Weather_WindSpeed10M",
+      "Weather_WindDirection10M",
+      "Weather_Temperature2M"
+    ],
+    "effect_before_fix": "columns NaN-filled, then dropped by the 95 % presence filter, so every earlier FuelCast run was wind-blind",
+    "guard_added": "load_fuelcast_vessel now raises on an unknown non-optional source column"
+  },
+  "supersedes": [
+    "earlier FuelCast run with CatBoost (not released)",
+    "05_fuelcast_huber (pre-fix feature set)"
+  ],
+  "shifts_results_unchanged": true,
+  "residual_learner": "Huber",
+  "bbm_learner": "Huber on the measured target",
+  "constraint": "residual shrinkage only",
+  "lambda_grid": "0.00..1.00 step 0.01",
+  "primary_criterion": "MAPE",
+  "hm_prior_vessels": [
+    "Poseidon",
+    "Triton"
+  ],
+  "hm_resistance_terms": "calm water + Blendermann wind + STAWAVE-1 waves + current effect on SOG; Schultz fouling disabled",
+  "geometry_grid": {
+    "L": [
+      80.0,
+      100.0,
+      120.0,
+      140.0,
+      160.0,
+      180.0
+    ],
+    "beam_ratio": [
+      4.5,
+      5.5,
+      6.5
+    ],
+    "CB": [
+      0.6,
+      0.7,
+      0.8
+    ],
+    "T_if_no_draught": [
+      5.0,
+      7.0,
+      9.0,
+      11.0
+    ],
+    "selected_on": "validation tail, k-scaled prior MAPE"
+  },
+  "checks_passed": 10,
+  "checks_total": 11,
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

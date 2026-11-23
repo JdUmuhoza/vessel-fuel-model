@@ -20,9 +20,10 @@ keywords:
   - distribution shift
   - greenhouse-gas emissions
 license: MIT
-version: 0.3.0
+version: 1.0.0
+date-released: 2026-11-23
 identifiers:
   - type: doi
     value: 10.17605/OSF.IO/M7FJ3
-    description: Reproduction package on OSF (code, result files and table check)
+    description: OSF project linking this repository
 # Add the paper as preferred-citation once it is published.

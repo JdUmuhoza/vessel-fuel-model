@@ -1,0 +1,8 @@
+partition,n_records,fraction_of_train_csv,time_id_min,time_id_max,power_mean_kw,power_median_kw,stw_mean_kn,used_for_fitting,used_for_selection,used_for_frozen_check,benchmark_holdout
+train,318423,0.5999988694305322,0,1147027,20073.359936845016,21801.0,17.098423294787402,True,False,False,False
+validation,106141,0.19999962314351072,1147028,1403834,21219.589560113433,23524.0,17.91267583951559,False,True,False,False
+internal_test,106142,0.20000150742595713,1403835,1724769,19999.828823651336,22539.5,17.13701422664067,False,False,True,False
+dev_in,18368,,26,1724733,20343.06211890244,22763.0,17.282093259697383,False,False,False,True
+dev_out,18368,,1595615,1884984,16628.856963196864,14326.5,15.438447749988542,False,False,False,True
+train:parameter-fitting sub-block,286580,0.5399976634897664,0,1071727,,,,True,False,False,False
+train:early-stopping sub-block,31843,0.060001205940765696,1071728,1147027,,,,False,False,False,False

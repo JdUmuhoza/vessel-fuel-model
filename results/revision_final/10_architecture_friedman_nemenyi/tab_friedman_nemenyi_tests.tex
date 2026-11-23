@@ -1,0 +1,31 @@
+\begin{table*}[!t]
+\centering
+\caption{Friedman tests, average ranks and Holm-corrected Wilcoxon tests of the four architectures.}
+\label{tab:friedman-nemenyi-tests}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.06}
+\begin{tabular}{llrrcccccccc}
+\toprule
+\rowcolor{gray!10}
+\textbf{Analysis} & \textbf{Metric} & \textbf{$\chi^2_F$} & \textbf{$p_F$} & \textbf{WBM} & \textbf{BBM} & \textbf{S-GBM} & \textbf{C-GBM} & \textbf{CD} & \textbf{vs WBM} & \textbf{vs BBM} & \textbf{vs S-GBM}\\
+\midrule
+\multirow{4}{*}{Cross-validation} & MAPE & 16.65 & \textbf{$<$0.001} & 2.00 & 3.88 & 2.75 & \textbf{1.38} & 1.66 & 0.461 & \textbf{0.023} & \textbf{0.023}\\
+ & MAE & 6.45 & 0.092 & 2.62 & 3.25 & 2.50 & \textbf{1.62} & 1.66 & 0.117 & 0.117 & 0.312\\
+ & RMSE & 10.35 & \textbf{0.016} & 3.00 & 3.38 & 2.12 & \textbf{1.50} & 1.66 & \textbf{0.023} & \textbf{0.031} & 0.742\\
+ & $R^2$ & 10.35 & \textbf{0.016} & 3.00 & 3.38 & 2.12 & \textbf{1.50} & 1.66 & \textbf{0.023} & \textbf{0.031} & 0.641\\
+\midrule
+\multirow{4}{*}{In-domain set} & MAPE & 23.76 & \textbf{$<$0.001} & 2.40 & 4.00 & 2.40 & \textbf{1.20} & 1.48 & 0.160 & \textbf{0.006} & \textbf{0.006}\\
+ & MAE & 15.00 & \textbf{0.002} & 2.90 & 3.60 & \textbf{1.70} & 1.80 & 1.48 & \textbf{0.020} & \textbf{0.006} & 0.557$^{\dagger}$\\
+ & RMSE & 24.84 & \textbf{$<$0.001} & 3.00 & 3.90 & \textbf{1.30} & 1.80 & 1.48 & \textbf{0.006} & \textbf{0.006} & \textbf{0.049}$^{\dagger}$\\
+ & $R^2$ & 24.84 & \textbf{$<$0.001} & 3.00 & 3.90 & \textbf{1.30} & 1.80 & 1.48 & \textbf{0.006} & \textbf{0.006} & \textbf{0.049}$^{\dagger}$\\
+\midrule
+\multirow{4}{*}{Shifted set} & MAPE & 16.68 & \textbf{$<$0.001} & 2.50 & 3.80 & 2.20 & \textbf{1.50} & 1.48 & 0.322 & \textbf{0.006} & 0.129\\
+ & MAE & 18.84 & \textbf{$<$0.001} & 2.80 & 3.80 & 1.90 & \textbf{1.50} & 1.48 & 0.055 & \textbf{0.006} & 0.160\\
+ & RMSE & 19.80 & \textbf{$<$0.001} & 2.90 & 3.80 & 1.70 & \textbf{1.60} & 1.48 & \textbf{0.020} & \textbf{0.006} & 1.000$^{\dagger}$\\
+ & $R^2$ & 19.80 & \textbf{$<$0.001} & 2.90 & 3.80 & 1.70 & \textbf{1.60} & 1.48 & \textbf{0.027} & \textbf{0.006} & 0.770$^{\dagger}$\\
+\midrule
+\multicolumn{12}{@{}p{16.5cm}@{}}{\footnotesize Columns WBM to C-GBM give average Friedman ranks (1 = best, lowest in bold); CD is the Nemenyi critical difference at the 5\% significance level; the last three columns give Holm-corrected Wilcoxon $p$-values of C-GBM against each architecture, in bold when below 0.05. $^{\dagger}$ marks a difference in favour of the other architecture.}\\
+\bottomrule
+\end{tabular}
+\end{table*}

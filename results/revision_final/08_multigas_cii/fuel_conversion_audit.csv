@@ -1,0 +1,7 @@
+partition,integration_assumption,n_observations,total_hours_implied,total_days_implied,cumulative_fuel_t,distance_nm,reproduces_old_dev_in_or_out_total
+dev_in,uniform 1 h per record (published convention),18368,18368.0,765.3333333333334,64620.65460928196,317437.48899412155,True
+dev_in,uniform 1 min per record (matches the time unit),18368,306.1333333333333,12.755555555555555,1077.0109101546993,5290.624816568692,False
+dev_in,gap to the next record (h),18368,28745.55,1197.73125,82665.63890550657,445788.8829801877,False
+dev_out,uniform 1 h per record (published convention),18368,18368.0,765.3333333333334,54219.975007187706,283573.40827178955,True
+dev_out,uniform 1 min per record (matches the time unit),18368,306.1333333333333,12.755555555555555,903.6662501197951,4726.223471196492,False
+dev_out,gap to the next record (h),18368,4822.833333333334,200.9513888888889,14622.910939332329,74654.43659938971,False

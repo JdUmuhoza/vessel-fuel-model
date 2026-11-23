@@ -1,0 +1,31 @@
+{
+  "protocol": "chronological 60/20/20 on the FULL train.csv",
+  "n_train_csv": 530706,
+  "n_train": 318423,
+  "n_validation": 106141,
+  "n_internal_test": 106142,
+  "n_dev_in": 18368,
+  "n_dev_out": 18368,
+  "early_stopping": {
+    "models": [
+      "catboost",
+      "lightgbm",
+      "xgboost"
+    ],
+    "set": "last 10 % of the training block",
+    "n": 31843
+  },
+  "old_protocol_n_train_sub": 40000,
+  "physics_k": 0.39358639523538735,
+  "primary_metric": "MAPE",
+  "selected_backend": "Huber",
+  "lambda_star": 0.7,
+  "excluded_models": [
+    "GaussianProcess",
+    "PNN (GRNN)",
+    "SVR (RBF)"
+  ],
+  "dev_used_in_selection": false,
+  "seed": 42,
+  "git_commit": "e125867a8f7d3908d9daf52ea4c4b0864bd09a06"
+}

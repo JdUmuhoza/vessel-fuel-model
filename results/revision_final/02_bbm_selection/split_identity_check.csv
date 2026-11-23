@@ -1,0 +1,6 @@
+partition,n_here,n_folder24,time_id_min_here,time_id_min_folder24,time_id_max_here,time_id_max_folder24,identical,used_in_bbm_selection,dev_leakage
+train,318423,318423,0,0,1147027,1147027,True,True,False
+validation,106141,106141,1147028,1147028,1403834,1403834,True,True,False
+internal_test,106142,106142,1403835,1403835,1724769,1724769,True,False,False
+dev_in,18368,18368,26,26,1724733,1724733,True,False,False
+dev_out,18368,18368,1595615,1595615,1884984,1884984,True,False,False

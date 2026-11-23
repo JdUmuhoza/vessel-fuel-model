@@ -1,0 +1,13 @@
+vessel,architecture,architecture_label,MAPE_in_pct,MAPE_out_pct,delta_MAPE_pp,lambda_star,n_dev_in,n_dev_out,source_table,source_metrics
+Poseidon,WBM-lite (cube law),WBM-lite,19.585844969699256,12.814936650798863,-6.770908318900393,,12976,5120,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Poseidon,BBM (Huber on target),BBM,10.042326676901244,7.651365936834042,-2.390960740067202,,12976,5120,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Poseidon,S-GBM (Huber residual),S-GBM,5.937043320707571,7.075888231172371,1.1388449104648002,,12976,5120,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Poseidon,C-GBM (Huber residual),C-GBM,5.937043320707571,7.075888231172371,1.1388449104648002,1.0,12976,5120,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Triton,WBM-lite (cube law),WBM-lite,13.97676170974406,17.574091833375487,3.5973301236314263,,5043,432,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Triton,BBM (Huber on target),BBM,10.29193276867372,14.84294097690324,4.55100820822952,,5043,432,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Triton,S-GBM (Huber residual),S-GBM,10.76523654127849,14.539372226288508,3.774135685010018,,5043,432,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Triton,C-GBM (Huber residual),C-GBM,10.76523654127849,14.539372226288508,3.774135685010018,1.0,5043,432,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Ceto,WBM-lite (cube law),WBM-lite,31.088609572465508,21.898711909194933,-9.189897663270575,,1558,514,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Ceto,BBM (Huber on target),BBM,39.82840909003029,43.17111067168012,3.342701581649827,,1558,514,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Ceto,S-GBM (Huber residual),S-GBM,34.261012395971505,20.6046317228853,-13.656380673086204,,1558,514,partA_manuscript_table_mape.csv,partA_all_metrics.csv
+Ceto,C-GBM (Huber residual),C-GBM,17.50717968102207,19.44124563524995,1.9340659542278793,0.44,1558,514,partA_manuscript_table_mape.csv,partA_all_metrics.csv
