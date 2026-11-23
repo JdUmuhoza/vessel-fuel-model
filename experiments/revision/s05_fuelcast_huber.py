@@ -30,7 +30,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv
-from .rf32_full_data_602020 import metrics7
+from .s01_full_data_602020 import metrics7
 
 _E = REPO_ROOT / "experiments"
 if str(_E) not in sys.path:
@@ -39,7 +39,7 @@ from benchmark_measured.common import (  # noqa: E402
     FC_VESSELS, fit_cube, fuelcast_shift_splits, load_fuelcast_vessel, make_learner,
 )
 
-OUT = REV_FINAL / "29_fuelcast_huber_final"
+OUT = REV_FINAL / "05_fuelcast_huber"
 BACKEND = "huber"                 # residual learner AND standalone BBM, per Section 5.1
 FIT_FRACTION = 0.85               # unchanged from the published FuelCast protocol
 LAM = np.round(np.arange(0.0, 1.0 + 1e-9, 0.01), 4)
@@ -268,8 +268,8 @@ def main() -> int:
     (OUT / "run_metadata.json").write_text(json.dumps({
         "purpose": "Section 5.4 FuelCast cross-vessel boundary analysis, "
                    "Huber methodology",
-        "supersedes": "results/revision_final/21_fuelcast_shrinkage_dense/ "
-                      "(CatBoost residual learner)",
+        "supersedes": "an earlier FuelCast run with a CatBoost residual learner "
+                      "(not released)",
         "catboost_numbers_reused": False,
         "residual_learner": "Huber", "bbm_learner": "Huber on the measured target",
         "constraint": "residual shrinkage only",

@@ -5,7 +5,7 @@ Huber standalone BBM, shrinkage-only constraint, per-vessel lambda on a 101-poin
 selected on that vessel's own training-side validation tail).
 
 Part A - wind-aware rerun with the existing WBM-lite cube-law prior. Line-by-line
-comparable with folder 29, which was produced before the loader fix and therefore had
+comparable with folder 05, which was produced before the loader fix and therefore had
 apparent wind, wind direction and air temperature silently dropped from the feature set
 (the ``_FC_MAP`` source names used lowercase ``10m``/``2m`` where the files use ``10M``/
 ``2M``, and the loader NaN-filled unknown names without raising).
@@ -34,7 +34,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv
-from .rf32_full_data_602020 import metrics7
+from .s01_full_data_602020 import metrics7
 
 _E = REPO_ROOT / "experiments"
 if str(_E) not in sys.path:
@@ -45,8 +45,8 @@ from benchmark_measured.common import (  # noqa: E402
 )
 from vessel_fuel import fuel_components  # noqa: E402
 
-OUT = REV_FINAL / "30_fuelcast_wind_and_wbm"
-F29 = REV_FINAL / "29_fuelcast_huber_final"
+OUT = REV_FINAL / "06_fuelcast_wind_and_wbm"
+F05 = REV_FINAL / "05_fuelcast_huber"
 BACKEND = "huber"
 FIT_FRACTION = 0.85
 LAM = np.round(np.arange(0.0, 1.0 + 1e-9, 0.01), 4)
@@ -296,7 +296,7 @@ def main() -> int:
     # Control: the same wind-aware feature set on the PRE-FIX split variable.
     # Recovering the wind column also re-enabled the intended wind-quantile shift
     # (fuelcast_shift_splits falls back to hs when the wind column is unusable), so
-    # folder 29 and part A do not share partitions. This control holds the split
+    # folder 05 and part A do not share partitions. This control holds the split
     # fixed at hs so the feature-set effect can be read on its own.
     a2_arch, a2_curve, a2_ident, a2_sel = part_a(shift_var="hs", tag="A2")
     b_arch, b_curve, b_ident, b_sel, b_grid = part_b()
@@ -325,7 +325,7 @@ def main() -> int:
             "cube_R2_out": cu.R2_out, "hm_R2_out": hm.R2_out})
     cmp = pd.DataFrame(cmp_rows)
 
-    # feature-set diff against folder 29 (pre-fix), on the matched hs split
+    # feature-set diff against folder 05 (pre-fix), on the matched hs split
     import ast
 
     def parse_feats(x) -> set[str]:
@@ -338,8 +338,8 @@ def main() -> int:
             pass
         return {p for p in s.replace(",", ";").split(";") if p.strip()}
 
-    f29 = pd.read_csv(F29 / "fuelcast_lambda_selection.csv")
-    f29_arch = pd.read_csv(F29 / "fuelcast_all_metrics.csv")
+    f29 = pd.read_csv(F05 / "fuelcast_lambda_selection.csv")
+    f29_arch = pd.read_csv(F05 / "fuelcast_all_metrics.csv")
     diff = []
     for _, r in a2_sel.iterrows():
         old = f29[f29.vessel == r.vessel].iloc[0]
@@ -349,7 +349,7 @@ def main() -> int:
         nc = a2_arch[(a2_arch.vessel == r.vessel)
                      & a2_arch.architecture.str.startswith("C-GBM")].iloc[0]
         diff.append({"vessel_short": r.vessel_short,
-                     "split_variable": "hs (matched to folder 29)",
+                     "split_variable": "hs (matched to folder 05)",
                      "n_dev_in_folder29": int(old.n_dev_in),
                      "n_dev_in_control": int(r.n_dev_in),
                      "n_dev_out_folder29": int(old.n_dev_out),
@@ -425,10 +425,10 @@ def main() -> int:
                                     " -> boundary solution: the prior shape, not its "
                                     "size, is the limiting factor"))
     chk("S1", "wind recovery also re-enabled the intended wind-quantile shift, so "
-              "folder 29 partitions differ from part A", True,
+              "folder 05 partitions differ from part A", True,
         "; ".join(f"{r.vessel_short}: dev_in {r.n_dev_in}/dev_out {r.n_dev_out} on "
                   f"{r.shift_variable}" for _, r in a_sel.iterrows())
-        + " | control A2 on hs matches folder 29: "
+        + " | control A2 on hs matches folder 05: "
         + str(bool(fdiff.partitions_match.all())))
     cdf = pd.DataFrame(checks)
     n_fail = int((cdf.verdict == "FAIL").sum())
@@ -446,7 +446,7 @@ def main() -> int:
     write_csv(b_curve, OUT / "partB_lambda_curves_validation.csv")
     write_csv(b_grid, OUT / "partB_geometry_grid_validation.csv")
     write_csv(cmp, OUT / "prior_comparison_cube_vs_hm.csv")
-    write_csv(fdiff, OUT / "feature_set_diff_vs_folder29.csv")
+    write_csv(fdiff, OUT / "feature_set_diff_vs_05_fuelcast_huber.csv")
     write_csv(ident_all, OUT / "endpoint_identity.csv")
     write_csv(cdf, OUT / "checks.csv")
     (OUT / "run_metadata.json").write_text(json.dumps({
@@ -462,8 +462,8 @@ def main() -> int:
                                  "was wind-blind",
             "guard_added": "load_fuelcast_vessel now raises on an unknown "
                            "non-optional source column"},
-        "supersedes": ["21_fuelcast_shrinkage_dense (CatBoost)",
-                       "29_fuelcast_huber_final (pre-fix feature set)"],
+        "supersedes": ["earlier FuelCast run with CatBoost (not released)",
+                       "05_fuelcast_huber (pre-fix feature set)"],
         "shifts_results_unchanged": True,
         "residual_learner": "Huber", "bbm_learner": "Huber on the measured target",
         "constraint": "residual shrinkage only",

@@ -2,7 +2,7 @@
 
 Primary Shifts benchmark only. FuelCast is not touched.
 
-Frozen architecture set, identical to the final Section 5.3 results (folder 24):
+Frozen architecture set, identical to the final Section 5.3 results (folder 01):
     WBM    = k * F_phys, k fitted on the training block
     BBM    = Huber fitted directly on measured shaft power
     S-GBM  = k * F_phys + f_Huber(x)                 (lambda = 1)
@@ -40,7 +40,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv
-from .rf32_full_data_602020 import (
+from .s01_full_data_602020 import (
     FEATS, build_splits, fit_learner, metrics7, physics,
 )
 from .regret_core import (
@@ -52,8 +52,8 @@ if str(_E) not in sys.path:
     sys.path.insert(0, str(_E))
 from benchmark_measured.common import fit_scale  # noqa: E402
 
-OUT = REV_FINAL / "34_final_decision_uncertainty"
-F24 = REV_FINAL / "24_full_data_602020"
+OUT = REV_FINAL / "07_decision_uncertainty"
+F01 = REV_FINAL / "01_full_data_602020"
 
 LAMBDA_STAR = 0.70
 RESID_KEY = BBM_KEY = "huber"
@@ -121,7 +121,7 @@ def predict(mdl, frame, phys):
 # ------------------------------------------------- Section 5.3 consistency ---
 
 def consistency(parts, ph, full) -> pd.DataFrame:
-    ref = pd.read_csv(F24 / "final_dev_in_dev_out.csv")
+    ref = pd.read_csv(F01 / "final_dev_in_dev_out.csv")
     ref["architecture"] = ref["architecture"].str.replace(r"^C-GBM.*", "C-GBM",
                                                           regex=True)
     rows, fails, mape = [], [], {}
@@ -431,7 +431,7 @@ def main() -> int:
     (OUT / "run_metadata.json").write_text(json.dumps({
         "purpose": "Section 5.5 decision-level performance and predictive uncertainty",
         "benchmark": "Shifts marine (primary); FuelCast not used",
-        "source_configuration": "results/revision_final/24_full_data_602020",
+        "source_configuration": "results/revision_final/01_full_data_602020",
         "protocol": "chronological 60/20/20 on the full train.csv",
         "k_full_training_block": full["k"],
         "residual_learner": "Huber", "bbm": "Huber fitted on measured power",

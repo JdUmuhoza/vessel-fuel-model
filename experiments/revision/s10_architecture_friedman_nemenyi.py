@@ -1,7 +1,7 @@
 """Friedman + Nemenyi comparison of the four architectures (WBM, BBM, S-GBM, C-GBM).
 
 Applies to the *architectures* the two-step non-parametric protocol already used for
-learner selection in ``rf17`` (Friedman omnibus test, Nemenyi post-hoc test with a
+learner selection in ``ml_statistical_comparison`` (Friedman omnibus test, Nemenyi post-hoc test with a
 critical-difference diagram, alpha = 0.05), as in Fousseni, Otis and Ziane (2026),
 Machine Learning with Applications 23, 100813, Sections 3.8 and 4.3-4.4.
 
@@ -9,7 +9,7 @@ Two pre-declared analyses, both fixed before any result was seen:
 
 A. Rolling-origin cross-validation on the development data only.
    The chronological development file (train + validation + internal-test blocks of
-   the folder-24 60/20/20 split, 530,706 records) is cut into ``N_BLOCKS`` contiguous
+   the folder-01 60/20/20 split, 530,706 records) is cut into ``N_BLOCKS`` contiguous
    unshuffled blocks, giving ``N_BLOCKS - 1`` folds: fold f trains on blocks 0..f and
    tests on block f+1. Inside each fold the training window is split in time into a
    fitting portion (first ``1 - TAIL_FRACTION``) and a selection tail (last
@@ -18,9 +18,9 @@ A. Rolling-origin cross-validation on the development data only.
    over the 101-point grid. dev_in and dev_out are never read.
 
 B. Held-out partitions with the frozen manuscript models.
-   The folder-24 models (k on the training block, Huber residual and Huber BBM on the
+   The folder-01 models (k on the training block, Huber residual and Huber BBM on the
    training block's fitting sub-block, lambda* = 0.70) are rebuilt and asserted to
-   reproduce the folder-24 dev_in/dev_out MAPE. Each held-out partition, ordered by
+   reproduce the folder-01 dev_in/dev_out MAPE. Each held-out partition, ordered by
    time, is cut into ``N_EVAL_BLOCKS`` contiguous blocks that act as repeated measures.
 
 Statistics per analysis and metric (MAPE, MAE, RMSE, R2): Shapiro-Wilk on the
@@ -32,7 +32,7 @@ Nothing existing is overwritten; no manuscript file is touched.
 
 Run from the repository root::
 
-    PYTHONPATH=. python -m experiments.revision.rf54_architecture_friedman_nemenyi
+    PYTHONPATH=. python -m experiments.revision.s10_architecture_friedman_nemenyi
 """
 
 from __future__ import annotations
@@ -49,25 +49,25 @@ from .common_rev import (
     ETA_PUBLISHED, FEATS, REPO_ROOT, REV_FINAL, SEED, physics_power_eta,
     write_csv, write_text,
 )
-from .rf17_ml_statistical_comparison import avg_ranks, holm, nemenyi_exact
-from .rf32_full_data_602020 import ES_FRACTION, fit_learner, metrics7
+from .ml_statistical_comparison import avg_ranks, holm, nemenyi_exact
+from .s01_full_data_602020 import ES_FRACTION, fit_learner, metrics7
 from benchmark_measured.common import fit_scale, load_split  # noqa: E402
 
-OUT = REV_FINAL / "38_architecture_friedman_nemenyi"
-F24 = REV_FINAL / "24_full_data_602020"
+OUT = REV_FINAL / "10_architecture_friedman_nemenyi"
+F01 = REV_FINAL / "01_full_data_602020"
 
 # ---- pre-declared protocol constants -------------------------------------
 N_BLOCKS = 9                 # analysis A: 9 contiguous blocks -> 8 rolling-origin folds
 TAIL_FRACTION = 0.20         # analysis A: lambda-selection tail of each training window
 N_EVAL_BLOCKS = 10           # analysis B: contiguous blocks per held-out partition
 ALPHA = 0.05
-LAMBDA_STAR = 0.70           # folder-24 / manuscript value, used in analysis B only
+LAMBDA_STAR = 0.70           # folder-01 / manuscript value, used in analysis B only
 LAM = np.round(np.arange(0.0, 1.0 + 1e-9, 0.01), 4)
-LEARNER = "huber"            # residual learner and BBM backend (folder-24 definition)
+LEARNER = "huber"            # residual learner and BBM backend (folder-01 definition)
 ARCHS = ["WBM", "BBM", "S-GBM", "C-GBM"]
 METRICS = ["MAPE", "MAE", "RMSE", "R2"]
 LOWER_BETTER = {"MAPE": True, "MAE": True, "RMSE": True, "R2": False}
-MAPE_TOL = 1e-4              # analysis B must reproduce folder-24 MAPE to this tolerance
+MAPE_TOL = 1e-4              # analysis B must reproduce folder-01 MAPE to this tolerance
 
 
 def _git() -> str | None:
@@ -88,7 +88,7 @@ def load_development() -> dict:
     -------
     dict
         ``dev`` (development frame in time order), ``ph_dev`` (uncalibrated physics
-        power, same order), the folder-24 block boundaries ``i60``/``i80``, and the
+        power, same order), the folder-01 block boundaries ``i60``/``i80``, and the
         ``dev_in`` / ``dev_out`` frames with their physics arrays.
     """
     tr_full = load_split("train.csv")
@@ -164,7 +164,7 @@ def analysis_a(D: dict) -> tuple[pd.DataFrame, pd.DataFrame]:
 # ---------------------------------------------------------- analysis B ----
 
 def analysis_b(D: dict) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Frozen folder-24 models scored on contiguous blocks of dev_in and dev_out."""
+    """Frozen folder-01 models scored on contiguous blocks of dev_in and dev_out."""
     dev, ph = D["dev"], D["ph_dev"]
     i60 = D["i60"]
     y_tr, X_tr, ph_tr = (dev["power"].to_numpy()[:i60], dev[FEATS].to_numpy()[:i60],
@@ -175,7 +175,7 @@ def analysis_b(D: dict) -> tuple[pd.DataFrame, pd.DataFrame]:
     resid = fit_learner(LEARNER, X_tr, y_tr - k * ph_tr, fi, ei)[0]
     bbm = fit_learner(LEARNER, X_tr, y_tr, fi, ei)[0]
 
-    ref = pd.read_csv(F24 / "final_dev_in_dev_out.csv")
+    ref = pd.read_csv(F01 / "final_dev_in_dev_out.csv")
     ref["architecture"] = ref["architecture"].str.replace(r"^C-GBM.*", "C-GBM", regex=True)
     rows, ver = [], []
     for nm in ("dev_in", "dev_out"):
@@ -199,9 +199,9 @@ def analysis_b(D: dict) -> tuple[pd.DataFrame, pd.DataFrame]:
                              **{c: m[c] for c in METRICS}})
     vdf = pd.DataFrame(ver)
     if not vdf.reproduces.all():
-        raise AssertionError("frozen models do not reproduce folder-24 MAPE:\n"
+        raise AssertionError("frozen models do not reproduce folder-01 MAPE:\n"
                              + vdf.to_string())
-    print(f"[B] frozen models reproduce folder-24 MAPE on all 8 cells "
+    print(f"[B] frozen models reproduce folder-01 MAPE on all 8 cells "
           f"(k={k:.6f})", flush=True)
     return pd.DataFrame(rows), vdf
 
@@ -469,7 +469,7 @@ def main() -> int:
     (OUT / "figures").mkdir(exist_ok=True)
     t0 = time.time()
     D = load_development()
-    print(f"[S38] development {len(D['dev']):,}; dev_in {len(D['dev_in']):,}; "
+    print(f"[S10] development {len(D['dev']):,}; dev_in {len(D['dev_in']):,}; "
           f"dev_out {len(D['dev_out']):,}", flush=True)
     sa, folds = analysis_a(D)
     sb, ver = analysis_b(D)
@@ -505,14 +505,14 @@ def main() -> int:
                            "lambda_grid": "0.00-1.00 step 0.01", "selection_metric": "MAPE",
                            "dev_in_dev_out_used": False},
             "analysis_B": {"n_blocks_per_partition": N_EVAL_BLOCKS,
-                           "lambda_star": LAMBDA_STAR, "models": "folder-24 frozen",
+                           "lambda_star": LAMBDA_STAR, "models": "folder-01 frozen",
                            "reproduces_folder24": bool(ver.reproduces.all())},
             "learner": LEARNER, "metrics": METRICS, "alpha": ALPHA, "seed": SEED,
             "eta_wave_loss": ETA_PUBLISHED, "git_commit": _git(),
             "runtime_s": round(time.time() - t0, 1)}
     (OUT / "run_metadata.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     write_text(report(st, folds, labels), OUT / "README.md")
-    print(f"[S38] done in {time.time() - t0:.0f}s -> {OUT}", flush=True)
+    print(f"[S10] done in {time.time() - t0:.0f}s -> {OUT}", flush=True)
     return 0
 
 
@@ -521,7 +521,7 @@ def report(st: dict, folds: pd.DataFrame, labels: dict) -> str:
     L = ["# 38 - Friedman + Nemenyi comparison of the four architectures", "",
          "Protocol of Fousseni, Otis & Ziane (2026), MLWA 23:100813 (s3.8, s4.3-4.4), "
          "applied to WBM, BBM, S-GBM and C-GBM. Generated by "
-         "`experiments/revision/rf54_architecture_friedman_nemenyi.py`; every number "
+         "`experiments/revision/s10_architecture_friedman_nemenyi.py`; every number "
          "below is read from the CSVs in this folder.", "",
          f"- Analysis A: {N_BLOCKS - 1} rolling-origin folds on the development data; "
          f"lambda reselected per fold on the last {int(TAIL_FRACTION * 100)}% of each "

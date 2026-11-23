@@ -22,8 +22,8 @@ Nemenyi p-values are computed exactly from the studentized-range distribution
 (``scipy.stats.studentized_range``); ``scikit_posthocs`` is absent from this
 environment and no dependency was added.
 
-Run:  PYTHONPATH=. python experiments/revision/rf17_ml_statistical_comparison.py
-Outputs: results/revision_final/17_ml_statistical_comparison/
+Run:  PYTHONPATH=. python experiments/revision/ml_statistical_comparison.py
+Outputs: results/revision_final/ml_statistical_comparison/
 """
 
 from __future__ import annotations
@@ -49,7 +49,7 @@ from benchmark_measured.common import (  # noqa: E402
     BACKEND_DISPLAY, CONFIG, SUBSAMPLE_CAP, fit_scale, make_learner,
 )
 
-ROOT = REV_FINAL / "17_ml_statistical_comparison"
+ROOT = REV_FINAL / "ml_statistical_comparison"
 DIRS = {d: ROOT / d for d in
         ("protocol", "metrics", "friedman", "nemenyi", "paired", "figures",
          "tables", "summary")}
@@ -728,7 +728,7 @@ def _write_summaries(fold_def, A, B, sumA, sumB, fr, ranks, Pmats, cds, vs, lead
         "",
         "## Command",
         "",
-        "    PYTHONPATH=. python -m experiments.revision.rf17_ml_statistical_comparison",
+        "    PYTHONPATH=. python -m experiments.revision.ml_statistical_comparison",
         "",
         f"Seed {meta['seed']}; git `{meta['git_commit']}`. Nemenyi p-values are exact "
         "studentized-range values computed in this script (`scikit_posthocs` is not installed "

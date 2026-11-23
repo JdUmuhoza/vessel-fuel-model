@@ -5,7 +5,7 @@
     1,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -16,7 +16,7 @@
     1,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -27,7 +27,7 @@
     1,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -38,7 +38,7 @@
     1,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -49,7 +49,7 @@
     1,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -60,7 +60,7 @@
     1,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Huber"
    },
@@ -71,7 +71,7 @@
     2,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -82,7 +82,7 @@
     2,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -93,7 +93,7 @@
     2,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -104,7 +104,7 @@
     2,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -115,7 +115,7 @@
     2,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -126,7 +126,7 @@
     2,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "OLS"
    },
@@ -137,7 +137,7 @@
     3,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -148,7 +148,7 @@
     3,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -159,7 +159,7 @@
     3,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -170,7 +170,7 @@
     3,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -181,7 +181,7 @@
     3,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -192,7 +192,7 @@
     3,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Ridge"
    },
@@ -203,7 +203,7 @@
     4,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -214,7 +214,7 @@
     4,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -225,7 +225,7 @@
     4,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -236,7 +236,7 @@
     4,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -247,7 +247,7 @@
     4,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -258,7 +258,7 @@
     4,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Lasso"
    },
@@ -269,7 +269,7 @@
     5,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -280,7 +280,7 @@
     5,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -291,7 +291,7 @@
     5,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -302,7 +302,7 @@
     5,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -313,7 +313,7 @@
     5,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -324,7 +324,7 @@
     5,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "BayesianRidge"
    },
@@ -335,7 +335,7 @@
     6,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -346,7 +346,7 @@
     6,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -357,7 +357,7 @@
     6,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -368,7 +368,7 @@
     6,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -379,7 +379,7 @@
     6,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -390,7 +390,7 @@
     6,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ElasticNet"
    },
@@ -401,7 +401,7 @@
     7,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -412,7 +412,7 @@
     7,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -423,7 +423,7 @@
     7,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -434,7 +434,7 @@
     7,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -445,7 +445,7 @@
     7,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -456,7 +456,7 @@
     7,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "MLP"
    },
@@ -467,7 +467,7 @@
     8,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -478,7 +478,7 @@
     8,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -489,7 +489,7 @@
     8,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -500,7 +500,7 @@
     8,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -511,7 +511,7 @@
     8,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -522,7 +522,7 @@
     8,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "DecisionTree"
    },
@@ -533,7 +533,7 @@
     9,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -544,7 +544,7 @@
     9,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -555,7 +555,7 @@
     9,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -566,7 +566,7 @@
     9,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -577,7 +577,7 @@
     9,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -588,7 +588,7 @@
     9,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "ExtraTrees"
    },
@@ -599,7 +599,7 @@
     10,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -610,7 +610,7 @@
     10,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -621,7 +621,7 @@
     10,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -632,7 +632,7 @@
     10,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -643,7 +643,7 @@
     10,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -654,7 +654,7 @@
     10,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "RandomForest"
    },
@@ -665,7 +665,7 @@
     11,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -676,7 +676,7 @@
     11,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -687,7 +687,7 @@
     11,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -698,7 +698,7 @@
     11,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -709,7 +709,7 @@
     11,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -720,7 +720,7 @@
     11,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "Bagging"
    },
@@ -731,7 +731,7 @@
     12,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -742,7 +742,7 @@
     12,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -753,7 +753,7 @@
     12,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -764,7 +764,7 @@
     12,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -775,7 +775,7 @@
     12,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -786,7 +786,7 @@
     12,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "AdaBoost"
    },
@@ -797,7 +797,7 @@
     13,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -808,7 +808,7 @@
     13,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -819,7 +819,7 @@
     13,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -830,7 +830,7 @@
     13,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -841,7 +841,7 @@
     13,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -852,7 +852,7 @@
     13,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "KNN"
    },
@@ -863,7 +863,7 @@
     14,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -874,7 +874,7 @@
     14,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -885,7 +885,7 @@
     14,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -896,7 +896,7 @@
     14,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -907,7 +907,7 @@
     14,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -918,7 +918,7 @@
     14,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -929,7 +929,7 @@
     15,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -940,7 +940,7 @@
     15,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -951,7 +951,7 @@
     15,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -962,7 +962,7 @@
     15,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -973,7 +973,7 @@
     15,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -984,7 +984,7 @@
     15,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -995,7 +995,7 @@
     16,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1006,7 +1006,7 @@
     16,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1017,7 +1017,7 @@
     16,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1028,7 +1028,7 @@
     16,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1039,7 +1039,7 @@
     16,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1050,7 +1050,7 @@
     16,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -1061,7 +1061,7 @@
     17,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1072,7 +1072,7 @@
     17,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1083,7 +1083,7 @@
     17,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1094,7 +1094,7 @@
     17,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1105,7 +1105,7 @@
     17,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1116,7 +1116,7 @@
     17,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "HistGB"
    },
@@ -1127,7 +1127,7 @@
     18,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1138,7 +1138,7 @@
     18,
     3
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1149,7 +1149,7 @@
     18,
     4
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1160,7 +1160,7 @@
     18,
     5
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1171,7 +1171,7 @@
     18,
     6
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1182,7 +1182,7 @@
     18,
     7
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "GBT"
    },
@@ -1195,7 +1195,7 @@
     2,
     1
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -1207,7 +1207,7 @@
     2,
     5
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -1219,7 +1219,7 @@
     2,
     2
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -1231,7 +1231,7 @@
     2,
     6
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -1243,7 +1243,7 @@
     2,
     3
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -1255,7 +1255,7 @@
     2,
     7
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -1267,7 +1267,7 @@
     2,
     4
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -1279,7 +1279,7 @@
     2,
     8
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -1291,7 +1291,7 @@
     2,
     9
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "terms": [
     {
      "where": {
@@ -1316,10 +1316,10 @@
     3,
     1
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "MAE"
   },
@@ -1328,10 +1328,10 @@
     3,
     5
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "MAE"
   },
@@ -1340,10 +1340,10 @@
     3,
     2
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "RMSE"
   },
@@ -1352,10 +1352,10 @@
     3,
     6
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "RMSE"
   },
@@ -1364,10 +1364,10 @@
     3,
     3
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "MAPE"
   },
@@ -1376,10 +1376,10 @@
     3,
     7
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "MAPE"
   },
@@ -1388,10 +1388,10 @@
     3,
     4
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "R2"
   },
@@ -1400,10 +1400,10 @@
     3,
     8
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
-    "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+    "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
    },
    "column": "R2"
   },
@@ -1412,12 +1412,12 @@
     3,
     9
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "terms": [
     {
      "where": {
       "partition": "dev_out",
-      "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+      "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
      },
      "column": "MAPE",
      "weight": 1
@@ -1425,7 +1425,7 @@
     {
      "where": {
       "partition": "dev_in",
-      "architecture": "BBM (Huber, folder-24 reuse of the residual learner)"
+      "architecture": "BBM (Huber, folder-01 reuse of the residual learner)"
      },
      "column": "MAPE",
      "weight": -1
@@ -1437,7 +1437,7 @@
     4,
     1
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM (Huber residual)"
@@ -1449,7 +1449,7 @@
     4,
     5
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM (Huber residual)"
@@ -1461,7 +1461,7 @@
     4,
     2
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM (Huber residual)"
@@ -1473,7 +1473,7 @@
     4,
     6
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM (Huber residual)"
@@ -1485,7 +1485,7 @@
     4,
     3
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM (Huber residual)"
@@ -1497,7 +1497,7 @@
     4,
     7
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM (Huber residual)"
@@ -1509,7 +1509,7 @@
     4,
     4
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM (Huber residual)"
@@ -1521,7 +1521,7 @@
     4,
     8
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM (Huber residual)"
@@ -1533,7 +1533,7 @@
     4,
     9
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "terms": [
     {
      "where": {
@@ -1558,7 +1558,7 @@
     5,
     1
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1570,7 +1570,7 @@
     5,
     5
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1582,7 +1582,7 @@
     5,
     2
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1594,7 +1594,7 @@
     5,
     6
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1606,7 +1606,7 @@
     5,
     3
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1618,7 +1618,7 @@
     5,
     7
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1630,7 +1630,7 @@
     5,
     4
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1642,7 +1642,7 @@
     5,
     8
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM (Huber residual, lambda*=0.7)"
@@ -1654,7 +1654,7 @@
     5,
     9
    ],
-   "csv": "revision_final/25_bbm_selection_full_data/frozen_all_partitions.csv",
+   "csv": "revision_final/02_bbm_selection/frozen_all_partitions.csv",
    "terms": [
     {
      "where": {
@@ -1681,7 +1681,7 @@
     1,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE"
@@ -1693,7 +1693,7 @@
     1,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1706,7 +1706,7 @@
     1,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1719,7 +1719,7 @@
     1,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1732,7 +1732,7 @@
     1,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1745,7 +1745,7 @@
     1,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE"
@@ -1757,7 +1757,7 @@
     1,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1770,7 +1770,7 @@
     1,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1783,7 +1783,7 @@
     1,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAPE",
@@ -1796,7 +1796,7 @@
     2,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE"
@@ -1808,7 +1808,7 @@
     2,
     3
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE"
@@ -1820,7 +1820,7 @@
     2,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1833,7 +1833,7 @@
     2,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1846,7 +1846,7 @@
     2,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1859,7 +1859,7 @@
     2,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1872,7 +1872,7 @@
     2,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE"
@@ -1884,7 +1884,7 @@
     2,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1897,7 +1897,7 @@
     2,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1910,7 +1910,7 @@
     2,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "MAE",
@@ -1923,7 +1923,7 @@
     3,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE"
@@ -1935,7 +1935,7 @@
     3,
     3
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE"
@@ -1947,7 +1947,7 @@
     3,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -1960,7 +1960,7 @@
     3,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -1973,7 +1973,7 @@
     3,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -1986,7 +1986,7 @@
     3,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -1999,7 +1999,7 @@
     3,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE"
@@ -2011,7 +2011,7 @@
     3,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -2024,7 +2024,7 @@
     3,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -2037,7 +2037,7 @@
     3,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "RMSE",
@@ -2050,7 +2050,7 @@
     4,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2"
@@ -2062,7 +2062,7 @@
     4,
     3
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2"
@@ -2074,7 +2074,7 @@
     4,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2087,7 +2087,7 @@
     4,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2100,7 +2100,7 @@
     4,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2113,7 +2113,7 @@
     4,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2126,7 +2126,7 @@
     4,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2"
@@ -2138,7 +2138,7 @@
     4,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2151,7 +2151,7 @@
     4,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2164,7 +2164,7 @@
     4,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "A_rolling_origin_cv",
     "metric": "R2",
@@ -2177,7 +2177,7 @@
     5,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE"
@@ -2189,7 +2189,7 @@
     5,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2202,7 +2202,7 @@
     5,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2215,7 +2215,7 @@
     5,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2228,7 +2228,7 @@
     5,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2241,7 +2241,7 @@
     5,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE"
@@ -2253,7 +2253,7 @@
     5,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2266,7 +2266,7 @@
     5,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2279,7 +2279,7 @@
     5,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAPE",
@@ -2292,7 +2292,7 @@
     6,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE"
@@ -2304,7 +2304,7 @@
     6,
     3
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE"
@@ -2316,7 +2316,7 @@
     6,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2329,7 +2329,7 @@
     6,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2342,7 +2342,7 @@
     6,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2355,7 +2355,7 @@
     6,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2368,7 +2368,7 @@
     6,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE"
@@ -2380,7 +2380,7 @@
     6,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2393,7 +2393,7 @@
     6,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2406,7 +2406,7 @@
     6,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "MAE",
@@ -2419,7 +2419,7 @@
     7,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE"
@@ -2431,7 +2431,7 @@
     7,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2444,7 +2444,7 @@
     7,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2457,7 +2457,7 @@
     7,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2470,7 +2470,7 @@
     7,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2483,7 +2483,7 @@
     7,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE"
@@ -2495,7 +2495,7 @@
     7,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2508,7 +2508,7 @@
     7,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2521,7 +2521,7 @@
     7,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "RMSE",
@@ -2534,7 +2534,7 @@
     8,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2"
@@ -2546,7 +2546,7 @@
     8,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2559,7 +2559,7 @@
     8,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2572,7 +2572,7 @@
     8,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2585,7 +2585,7 @@
     8,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2598,7 +2598,7 @@
     8,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2"
@@ -2610,7 +2610,7 @@
     8,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2623,7 +2623,7 @@
     8,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2636,7 +2636,7 @@
     8,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_in",
     "metric": "R2",
@@ -2649,7 +2649,7 @@
     9,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE"
@@ -2661,7 +2661,7 @@
     9,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2674,7 +2674,7 @@
     9,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2687,7 +2687,7 @@
     9,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2700,7 +2700,7 @@
     9,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2713,7 +2713,7 @@
     9,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE"
@@ -2725,7 +2725,7 @@
     9,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2738,7 +2738,7 @@
     9,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2751,7 +2751,7 @@
     9,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAPE",
@@ -2764,7 +2764,7 @@
     10,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE"
@@ -2776,7 +2776,7 @@
     10,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2789,7 +2789,7 @@
     10,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2802,7 +2802,7 @@
     10,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2815,7 +2815,7 @@
     10,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2828,7 +2828,7 @@
     10,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE"
@@ -2840,7 +2840,7 @@
     10,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2853,7 +2853,7 @@
     10,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2866,7 +2866,7 @@
     10,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "MAE",
@@ -2879,7 +2879,7 @@
     11,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE"
@@ -2891,7 +2891,7 @@
     11,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2904,7 +2904,7 @@
     11,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2917,7 +2917,7 @@
     11,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2930,7 +2930,7 @@
     11,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2943,7 +2943,7 @@
     11,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE"
@@ -2955,7 +2955,7 @@
     11,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2968,7 +2968,7 @@
     11,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2981,7 +2981,7 @@
     11,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "RMSE",
@@ -2994,7 +2994,7 @@
     12,
     2
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2"
@@ -3006,7 +3006,7 @@
     12,
     4
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3019,7 +3019,7 @@
     12,
     5
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3032,7 +3032,7 @@
     12,
     6
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3045,7 +3045,7 @@
     12,
     7
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/ranks.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/ranks.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3058,7 +3058,7 @@
     12,
     8
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/friedman.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/friedman.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2"
@@ -3070,7 +3070,7 @@
     12,
     9
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3083,7 +3083,7 @@
     12,
     10
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3096,7 +3096,7 @@
     12,
     11
    ],
-   "csv": "revision_final/38_architecture_friedman_nemenyi/wilcoxon.csv",
+   "csv": "revision_final/10_architecture_friedman_nemenyi/wilcoxon.csv",
    "where": {
     "analysis": "B_frozen_dev_out",
     "metric": "R2",
@@ -3111,7 +3111,7 @@
     1,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "WBM"
@@ -3123,7 +3123,7 @@
     1,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "WBM"
@@ -3135,7 +3135,7 @@
     1,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "WBM"
@@ -3148,7 +3148,7 @@
     1,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "WBM"
@@ -3160,7 +3160,7 @@
     2,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "BBM"
@@ -3172,7 +3172,7 @@
     2,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "BBM"
@@ -3184,7 +3184,7 @@
     2,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "BBM"
@@ -3197,7 +3197,7 @@
     2,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "BBM"
@@ -3209,7 +3209,7 @@
     3,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "S-GBM"
@@ -3221,7 +3221,7 @@
     3,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "S-GBM"
@@ -3233,7 +3233,7 @@
     3,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "S-GBM"
@@ -3246,7 +3246,7 @@
     3,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_in",
     "reference": "S-GBM"
@@ -3258,7 +3258,7 @@
     4,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "WBM"
@@ -3270,7 +3270,7 @@
     4,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "WBM"
@@ -3282,7 +3282,7 @@
     4,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "WBM"
@@ -3295,7 +3295,7 @@
     4,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "WBM"
@@ -3307,7 +3307,7 @@
     5,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "BBM"
@@ -3319,7 +3319,7 @@
     5,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "BBM"
@@ -3331,7 +3331,7 @@
     5,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "BBM"
@@ -3344,7 +3344,7 @@
     5,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "BBM"
@@ -3356,7 +3356,7 @@
     6,
     2
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "S-GBM"
@@ -3368,7 +3368,7 @@
     6,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "S-GBM"
@@ -3380,7 +3380,7 @@
     6,
     3
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "S-GBM"
@@ -3393,7 +3393,7 @@
     6,
     4
    ],
-   "csv": "revision_final/39_block_bootstrap_huber/block_bootstrap_mape_differences.csv",
+   "csv": "revision_final/11_block_bootstrap/block_bootstrap_mape_differences.csv",
    "where": {
     "partition": "dev_out",
     "reference": "S-GBM"
@@ -3407,7 +3407,7 @@
     1,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "WBM-lite (cube law)"
@@ -3419,7 +3419,7 @@
     1,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "WBM-lite (cube law)"
@@ -3431,7 +3431,7 @@
     1,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "WBM-lite (cube law)"
@@ -3443,7 +3443,7 @@
     2,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "BBM (Huber on target)"
@@ -3455,7 +3455,7 @@
     2,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "BBM (Huber on target)"
@@ -3467,7 +3467,7 @@
     2,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "BBM (Huber on target)"
@@ -3479,7 +3479,7 @@
     3,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "S-GBM (Huber residual)"
@@ -3491,7 +3491,7 @@
     3,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "S-GBM (Huber residual)"
@@ -3503,7 +3503,7 @@
     3,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "S-GBM (Huber residual)"
@@ -3515,7 +3515,7 @@
     4,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "C-GBM (Huber residual)"
@@ -3527,7 +3527,7 @@
     4,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "C-GBM (Huber residual)"
@@ -3539,7 +3539,7 @@
     4,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "C-GBM (Huber residual)"
@@ -3551,7 +3551,7 @@
     4,
     5
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Poseidon",
     "Architecture": "C-GBM (Huber residual)"
@@ -3563,7 +3563,7 @@
     5,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "WBM-lite (cube law)"
@@ -3575,7 +3575,7 @@
     5,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "WBM-lite (cube law)"
@@ -3587,7 +3587,7 @@
     5,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "WBM-lite (cube law)"
@@ -3599,7 +3599,7 @@
     6,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "BBM (Huber on target)"
@@ -3611,7 +3611,7 @@
     6,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "BBM (Huber on target)"
@@ -3623,7 +3623,7 @@
     6,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "BBM (Huber on target)"
@@ -3635,7 +3635,7 @@
     7,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "S-GBM (Huber residual)"
@@ -3647,7 +3647,7 @@
     7,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "S-GBM (Huber residual)"
@@ -3659,7 +3659,7 @@
     7,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "S-GBM (Huber residual)"
@@ -3671,7 +3671,7 @@
     8,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "C-GBM (Huber residual)"
@@ -3683,7 +3683,7 @@
     8,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "C-GBM (Huber residual)"
@@ -3695,7 +3695,7 @@
     8,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "C-GBM (Huber residual)"
@@ -3707,7 +3707,7 @@
     8,
     5
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Triton",
     "Architecture": "C-GBM (Huber residual)"
@@ -3719,7 +3719,7 @@
     9,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "WBM-lite (cube law)"
@@ -3731,7 +3731,7 @@
     9,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "WBM-lite (cube law)"
@@ -3743,7 +3743,7 @@
     9,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "WBM-lite (cube law)"
@@ -3755,7 +3755,7 @@
     10,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "BBM (Huber on target)"
@@ -3767,7 +3767,7 @@
     10,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "BBM (Huber on target)"
@@ -3779,7 +3779,7 @@
     10,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "BBM (Huber on target)"
@@ -3791,7 +3791,7 @@
     11,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "S-GBM (Huber residual)"
@@ -3803,7 +3803,7 @@
     11,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "S-GBM (Huber residual)"
@@ -3815,7 +3815,7 @@
     11,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "S-GBM (Huber residual)"
@@ -3827,7 +3827,7 @@
     12,
     2
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "C-GBM (Huber residual)"
@@ -3839,7 +3839,7 @@
     12,
     3
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "C-GBM (Huber residual)"
@@ -3851,7 +3851,7 @@
     12,
     4
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "C-GBM (Huber residual)"
@@ -3863,7 +3863,7 @@
     12,
     5
    ],
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv",
    "where": {
     "Vessel": "Ceto",
     "Architecture": "C-GBM (Huber residual)"
@@ -3877,7 +3877,7 @@
     1,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3890,7 +3890,7 @@
     1,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3903,7 +3903,7 @@
     1,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3917,7 +3917,7 @@
     1,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3930,7 +3930,7 @@
     2,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3943,7 +3943,7 @@
     2,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3956,7 +3956,7 @@
     2,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3970,7 +3970,7 @@
     2,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3983,7 +3983,7 @@
     3,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -3996,7 +3996,7 @@
     3,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4009,7 +4009,7 @@
     3,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4023,7 +4023,7 @@
     3,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4036,7 +4036,7 @@
     4,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4049,7 +4049,7 @@
     4,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4062,7 +4062,7 @@
     4,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4076,7 +4076,7 @@
     4,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_in",
@@ -4089,7 +4089,7 @@
     5,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4102,7 +4102,7 @@
     5,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4115,7 +4115,7 @@
     5,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4129,7 +4129,7 @@
     5,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4142,7 +4142,7 @@
     6,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4155,7 +4155,7 @@
     6,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4168,7 +4168,7 @@
     6,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4182,7 +4182,7 @@
     6,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4195,7 +4195,7 @@
     7,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4208,7 +4208,7 @@
     7,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4221,7 +4221,7 @@
     7,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4235,7 +4235,7 @@
     7,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4248,7 +4248,7 @@
     8,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4261,7 +4261,7 @@
     8,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4274,7 +4274,7 @@
     8,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4288,7 +4288,7 @@
     8,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/decision_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/decision_results.csv",
    "where": {
     "fit_protocol": "mid-band fit (published)",
     "partition": "dev_out",
@@ -4303,7 +4303,7 @@
     1,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -4315,7 +4315,7 @@
     1,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -4327,7 +4327,7 @@
     1,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "WBM"
@@ -4339,7 +4339,7 @@
     2,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -4351,7 +4351,7 @@
     2,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -4363,7 +4363,7 @@
     2,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "WBM"
@@ -4375,7 +4375,7 @@
     3,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "BBM"
@@ -4387,7 +4387,7 @@
     3,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "BBM"
@@ -4399,7 +4399,7 @@
     3,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "BBM"
@@ -4411,7 +4411,7 @@
     4,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "BBM"
@@ -4423,7 +4423,7 @@
     4,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "BBM"
@@ -4435,7 +4435,7 @@
     4,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "BBM"
@@ -4447,7 +4447,7 @@
     5,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM"
@@ -4459,7 +4459,7 @@
     5,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM"
@@ -4471,7 +4471,7 @@
     5,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "S-GBM"
@@ -4483,7 +4483,7 @@
     6,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM"
@@ -4495,7 +4495,7 @@
     6,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM"
@@ -4507,7 +4507,7 @@
     6,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "S-GBM"
@@ -4519,7 +4519,7 @@
     7,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM"
@@ -4531,7 +4531,7 @@
     7,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_in",
     "architecture": "C-GBM"
@@ -4543,7 +4543,7 @@
     8,
     2
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM"
@@ -4555,7 +4555,7 @@
     8,
     3
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM"
@@ -4567,7 +4567,7 @@
     8,
     4
    ],
-   "csv": "revision_final/34_final_decision_uncertainty/uncertainty_results.csv",
+   "csv": "revision_final/07_decision_uncertainty/uncertainty_results.csv",
    "where": {
     "partition": "dev_out",
     "architecture": "C-GBM"
@@ -4581,7 +4581,7 @@
     1,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference"
@@ -4593,7 +4593,7 @@
     1,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference"
@@ -4605,7 +4605,7 @@
     1,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference"
@@ -4617,7 +4617,7 @@
     1,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference"
@@ -4629,7 +4629,7 @@
     1,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference"
@@ -4641,7 +4641,7 @@
     2,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM"
@@ -4653,7 +4653,7 @@
     2,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM"
@@ -4665,7 +4665,7 @@
     2,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM"
@@ -4677,7 +4677,7 @@
     2,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM"
@@ -4689,7 +4689,7 @@
     2,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM"
@@ -4701,7 +4701,7 @@
     3,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM"
@@ -4713,7 +4713,7 @@
     3,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM"
@@ -4725,7 +4725,7 @@
     3,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM"
@@ -4737,7 +4737,7 @@
     3,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM"
@@ -4749,7 +4749,7 @@
     3,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM"
@@ -4761,7 +4761,7 @@
     4,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM"
@@ -4773,7 +4773,7 @@
     4,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM"
@@ -4785,7 +4785,7 @@
     4,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM"
@@ -4797,7 +4797,7 @@
     4,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM"
@@ -4809,7 +4809,7 @@
     4,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM"
@@ -4821,7 +4821,7 @@
     5,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM"
@@ -4833,7 +4833,7 @@
     5,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM"
@@ -4845,7 +4845,7 @@
     5,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM"
@@ -4857,7 +4857,7 @@
     5,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM"
@@ -4869,7 +4869,7 @@
     5,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM"
@@ -4881,7 +4881,7 @@
     6,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference"
@@ -4893,7 +4893,7 @@
     6,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference"
@@ -4905,7 +4905,7 @@
     6,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference"
@@ -4917,7 +4917,7 @@
     6,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference"
@@ -4929,7 +4929,7 @@
     6,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference"
@@ -4941,7 +4941,7 @@
     7,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM"
@@ -4953,7 +4953,7 @@
     7,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM"
@@ -4965,7 +4965,7 @@
     7,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM"
@@ -4977,7 +4977,7 @@
     7,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM"
@@ -4989,7 +4989,7 @@
     7,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM"
@@ -5001,7 +5001,7 @@
     8,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM"
@@ -5013,7 +5013,7 @@
     8,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM"
@@ -5025,7 +5025,7 @@
     8,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM"
@@ -5037,7 +5037,7 @@
     8,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM"
@@ -5049,7 +5049,7 @@
     8,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM"
@@ -5061,7 +5061,7 @@
     9,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM"
@@ -5073,7 +5073,7 @@
     9,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM"
@@ -5085,7 +5085,7 @@
     9,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM"
@@ -5097,7 +5097,7 @@
     9,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM"
@@ -5109,7 +5109,7 @@
     9,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM"
@@ -5121,7 +5121,7 @@
     10,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM"
@@ -5133,7 +5133,7 @@
     10,
     3
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM"
@@ -5145,7 +5145,7 @@
     10,
     4
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM"
@@ -5157,7 +5157,7 @@
     10,
     5
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM"
@@ -5169,7 +5169,7 @@
     10,
     6
    ],
-   "csv": "revision_final/35_final_multigas_cii/multigas_results.csv",
+   "csv": "revision_final/08_multigas_cii/multigas_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM"
@@ -5183,7 +5183,7 @@
     1,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "Measured-power reference",
@@ -5196,7 +5196,7 @@
     2,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "WBM",
@@ -5209,7 +5209,7 @@
     3,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "BBM",
@@ -5222,7 +5222,7 @@
     4,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "S-GBM",
@@ -5235,7 +5235,7 @@
     5,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_in",
     "series": "C-GBM",
@@ -5248,7 +5248,7 @@
     6,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "Measured-power reference",
@@ -5261,7 +5261,7 @@
     7,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "WBM",
@@ -5274,7 +5274,7 @@
     8,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "BBM",
@@ -5287,7 +5287,7 @@
     9,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "S-GBM",
@@ -5300,7 +5300,7 @@
     10,
     2
    ],
-   "csv": "revision_final/35_final_multigas_cii/cii_results.csv",
+   "csv": "revision_final/08_multigas_cii/cii_results.csv",
    "where": {
     "partition": "dev_out",
     "series": "C-GBM",
@@ -5315,7 +5315,7 @@
     1,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(32,)"
    },
@@ -5326,7 +5326,7 @@
     1,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(32,)"
    },
@@ -5337,7 +5337,7 @@
     1,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(32,)"
    },
@@ -5348,7 +5348,7 @@
     1,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(32,)"
    },
@@ -5359,7 +5359,7 @@
     2,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32)"
    },
@@ -5370,7 +5370,7 @@
     2,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32)"
    },
@@ -5381,7 +5381,7 @@
     2,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32)"
    },
@@ -5392,7 +5392,7 @@
     2,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32)"
    },
@@ -5403,7 +5403,7 @@
     3,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(5,)"
    },
@@ -5414,7 +5414,7 @@
     3,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(5,)"
    },
@@ -5425,7 +5425,7 @@
     3,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(5,)"
    },
@@ -5436,7 +5436,7 @@
     3,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(5,)"
    },
@@ -5447,7 +5447,7 @@
     4,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 64, 32, 32, 16)"
    },
@@ -5458,7 +5458,7 @@
     4,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 64, 32, 32, 16)"
    },
@@ -5469,7 +5469,7 @@
     4,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 64, 32, 32, 16)"
    },
@@ -5480,7 +5480,7 @@
     4,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 64, 32, 32, 16)"
    },
@@ -5491,7 +5491,7 @@
     5,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(3,)"
    },
@@ -5502,7 +5502,7 @@
     5,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(3,)"
    },
@@ -5513,7 +5513,7 @@
     5,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(3,)"
    },
@@ -5524,7 +5524,7 @@
     5,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(3,)"
    },
@@ -5535,7 +5535,7 @@
     6,
     2
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32, 16)"
    },
@@ -5546,7 +5546,7 @@
     6,
     3
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32, 16)"
    },
@@ -5557,7 +5557,7 @@
     6,
     4
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32, 16)"
    },
@@ -5568,7 +5568,7 @@
     6,
     5
    ],
-   "csv": "revision_final/43_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
+   "csv": "revision_final/13_mlp_architecture_sensitivity/mlp_architectures_all_partitions.csv",
    "where": {
     "hidden": "(64, 32, 16)"
    },
@@ -5579,7 +5579,7 @@
     7,
     2
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "Huber"
    },
@@ -5590,7 +5590,7 @@
     7,
     3
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "Huber"
    },
@@ -5601,7 +5601,7 @@
     7,
     4
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "Huber"
    },
@@ -5612,7 +5612,7 @@
     7,
     5
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "Huber"
    },
@@ -5623,7 +5623,7 @@
     8,
     2
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -5634,7 +5634,7 @@
     8,
     3
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -5645,7 +5645,7 @@
     8,
     4
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -5656,7 +5656,7 @@
     8,
     5
    ],
-   "csv": "revision_final/41_table6_selection_check/selection_check_all_partitions.csv",
+   "csv": "revision_final/12_table6_selection_check/selection_check_all_partitions.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -5669,7 +5669,7 @@
     1,
     3
    ],
-   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "csv": "revision_final/03_core_results/T01_data_protocol.csv",
    "terms": [
     {
      "where": {
@@ -5697,7 +5697,7 @@
     3
    ],
    "index": 1,
-   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "csv": "revision_final/03_core_results/T01_data_protocol.csv",
    "where": {
     "partition": "dev_in"
    },
@@ -5709,7 +5709,7 @@
     3
    ],
    "index": 2,
-   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv",
+   "csv": "revision_final/03_core_results/T01_data_protocol.csv",
    "where": {
     "partition": "dev_out"
    },
@@ -5721,7 +5721,7 @@
     3
    ],
    "index": 0,
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
    "terms": [
     {
      "where": {
@@ -5749,7 +5749,7 @@
     3
    ],
    "index": 1,
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
    "terms": [
     {
      "where": {
@@ -5777,7 +5777,7 @@
     3
    ],
    "index": 2,
-   "csv": "revision_final/30_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
+   "csv": "revision_final/06_fuelcast_wind_and_wbm/partA_lambda_selection.csv",
    "terms": [
     {
      "where": {
@@ -5806,7 +5806,7 @@
     18,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "XGBoost"
    },
@@ -5818,7 +5818,7 @@
     19,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "LightGBM"
    },
@@ -5830,7 +5830,7 @@
     20,
     2
    ],
-   "csv": "revision_final/24_full_data_602020/ml_selection_validation_full_data.csv",
+   "csv": "revision_final/01_full_data_602020/ml_selection_validation_full_data.csv",
    "where": {
     "model": "CatBoost"
    },
@@ -5844,7 +5844,7 @@
     16,
     2
    ],
-   "csv": "revision_final/FINAL_MANUSCRIPT_RESULTS/T00_provenance.csv",
+   "csv": "revision_final/03_core_results/T00_provenance.csv",
    "where": {},
    "column": "physics_k"
   }

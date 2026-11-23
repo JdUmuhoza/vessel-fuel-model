@@ -1,18 +1,18 @@
 """Standalone BBM model selection on the full-data 60/20/20 protocol.
 
-Folder 24 selected a backend in the **residual** role, where the target is
+Folder 01 selected a backend in the **residual** role, where the target is
 ``r = y - k*F_phys``, and then reused that learner as the standalone black-box
 model. Huber is an excellent residual learner and a poor direct predictor of
 shaft power, so that reuse understates what a black-box model can do.
 
 This stage selects the standalone BBM independently, training every candidate
 directly on the measured target ``y``. Everything else is inherited unchanged
-from folder 24 by importing its own functions: the chronological 60/20/20
+from folder 01 by importing its own functions: the chronological 60/20/20
 splits, the physics cache, the runtime-exclusion decisions, the no-subsampling
 rule and the early-stopping sub-block.
 
-The residual-learner result of folder 24 is not modified, lambda* = 0.70 is not
-modified, folder 24 is not written to, and no manuscript file is touched.
+The residual-learner result of folder 01 is not modified, lambda* = 0.70 is not
+modified, folder 01 is not written to, and no manuscript file is touched.
 """
 
 from __future__ import annotations
@@ -26,7 +26,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv, write_text
-from .rf32_full_data_602020 import (
+from .s01_full_data_602020 import (
     BUDGET_S, EXCLUDED_MEASURED, FEATS, LOWER_BETTER, METRICS, PRIMARY,
     build_splits, feasibility, fit_learner, metrics7, physics,
 )
@@ -38,10 +38,10 @@ from benchmark_measured.common import (  # noqa: E402
     BACKEND_DISPLAY, CONFIG, fit_scale,
 )
 
-OUT = REV_FINAL / "25_bbm_selection_full_data"
+OUT = REV_FINAL / "02_bbm_selection"
 CACHE = OUT / "_cache"
-F24 = REV_FINAL / "24_full_data_602020"
-LAMBDA_STAR = 0.70                 # carried from folder 24, not re-selected
+F01 = REV_FINAL / "01_full_data_602020"
+LAMBDA_STAR = 0.70                 # carried from folder 01, not re-selected
 
 
 def _git() -> str | None:
@@ -99,22 +99,22 @@ def bbm_selection(parts, excluded) -> tuple[pd.DataFrame, str]:
     ok = ok.sort_values(PRIMARY, ascending=LOWER_BETTER[PRIMARY]).reset_index(drop=True)
     write_csv(ok, OUT / "bbm_selection_validation_full_data.csv")
     sel = str(ok.iloc[0]["backend_key"])
-    print(f"[S25] standalone BBM selected on validation {PRIMARY}: "
+    print(f"[S02] standalone BBM selected on validation {PRIMARY}: "
           f"{ok.iloc[0]['model']} ({ok.iloc[0][PRIMARY]:.4f})", flush=True)
     return ok, sel
 
 
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
-    parts = build_splits()                    # identical construction to folder 24
+    parts = build_splits()                    # identical construction to folder 01
     ph = physics(parts)                       # identical cache keys
     tr = parts["train"]
     y_tr, X_tr = tr["power"].to_numpy(), tr[FEATS].to_numpy()
     k = fit_scale(y_tr, ph["train"])
     res_tr = y_tr - k * ph["train"]
 
-    # split identity proof against folder 24
-    s24 = pd.read_csv(F24 / "split_metadata.csv").set_index("partition")
+    # split identity proof against folder 01
+    s24 = pd.read_csv(F01 / "split_metadata.csv").set_index("partition")
     ident = []
     for name in ("train", "validation", "internal_test", "dev_in", "dev_out"):
         d = parts[name]
@@ -133,16 +133,16 @@ def main() -> int:
     idf = pd.DataFrame(ident)
     write_csv(idf, OUT / "split_identity_check.csv")
     if not idf.identical.all():
-        raise AssertionError("splits differ from folder 24")
-    k24 = json.loads((F24 / "run_metadata.json").read_text(encoding="utf-8"))["physics_k"]
-    assert abs(k - k24) < 1e-12, f"physics k differs from folder 24: {k} vs {k24}"
-    print(f"[S25] splits and physics k ({k:.6f}) identical to folder 24", flush=True)
+        raise AssertionError("splits differ from folder 01")
+    k01 = json.loads((F01 / "run_metadata.json").read_text(encoding="utf-8"))["physics_k"]
+    assert abs(k - k01) < 1e-12, f"physics k differs from folder 01: {k} vs {k01}"
+    print(f"[S02] splits and physics k ({k:.6f}) identical to folder 01", flush=True)
 
     excl = feasibility(X_tr, res_tr)
     write_csv(excl, OUT / "excluded_models_feasibility.csv")
     sel_tbl, sel = bbm_selection(parts, excl)
 
-    # frozen evaluation: selected BBM, the folder-24 BBM (Huber on y) for a
+    # frozen evaluation: selected BBM, the folder-01 BBM (Huber on y) for a
     # like-for-like comparison, and the unchanged WBM / S-GBM / C-GBM family.
     fit_idx, es_idx = parts["_fit_idx"], parts["_es_idx"]
     bbm_sel, _ = fit_learner(sel, X_tr, y_tr, fit_idx, es_idx)
@@ -157,7 +157,7 @@ def main() -> int:
         r = resid.predict(X)
         preds = {
             f"BBM ({BACKEND_DISPLAY[sel]}, selected on y)": bbm_sel.predict(X),
-            "BBM (Huber, folder-24 reuse of the residual learner)":
+            "BBM (Huber, folder-01 reuse of the residual learner)":
                 bbm_huber.predict(X),
             "WBM": base,
             "S-GBM (Huber residual)": base + r,
@@ -197,21 +197,21 @@ def report(sel_tbl, sel, frozen, idf, k) -> None:
     A = L.append
     A("# Standalone BBM selection on the full-data 60/20/20 protocol")
     A("")
-    A("Folder 24 selected a backend in the **residual** role and reused it as the "
+    A("Folder 01 selected a backend in the **residual** role and reused it as the "
       "standalone BBM. This stage selects the BBM independently, training every "
       "candidate directly on measured shaft power. The residual learner (Huber) and "
       f"lambda* = {LAMBDA_STAR:g} are carried over unchanged.")
     A("")
     A("## Split identity - no drift, no leakage")
     A("")
-    A("| partition | n here | n folder 24 | time_id range matches | used in BBM selection |")
+    A("| partition | n here | n folder 01 | time_id range matches | used in BBM selection |")
     A("|---|---|---|---|---|")
     for _, r in idf.iterrows():
         A(f"| {r['partition']} | {r['n_here']:,} | {r['n_folder24']:,} | "
           f"{'yes' if r['identical'] else 'NO'} | "
           f"{'yes' if r['used_in_bbm_selection'] else 'no'} |")
     A("")
-    A(f"Physics scale k = {k:.6f}, identical to folder 24. `dev_in` and `dev_out` "
+    A(f"Physics scale k = {k:.6f}, identical to folder 01. `dev_in` and `dev_out` "
       f"were used only after the BBM was selected.")
     A("")
     A("## BBM validation ranking (target = measured shaft power)")
@@ -236,7 +236,7 @@ def report(sel_tbl, sel, frozen, idf, k) -> None:
               f"{r['NRMSE']:.4f} | {r['R2']:.4f} |")
         A("")
     write_text("\n".join(L) + "\n", OUT / "bbm_selection_report.md")
-    print("[S25] report written", flush=True)
+    print("[S02] report written", flush=True)
 
 
 def _guarded_main() -> int:

@@ -1,7 +1,7 @@
 """Redraw fig2_candidate_602020_fulldata with the endpoint labels placed inside the axes.
 
 The curve, the data and the selected lambda are unchanged: the sweep is read verbatim from
-``results/revision_final/24_full_data_602020/lambda_sweep_validation.csv`` and the optimum
+``results/revision_final/01_full_data_602020/lambda_sweep_validation.csv`` and the optimum
 is recomputed from it, then asserted against lambda* = 0.70. Only the annotation geometry
 changes.
 
@@ -15,7 +15,7 @@ Two placement faults in the original are corrected:
 
 Both are now placed in verified-empty regions inside the axes, with explicit y-limit
 headroom and the legend pinned rather than left to ``loc="best"`` so the layout is
-deterministic. Written to a new folder so folder 24, whose report documents the original
+deterministic. Written to a new folder so folder 01, whose report documents the original
 figure, is left untouched.
 """
 
@@ -31,8 +31,8 @@ import pandas as pd
 
 from .common_rev import REV_FINAL, write_csv
 
-SRC = REV_FINAL / "24_full_data_602020"
-OUT = REV_FINAL / "36_fig2_lambda_relabelled"
+SRC = REV_FINAL / "01_full_data_602020"
+OUT = REV_FINAL / "09_fig2_lambda"
 STEM = "fig2_candidate_602020_fulldata"
 PRIMARY = "MAPE"
 LAMBDA_STAR = 0.70

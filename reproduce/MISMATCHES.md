@@ -9,18 +9,18 @@ at the precision printed in the paper.
 
 | Paper label | Cells | Source |
 |---|---|---|
-| `tab:decision-results` | 32 | `34_final_decision_uncertainty/decision_results.csv` |
-| `tab:uncertainty-results` | 23 | `34_final_decision_uncertainty/uncertainty_results.csv` |
-| `tab:benchmarks` (record counts) | 6 | `FINAL_MANUSCRIPT_RESULTS/T01_data_protocol.csv`, `30_fuelcast_wind_and_wbm/partA_lambda_selection.csv` |
-| `tab:ml-model-selection` | 108 | `24_full_data_602020/ml_selection_validation_full_data.csv` |
-| `tab:overall-performance` | 36 | `25_bbm_selection_full_data/frozen_all_partitions.csv` |
-| `tab:friedman-nemenyi-tests` | 112 | `38_architecture_friedman_nemenyi/{friedman,ranks,wilcoxon}.csv` |
-| `tab:block-bootstrap-mape` | 24 | `39_block_bootstrap_huber/block_bootstrap_mape_differences.csv` |
-| `tab:multigas-results` | 50 | `35_final_multigas_cii/multigas_results.csv` |
-| `tab:cii-results` (intensity) | 10 | `35_final_multigas_cii/cii_results.csv` |
-| `tab:mlp-sensitivity` | 32 | `43_mlp_architecture_sensitivity/`, `41_table6_selection_check/` |
-| `tab:hyperparameters` (selected iterations) | 3 | `24_full_data_602020/ml_selection_validation_full_data.csv` |
-| `tab:wbm-params` (fitted k) | 1 | `FINAL_MANUSCRIPT_RESULTS/T00_provenance.csv` |
+| `tab:decision-results` | 32 | `07_decision_uncertainty/decision_results.csv` |
+| `tab:uncertainty-results` | 23 | `07_decision_uncertainty/uncertainty_results.csv` |
+| `tab:benchmarks` (record counts) | 6 | `03_core_results/T01_data_protocol.csv`, `06_fuelcast_wind_and_wbm/partA_lambda_selection.csv` |
+| `tab:ml-model-selection` | 108 | `01_full_data_602020/ml_selection_validation_full_data.csv` |
+| `tab:overall-performance` | 36 | `02_bbm_selection/frozen_all_partitions.csv` |
+| `tab:friedman-nemenyi-tests` | 112 | `10_architecture_friedman_nemenyi/{friedman,ranks,wilcoxon}.csv` |
+| `tab:block-bootstrap-mape` | 24 | `11_block_bootstrap/block_bootstrap_mape_differences.csv` |
+| `tab:multigas-results` | 50 | `08_multigas_cii/multigas_results.csv` |
+| `tab:cii-results` (intensity) | 10 | `08_multigas_cii/cii_results.csv` |
+| `tab:mlp-sensitivity` | 32 | `13_mlp_architecture_sensitivity/`, `12_table6_selection_check/` |
+| `tab:hyperparameters` (selected iterations) | 3 | `01_full_data_602020/ml_selection_validation_full_data.csv` |
+| `tab:wbm-params` (fitted k) | 1 | `03_core_results/T00_provenance.csv` |
 
 Not compared, by design: input and configuration tables (`tab:features`, `tab:bbm-backends`,
 `tab:cii-assumptions`, `tab:emission-factors`, the fixed rows of `tab:wbm-params` and
@@ -31,16 +31,16 @@ Not compared, by design: input and configuration tables (`tab:features`, `tab:bb
 
 ### 1. `tab:fuelcast-performance`, Poseidon and Triton (kept by the author)
 
-| Cell | Paper | Code (`30_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv`) |
+| Cell | Paper | Code (`06_fuelcast_wind_and_wbm/partA_manuscript_table_mape.csv`) |
 |---|---|---|
 | Poseidon S-GBM, MAPE in / out / delta | 6.557 / 7.576 / +1.019 | 5.937 / 7.076 / +1.139 |
 | Poseidon C-GBM, MAPE out / delta / lambda* | 6.076 / +0.139 / 0.75 | 7.076 / +1.139 / 1.00 |
 | Triton C-GBM, MAPE in / out / delta / lambda* | 9.605 / 12.758 / +3.153 / 0.80 | 10.765 / 14.539 / +3.774 / 1.00 |
 
 The code selects lambda* = 1.00 for Poseidon and Triton (C-GBM equals S-GBM) and 0.44 for Ceto.
-Every WBM and BBM row and every Ceto row match. The printed values appear only in
-`32_fuelcast_figure_manuscript_values/`, whose script states that the figure is drawn from a
-table supplied by the author. The author decided on 2026-11-20 to keep the printed values;
+Every WBM and BBM row and every Ceto row match. The printed values appear only in the
+folder that drew the paper's FuelCast figure (not part of this release), whose script states
+that the figure is drawn from a table supplied by the author. The author decided on 2026-11-20 to keep the printed values;
 the quick check therefore reports these ten cells as mismatches.
 
 ### Corrected in the paper on 2026-11-20
@@ -52,9 +52,9 @@ WBM shifted interval width (7203 to 7202 kW; the printed value was the internal-
 
 ## Full rerun of 2026-11-19
 
-Every final stage (`rf32` to `rf60`, except `rf47`, whose values are author-supplied) was run
-again in its own process into a fresh results folder (`VFM_RESULTS_ROOT`, `PYTHONHASHSEED=0`).
-All exited 0 except `rf43`, which exits 2 on its own check P3 (Part B hull geometry at the grid
+Every stage of `reproduce/stages.json` from `s01` to `s12` (`s13` was added later), together
+with intermediate stages of the revision that are not released, was run again in its own process into a fresh results folder (`VFM_RESULTS_ROOT`, `PYTHONHASHSEED=0`).
+All exited 0 except `s06`, which exits 2 on its own check P3 (Part B hull geometry at the grid
 bound for Poseidon and Triton), the same verdict as the saved run. Against
 `results/revision_final/`: 123 CSV files identical, 15 numerically equal, 15 differing only in
 timing columns (`fit_seconds`, scaling exponents, projected hours), with every exclusion
@@ -62,7 +62,8 @@ verdict unchanged.
 
 ### Stale saved FuelCast outputs (release only, not quoted in the paper)
 
-`29_fuelcast_huber_final/` and `FINAL_MANUSCRIPT_RESULTS/T16*.csv` predate the FuelCast loader
+`05_fuelcast_huber/` and `03_core_results/T16*.csv` predate the FuelCast loader
 fix (shift on `hs`, Ceto lambda* = 0.31); the rerun gives the wind shift and Ceto lambda* = 0.44,
-matching folder 30. No value of these files appears in the paper. `rf43` reads folder 29 as its
-pre-fix comparison, so the release must decide how folder 29 is shipped (Task 5).
+matching folder 06. No value of these files appears in the paper. `s06` reads folder 05 as its
+pre-fix comparison. Folder 05 is therefore not shipped: `--full` regenerates it with `s05`
+before `s06` reads it.

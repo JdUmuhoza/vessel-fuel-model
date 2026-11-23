@@ -43,7 +43,7 @@ CACHE_NAMES = ("_cache", "_rows.csv")
 def clear_caches(results: pathlib.Path, physics_cache: pathlib.Path) -> list[pathlib.Path]:
     """Delete the read-back caches so a full rerun recomputes every learner and prediction.
 
-    Stages rf32, rf33, rf59 and rf61 skip any learner already listed in their cache file,
+    Stages s01, s02, s12 and s13 skip any learner already listed in their cache file,
     and the physics model is read back from ``.npz`` files when present. Without this step
     a full rerun over the shipped ``results/`` would replay the shipped numbers.
 

@@ -1,9 +1,9 @@
-"""Revised manuscript Figures 3 and 4, rebuilt on the folder-24 frozen configuration.
+"""Revised manuscript Figures 3 and 4, rebuilt on the folder-01 frozen configuration.
 
-Source of truth: results/revision_final/24_full_data_602020/ (full-data chronological
+Source of truth: results/revision_final/01_full_data_602020/ (full-data chronological
 60/20/20, calibrated WBM with k = 0.393586, Huber residual learner, lambda* = 0.70).
 The BBM in this configuration is the Huber learner fitted directly on measured power,
-which is the definition folder 24 uses; the independent ExtraTrees BBM of folder 25 is a
+which is the definition folder 01 uses; the independent ExtraTrees BBM of folder 02 is a
 later alternative experiment and is deliberately not used here.
 
 Figure 3 - architecture-level predictive performance on dev_in and dev_out.
@@ -13,7 +13,7 @@ Both are predictive diagnostics only. No physical-consistency, D_phys, speed-exp
 operating-regime quantity is computed or plotted.
 
 Nothing is refitted, retuned or reselected on dev_in or dev_out. Every metric printed on
-a figure is recomputed from the frozen predictions and asserted against the folder-24
+a figure is recomputed from the frozen predictions and asserted against the folder-01
 reference table before any file is written.
 """
 
@@ -31,17 +31,17 @@ import pandas as pd
 from matplotlib.colors import LogNorm
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv
-from .rf32_full_data_602020 import FEATS, build_splits, fit_learner, metrics7, physics
+from .s01_full_data_602020 import FEATS, build_splits, fit_learner, metrics7, physics
 
 _E = REPO_ROOT / "experiments"
 if str(_E) not in sys.path:
     sys.path.insert(0, str(_E))
 from benchmark_measured.common import fit_scale  # noqa: E402
 
-F24 = REV_FINAL / "24_full_data_602020"
-OUT = REV_FINAL / "28_revised_figures_3_4"
+F01 = REV_FINAL / "01_full_data_602020"
+OUT = REV_FINAL / "04_figures_3_4"
 LAMBDA_STAR = 0.70
-RESID_KEY = BBM_KEY = "huber"          # folder-24 definition of both roles
+RESID_KEY = BBM_KEY = "huber"          # folder-01 definition of both roles
 K_REFERENCE = 0.393586
 TOL_PP = 0.001                          # rounding tolerance on a value quoted to 3 dp
 ARCHS = ["WBM", "BBM", "S-GBM", "C-GBM"]
@@ -85,7 +85,7 @@ def save(fig, stem: str) -> None:
 
 
 def build_predictions() -> tuple[dict, dict, float]:
-    """Rebuild the frozen folder-24 models and return per-partition predictions."""
+    """Rebuild the frozen folder-01 models and return per-partition predictions."""
     parts = build_splits()
     ph = physics(parts)
     tr = parts["train"]
@@ -96,7 +96,7 @@ def build_predictions() -> tuple[dict, dict, float]:
     bbm = fit_learner(BBM_KEY, X_tr, y_tr, fi, ei)[0]
     resid = fit_learner(RESID_KEY, X_tr, res_tr, fi, ei)[0]
     print(f"[F34] k = {k:.6f}; residual = Huber; BBM = Huber on y "
-          f"(folder-24 definition)", flush=True)
+          f"(folder-01 definition)", flush=True)
 
     pred, meas = {}, {}
     for nm in ("dev_in", "dev_out"):
@@ -112,7 +112,7 @@ def build_predictions() -> tuple[dict, dict, float]:
 
 def verify(meas: dict, pred: dict, k: float) -> pd.DataFrame:
     """Recompute every metric and assert reproduction of the Section 5.3 values."""
-    ref = pd.read_csv(F24 / "final_dev_in_dev_out.csv")
+    ref = pd.read_csv(F01 / "final_dev_in_dev_out.csv")
     ref["architecture"] = ref["architecture"].str.replace(
         r"^C-GBM.*", "C-GBM", regex=True)
     rows, fails = [], []
@@ -125,7 +125,7 @@ def verify(meas: dict, pred: dict, k: float) -> pd.DataFrame:
             d_exp = abs(round(m["MAPE"], 3) - exp)
             ok = d_ref < 1e-4 and d_exp <= TOL_PP
             if not ok:
-                fails.append(f"{nm}/{a}: recomputed {m['MAPE']:.4f}, folder-24 "
+                fails.append(f"{nm}/{a}: recomputed {m['MAPE']:.4f}, folder-01 "
                              f"{rr.MAPE:.4f}, Section 5.3 {exp:.3f}")
             slope, intercept = np.polyfit(meas[nm], pred[nm][a], 1)
             rows.append({"partition": nm, "architecture": a, "n": len(meas[nm]),
@@ -275,19 +275,19 @@ def main() -> int:
 
     (OUT / "run_metadata.json").write_text(json.dumps({
         "purpose": "revised manuscript Figures 3 and 4, Section 5.3",
-        "source_configuration": "results/revision_final/24_full_data_602020/",
+        "source_configuration": "results/revision_final/01_full_data_602020/",
         "protocol": "full-data chronological 60/20/20",
         "physics_k_recomputed": k, "physics_k_frozen": K_REFERENCE,
         "residual_learner": "Huber", "lambda_star": LAMBDA_STAR,
-        "bbm_definition": "Huber fitted on measured power (folder-24 definition)",
-        "bbm_not_used": "ExtraTrees BBM of folder 25 (later alternative experiment)",
+        "bbm_definition": "Huber fitted on measured power (folder-01 definition)",
+        "bbm_not_used": "ExtraTrees BBM of folder 02 (later alternative experiment)",
         "partitions": {"dev_in": int(len(meas["dev_in"])),
                        "dev_out": int(len(meas["dev_out"]))},
         "refit_on_dev": False, "lambda_reselected_on_dev": False,
         "scope": "predictive diagnostics only; no physical-consistency, D_phys, "
                  "speed-exponent or operating-regime quantity is computed",
         "verification": "8/8 MAPE, 4/4 delta MAPE and k asserted against "
-                        "folder 24 and the Section 5.3 values before saving",
+                        "folder 01 and the Section 5.3 values before saving",
         "seed": SEED, "git_commit": _git()}, indent=2), encoding="utf-8")
     print("[F34] done", flush=True)
     return 0

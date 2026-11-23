@@ -59,11 +59,11 @@ fits (every `_cache/` folder and `_rows.csv` under `results/`) and the cached ph
 predictions, so that every learner is refitted rather than read back, then rewrites
 `results/` from the downloaded data. This takes several hours: the SVR residual learner
 alone took 4,674 s to fit on the 286,580-row fitting block in the original run.
-One stage, `rf43_fuelcast_wind_and_wbm`, ends with exit code 2 by design:
+One stage, `s06_fuelcast_wind_and_wbm`, ends with exit code 2 by design:
 its own check reports that the hull geometry of the reduced FuelCast prior sits at the edge
 of its search grid for two vessels, the same verdict as in the original run.
 
 ## Archive
 
-`vessel-fuel-model-osf-v1.0.zip` (217 files, 5.8 MB), SHA-256
-`c3362d1f586ee9731adb18b9ba7f4066b01c59ace04e51e8d8ae35d0df5a1df2`.
+`vessel-fuel-model-osf-v1.0.zip` (218 files, 5.8 MB), SHA-256
+`46fda4c8e7ddf67ad98322f6a27f6845a506e0164c40852bff2d5c36b8f09e46`.

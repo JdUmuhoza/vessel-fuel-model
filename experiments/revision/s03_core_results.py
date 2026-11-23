@@ -28,7 +28,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv, write_text
-from .rf32_full_data_602020 import (
+from .s01_full_data_602020 import (
     ES_FRACTION, FEATS, LOWER_BETTER, METRICS, PRIMARY, build_splits,
     fit_learner, metrics7, physics,
 )
@@ -44,7 +44,7 @@ from benchmark_measured.run_uq_emissions import power_to_fuel_mt_h  # noqa: E402
 from vessel_fuel import fuel_to_co2e  # noqa: E402
 from .common_rev import physics_power_eta  # noqa: E402
 
-OUT = REV_FINAL / "FINAL_MANUSCRIPT_RESULTS"
+OUT = REV_FINAL / "03_core_results"
 LAMBDA_STAR = 0.70
 BBM_KEY, RESID_KEY = "et", "huber"
 LAM = np.round(np.arange(0.0, 1.0 + 1e-9, 0.01), 4)
@@ -414,7 +414,7 @@ def main() -> int:
 
     # ---------- provenance ----------
     prov = pd.DataFrame([{
-        "script": "rf36_final_core.py", "dataset": "Shifts marine, real_data",
+        "script": "s03_core_results.py", "dataset": "Shifts marine, real_data",
         "n_train_csv": int(len(parts['train']) + len(parts['validation'])
                            + len(parts['internal_test'])),
         "protocol": "chronological 60/20/20, no thinning",

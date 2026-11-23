@@ -46,7 +46,7 @@ from benchmark_measured.common import (  # noqa: E402
     BACKEND_DISPLAY, CONFIG, fit_scale, load_split, make_learner,
 )
 
-OUT = REV_FINAL / "24_full_data_602020"
+OUT = REV_FINAL / "01_full_data_602020"
 CACHE = OUT / "_cache"
 LAM = np.round(np.arange(0.0, 1.0 + 1e-9, 0.01), 4)
 PRIMARY = "MAPE"                 # pre-declared primary selection metric
@@ -179,7 +179,7 @@ def build_splits() -> dict:
                  "used_for_selection": False, "used_for_frozen_check": False,
                  "benchmark_holdout": False})
     write_csv(pd.DataFrame(rows), OUT / "split_metadata.csv")
-    print(f"[S24] full train.csv = {n:,}; 60/20/20 -> "
+    print(f"[S01] full train.csv = {n:,}; 60/20/20 -> "
           f"{len(parts['train']):,} / {len(parts['validation']):,} / "
           f"{len(parts['internal_test']):,}; early-stop sub-block "
           f"{len(parts['_es_idx']):,}", flush=True)
@@ -362,7 +362,7 @@ def ml_selection(parts, ph, k, excluded) -> tuple[pd.DataFrame, str]:
     ok = ok.sort_values(PRIMARY, ascending=LOWER_BETTER[PRIMARY]).reset_index(drop=True)
     write_csv(ok, OUT / "ml_selection_validation_full_data.csv")
     sel = str(ok.iloc[0]["backend_key"])
-    print(f"[S24] selected backend on validation {PRIMARY}: "
+    print(f"[S01] selected backend on validation {PRIMARY}: "
           f"{ok.iloc[0]['model']} ({ok.iloc[0][PRIMARY]:.4f})", flush=True)
     return ok, sel
 
@@ -398,7 +398,7 @@ def lambda_selection(parts, ph, k, sel) -> tuple[pd.DataFrame, float, dict]:
     write_csv(cdf, OUT / "lambda_endpoint_check.csv")
     if not (cdf.lambda0_matches.all() and cdf.lambda1_matches.all()):
         raise AssertionError("lambda endpoints do not reproduce WBM / S-GBM")
-    print("[S24] lambda endpoints reproduce WBM and S-GBM exactly on all 7 metrics",
+    print("[S01] lambda endpoints reproduce WBM and S-GBM exactly on all 7 metrics",
           flush=True)
 
     opt = []
@@ -412,7 +412,7 @@ def lambda_selection(parts, ph, k, sel) -> tuple[pd.DataFrame, float, dict]:
     odf = pd.DataFrame(opt)
     write_csv(odf, OUT / "optimal_lambda_by_metric.csv")
     lam_star = float(odf[odf.metric == PRIMARY].optimal_lambda.iloc[0])
-    print(f"[S24] lambda* on validation ({PRIMARY}) = {lam_star:g}; range across "
+    print(f"[S01] lambda* on validation ({PRIMARY}) = {lam_star:g}; range across "
           f"metrics {odf.optimal_lambda.min():g}-{odf.optimal_lambda.max():g}",
           flush=True)
     return curve, lam_star, {"resid": resid, "bbm": bbm,
@@ -445,7 +445,7 @@ def main() -> int:
     tr = parts["train"]
     y_tr, X_tr = tr["power"].to_numpy(), tr[FEATS].to_numpy()
     k = fit_scale(y_tr, ph["train"])
-    print(f"[S24] physics scale k fitted on the 60 % training block only: {k:.6f}",
+    print(f"[S01] physics scale k fitted on the 60 % training block only: {k:.6f}",
           flush=True)
 
     res_tr = y_tr - k * ph["train"]
@@ -525,7 +525,7 @@ def figure(curve, lam_star, sel) -> None:
     for ext in ("pdf", "svg", "png"):
         fig.savefig(OUT / f"fig2_candidate_602020_fulldata.{ext}", format=ext)
     plt.close(fig)
-    print("[S24] figure written", flush=True)
+    print("[S01] figure written", flush=True)
 
 
 def report(parts, excl, sel_tbl, sel, curve, lam_star, models, it, fin, k) -> None:
@@ -638,7 +638,7 @@ def report(parts, excl, sel_tbl, sel, curve, lam_star, models, it, fin, k) -> No
       "which the earlier protocol lacked entirely.")
     A("")
     write_text("\n".join(L) + "\n", OUT / "full_data_602020_report.md")
-    print("[S24] report written", flush=True)
+    print("[S01] report written", flush=True)
 
 
 def _guarded_main() -> int:

@@ -1,18 +1,18 @@
 {
   "note": "Ordered stages of a full rerun, limited to those writing a mapped table or a paper figure and their prerequisites. Each runs as 'python -m experiments.revision.<module>' with VFM_RESULTS_ROOT set. Order follows the 2026-11-19 full rerun, in which every listed stage completed.",
   "stages": [
-    {"module": "rf32_full_data_602020", "writes": ["24_full_data_602020"], "paper": ["tab:ml-model-selection", "tab:hyperparameters"]},
-    {"module": "rf33_bbm_selection_full_data", "writes": ["25_bbm_selection_full_data"], "paper": ["tab:overall-performance"]},
-    {"module": "rf36_final_core", "writes": ["FINAL_MANUSCRIPT_RESULTS"], "paper": ["tab:benchmarks", "tab:wbm-params"]},
-    {"module": "rf41_revised_figures_3_4", "writes": ["28_revised_figures_3_4"], "paper": ["fig:architecture-performance", "fig:pred-actual"]},
-    {"module": "rf42_fuelcast_huber_final", "writes": ["29_fuelcast_huber_final"], "paper": [], "prerequisite_of": "rf43_fuelcast_wind_and_wbm reads folder 29 as its pre-fix comparison"},
-    {"module": "rf43_fuelcast_wind_and_wbm", "writes": ["30_fuelcast_wind_and_wbm"], "paper": ["tab:fuelcast-performance", "tab:benchmarks"], "known_exit": 2, "known_exit_reason": "its own check P3 flags the Part B hull geometry at the grid bound for Poseidon and Triton; the saved run gives the same verdict"},
-    {"module": "rf49_final_decision_uncertainty", "writes": ["34_final_decision_uncertainty"], "paper": ["tab:decision-results", "tab:uncertainty-results"]},
-    {"module": "rf50_final_multigas_cii", "writes": ["35_final_multigas_cii"], "paper": ["tab:multigas-results", "tab:cii-results"]},
-    {"module": "rf52_fig2_lambda_relabelled", "writes": ["36_fig2_lambda_relabelled"], "paper": ["fig:shrinkage-sensitivity"]},
-    {"module": "rf54_architecture_friedman_nemenyi", "writes": ["38_architecture_friedman_nemenyi"], "paper": ["tab:friedman-nemenyi-tests", "fig:nemenyi-pvalue-heatmaps"]},
-    {"module": "rf55_block_bootstrap_huber", "writes": ["39_block_bootstrap_huber"], "paper": ["tab:block-bootstrap-mape"]},
-    {"module": "rf59_table6_selection_check", "writes": ["41_table6_selection_check"], "paper": ["tab:mlp-sensitivity"]},
-    {"module": "rf61_mlp_architecture_sensitivity", "writes": ["43_mlp_architecture_sensitivity"], "paper": ["tab:mlp-sensitivity"]}
+    {"module": "s01_full_data_602020", "writes": ["01_full_data_602020"], "paper": ["tab:ml-model-selection", "tab:hyperparameters"]},
+    {"module": "s02_bbm_selection", "writes": ["02_bbm_selection"], "paper": ["tab:overall-performance"]},
+    {"module": "s03_core_results", "writes": ["03_core_results"], "paper": ["tab:benchmarks", "tab:wbm-params"]},
+    {"module": "s04_figures_3_4", "writes": ["04_figures_3_4"], "paper": ["fig:architecture-performance", "fig:pred-actual"]},
+    {"module": "s05_fuelcast_huber", "writes": ["05_fuelcast_huber"], "paper": [], "prerequisite_of": "s06_fuelcast_wind_and_wbm reads folder 05 as its pre-fix comparison"},
+    {"module": "s06_fuelcast_wind_and_wbm", "writes": ["06_fuelcast_wind_and_wbm"], "paper": ["tab:fuelcast-performance", "tab:benchmarks"], "known_exit": 2, "known_exit_reason": "its own check P3 flags the Part B hull geometry at the grid bound for Poseidon and Triton; the saved run gives the same verdict"},
+    {"module": "s07_decision_uncertainty", "writes": ["07_decision_uncertainty"], "paper": ["tab:decision-results", "tab:uncertainty-results"]},
+    {"module": "s08_multigas_cii", "writes": ["08_multigas_cii"], "paper": ["tab:multigas-results", "tab:cii-results"]},
+    {"module": "s09_fig2_lambda", "writes": ["09_fig2_lambda"], "paper": ["fig:shrinkage-sensitivity"]},
+    {"module": "s10_architecture_friedman_nemenyi", "writes": ["10_architecture_friedman_nemenyi"], "paper": ["tab:friedman-nemenyi-tests", "fig:nemenyi-pvalue-heatmaps"]},
+    {"module": "s11_block_bootstrap", "writes": ["11_block_bootstrap"], "paper": ["tab:block-bootstrap-mape"]},
+    {"module": "s12_table6_selection_check", "writes": ["12_table6_selection_check"], "paper": ["tab:mlp-sensitivity"]},
+    {"module": "s13_mlp_architecture_sensitivity", "writes": ["13_mlp_architecture_sensitivity"], "paper": ["tab:mlp-sensitivity"]}
   ]
 }

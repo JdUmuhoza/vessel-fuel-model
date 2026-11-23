@@ -25,7 +25,7 @@ import numpy as np
 import pandas as pd
 
 from .common_rev import REPO_ROOT, REV_FINAL, SEED, write_csv, write_text
-from .rf32_full_data_602020 import (
+from .s01_full_data_602020 import (
     FEATS, build_splits, fit_learner, metrics7, physics,
 )
 
@@ -39,8 +39,8 @@ from benchmark_measured.run_cii_probabilistic import (  # noqa: E402
 )
 from vessel_fuel.emissions import _FUELS as EF_FUEL  # noqa: E402
 
-OUT = REV_FINAL / "35_final_multigas_cii"
-F24 = REV_FINAL / "24_full_data_602020"
+OUT = REV_FINAL / "08_multigas_cii"
+F01 = REV_FINAL / "01_full_data_602020"
 
 LAMBDA_STAR, K_REF = 0.70, 0.393586
 RESID_KEY = BBM_KEY = "huber"
@@ -120,7 +120,7 @@ def predict(mdl, frame, phys):
 
 
 def consistency(parts, ph, mdl) -> pd.DataFrame:
-    ref = pd.read_csv(F24 / "final_dev_in_dev_out.csv")
+    ref = pd.read_csv(F01 / "final_dev_in_dev_out.csv")
     ref["architecture"] = ref["architecture"].str.replace(r"^C-GBM.*", "C-GBM",
                                                           regex=True)
     rows, fails = [], []
