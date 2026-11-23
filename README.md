@@ -67,7 +67,7 @@ The 13 experiment stages that write the paper's tables are listed in
 `reproduce/stages.json` and described in `experiments/revision/README.md`. The result files
 they wrote for the paper are in `results/revision_final/`, and `reproduce/table_map.json`
 links every checked table cell to the result file that produced it. The version used for the
-paper is release `v1.0.0`.
+paper is release `v1.0.1`.
 
 ### Environment
 

@@ -26,7 +26,7 @@ from .resistance import (
 
 # Keep in sync with [project] version in pyproject.toml (tests/test_version.py
 # enforces the match).
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 # Research names resolve lazily (PEP 562) so that `import vessel_fuel` needs
 # only numpy + scipy. A minimal install uses the physics core alone; an eager
