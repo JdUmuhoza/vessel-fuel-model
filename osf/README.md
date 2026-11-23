@@ -62,5 +62,6 @@ of its search grid for two vessels, the same verdict as in the original run.
 
 ## Archive
 
+Published on OSF as https://doi.org/10.17605/OSF.IO/M7FJ3.
 `vessel-fuel-model-osf-v1.0.zip` (217 files, 5.8 MB), SHA-256
 `9d9c2015871b3d79b22f1d22d337ae07e5bcd0dac475a40638162fa545ce8d9d`.

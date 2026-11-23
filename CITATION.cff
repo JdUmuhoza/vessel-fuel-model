@@ -21,5 +21,8 @@ keywords:
   - greenhouse-gas emissions
 license: MIT
 version: 0.3.0
-# Add the paper and the OSF DOI once they exist:
-# doi: 10.17605/OSF.IO/XXXXX
+identifiers:
+  - type: doi
+    value: 10.17605/OSF.IO/M7FJ3
+    description: Reproduction package on OSF (code, result files and table check)
+# Add the paper as preferred-citation once it is published.

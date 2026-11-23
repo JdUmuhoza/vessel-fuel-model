@@ -79,7 +79,7 @@ read back. This takes several hours: the SVR residual learner alone took 4,674 s
 the 286,580-row fitting block in the original run.
 
 A frozen reproduction package with the result files, an exact environment and a quick check
-that runs in minutes is archived on OSF (DOI to be added on registration).
+that runs in minutes is archived on OSF: https://doi.org/10.17605/OSF.IO/M7FJ3.
 
 ## Provenance
 
